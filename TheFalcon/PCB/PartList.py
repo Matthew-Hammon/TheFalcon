@@ -14,16 +14,18 @@ def ExtractFields():
     out += "\n"
 
     for i in df:
-        f = i[0].split(',')
-        name.append(f[0])
-        quantity.append(f[-2])
+        f = i
+        n = f[0].split(',')[0]
+        q = f[-2]
+        # name.append(n)
+        # quantity.append(f[-2])
         val = f[-1]
         if(len(val) > 13):
             val = val[:13]
         value.append(val)
-        out += f[0].rjust(pad, " ")
+        out += n.rjust(pad, " ")
         out += val.rjust(pad, " ")
-        out += f[-2].rjust(pad, " ")
+        out += str(q).rjust(pad, " ")
         out += "\n"
     print(out)
     return
