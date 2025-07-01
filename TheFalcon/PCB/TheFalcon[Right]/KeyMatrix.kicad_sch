@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "90433be8-668f-4fad-b219-0a6b76214ce1")
 	(paper "A4")
+	(title_block
+		(title "TheFalcon[Left[")
+	)
 	(lib_symbols
 		(symbol "ScottoKeebs:Placeholder_Diode"
 			(pin_numbers
@@ -1017,6 +1020,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 167.64) (xy 78.74 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4974d37d-01a2-4fb3-8d7b-ae633e063855")
+	)
+	(wire
+		(pts
 			(xy 40.64 100.33) (xy 53.34 100.33)
 		)
 		(stroke
@@ -1237,6 +1250,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 167.64) (xy 104.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a87c65-a572-47b5-ade6-6bed84a8c2b6")
+	)
+	(wire
+		(pts
 			(xy 66.04 74.93) (xy 78.74 74.93)
 		)
 		(stroke
@@ -1444,16 +1467,6 @@
 			(type default)
 		)
 		(uuid "a54726c3-1746-4acc-9dd3-6c8fb6975645")
-	)
-	(wire
-		(pts
-			(xy 99.06 137.16) (xy 100.33 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b55873-2493-4318-b92d-b492b353fa5f")
 	)
 	(wire
 		(pts
@@ -1674,6 +1687,16 @@
 			(type default)
 		)
 		(uuid "c9e523cb-aed1-41ea-8ab2-40a28637eded")
+	)
+	(wire
+		(pts
+			(xy 91.44 167.64) (xy 91.44 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb46aea6-7eed-4ee1-9872-6694b0448dfe")
 	)
 	(wire
 		(pts
@@ -2185,14 +2208,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "85971056-9740-4528-b4c9-578fbd626747")
+			(uuid "b098750c-525a-4332-b252-53c95c1a0264")
 		)
 		(pin "2"
-			(uuid "38539ea6-ff87-40e3-b217-3a255fd4bc0f")
+			(uuid "58c4b2d4-026f-43e4-9928-c67a5dc07dd9")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S9")
 					(unit 1)
 				)
@@ -2253,14 +2276,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "76f8aebb-b359-4aef-9c04-154c404544e6")
+			(uuid "59a31124-5ddc-4680-a3dc-2a220f17e28d")
 		)
 		(pin "2"
-			(uuid "0cdc8be5-52b7-40e0-9458-bbf6c2845668")
+			(uuid "9b5f124d-e652-4706-883a-781d4e3ffec4")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S24")
 					(unit 1)
 				)
@@ -2277,7 +2300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15dc2530-31be-4255-828c-15c332c66510")
-		(property "Reference" "D38"
+		(property "Reference" "D39"
 			(at 106.68 171.4499 90)
 			(effects
 				(font
@@ -2295,7 +2318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 172.72 0)
 			(effects
 				(font
@@ -2341,15 +2364,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a007931a-ecd0-43af-8c83-b41922ca7dea")
+			(uuid "bbf5de38-e3f3-4f5b-bd99-fe4d485199e9")
 		)
 		(pin "2"
-			(uuid "38d0e071-18f1-4399-ad76-335e9bb80fe3")
+			(uuid "f52003fa-6f1d-440d-ae51-a8700b4a9fb9")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D38")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -2365,7 +2388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16d5672a-47f0-4933-b00f-8f6896777149")
-		(property "Reference" "D27"
+		(property "Reference" "D28"
 			(at 93.98 44.4499 90)
 			(effects
 				(font
@@ -2383,7 +2406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 91.44 45.72 0)
 			(effects
 				(font
@@ -2429,15 +2452,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b2fcfa3-3e86-4138-b8a7-7b2d773cb59d")
+			(uuid "030c5077-d7ac-4df3-b8c7-7eb329b0636b")
 		)
 		(pin "2"
-			(uuid "dd78c63c-3db1-490c-93ec-4f225f9d7f58")
+			(uuid "ce5ace2a-ce34-46fe-936e-6769f26dbd22")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D27")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c15e4b9-bc1f-448e-ad8e-18b0c5de7a8f")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 55.88 120.6499 90)
 			(effects
 				(font
@@ -2471,7 +2494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 121.92 0)
 			(effects
 				(font
@@ -2517,15 +2540,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "03c4c42d-f7a1-4848-91b4-d9c2aefb4003")
+			(uuid "2596571a-a6e6-4657-8cb8-194d08bc8a44")
 		)
 		(pin "2"
-			(uuid "039de53c-8f3c-49e7-ae4a-97690b61cc3c")
+			(uuid "f88c7715-ba53-47a9-8772-0c93cbfe5f04")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D14")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -2541,7 +2564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c228800-3332-41fc-bd32-1959a3c36030")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 43.18 69.8499 90)
 			(effects
 				(font
@@ -2559,7 +2582,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 40.64 71.12 0)
 			(effects
 				(font
@@ -2605,15 +2628,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cf03ce4-67b3-48f0-80b4-db1645562ccc")
+			(uuid "bd4156db-7a04-4880-84a7-de03050960b2")
 		)
 		(pin "2"
-			(uuid "739108aa-95f4-4323-ac65-28916a622c96")
+			(uuid "c0273b5f-cc9b-4bcb-8e67-770967ecce87")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D7")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2629,7 +2652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f8b66c4-cad0-4a9c-b92a-328f70611c56")
-		(property "Reference" "D26"
+		(property "Reference" "D27"
 			(at 81.28 171.4499 90)
 			(effects
 				(font
@@ -2647,7 +2670,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 172.72 0)
 			(effects
 				(font
@@ -2693,15 +2716,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4fa8acea-c5ba-4edb-8f51-a0d204f1c3eb")
+			(uuid "40c19b43-7363-4138-a18d-41068e9870ae")
 		)
 		(pin "2"
-			(uuid "e9dfc3b5-399d-4be3-9bf3-e90931815735")
+			(uuid "81ddda2d-5619-4831-b3f8-9ac86150b35c")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D26")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -2717,7 +2740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fd97626-535e-48f4-a95c-fd3413e5d5bb")
-		(property "Reference" "D28"
+		(property "Reference" "D29"
 			(at 93.98 69.8499 90)
 			(effects
 				(font
@@ -2735,7 +2758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -2781,15 +2804,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "db2168d3-a414-4575-b0e4-b28e71089d61")
+			(uuid "3881b611-e7c8-4051-8891-99950df7c1aa")
 		)
 		(pin "2"
-			(uuid "95d4304b-f3c8-4220-903d-7cd17333ca78")
+			(uuid "cd2f9f60-40b5-4bab-bcd6-0ab9df987303")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D28")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -2849,14 +2872,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "aae7e9c1-aeb3-430d-b591-f704056f3479")
+			(uuid "26785369-1523-4abe-be31-13cc35f89079")
 		)
 		(pin "2"
-			(uuid "6ff01bf2-4ddd-42c4-a837-f811ecdb4488")
+			(uuid "5c775baa-ceea-4af3-af00-d74fa309c5f5")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S28")
 					(unit 1)
 				)
@@ -2873,7 +2896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "224927d5-5eba-48e2-9c14-c94dcfbf96ec")
-		(property "Reference" "D12"
+		(property "Reference" "D13"
 			(at 55.88 69.8499 90)
 			(effects
 				(font
@@ -2891,7 +2914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 71.12 0)
 			(effects
 				(font
@@ -2937,15 +2960,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "32c06015-b28a-49bd-8d98-369a65959bda")
+			(uuid "9a89e31f-7ca7-4f7a-880a-1a0efea7ad12")
 		)
 		(pin "2"
-			(uuid "3bd57763-6046-45fc-ad74-bdbb28109f93")
+			(uuid "0ff4c12f-90e3-48a2-9a7b-f914ed0b8703")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D12")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2961,7 +2984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d471e6-a399-4835-b4bf-fc1acf7fff35")
-		(property "Reference" "D25"
+		(property "Reference" "D26"
 			(at 81.28 146.0499 90)
 			(effects
 				(font
@@ -2979,7 +3002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 147.32 0)
 			(effects
 				(font
@@ -3025,15 +3048,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1643c98e-3fe1-44e1-a549-960b2b4d254d")
+			(uuid "73ba325a-351c-4a9f-a360-21dd07cf9d90")
 		)
 		(pin "2"
-			(uuid "47b278dd-a04e-4434-8171-924226d1d9fd")
+			(uuid "996c6465-9c0c-438e-aca5-18aa732fe729")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D25")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -3093,14 +3116,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7f769a1f-468f-466a-a703-ca52b60572d8")
+			(uuid "7810d7a1-0971-40ca-9285-0a95af3393a8")
 		)
 		(pin "2"
-			(uuid "2c23f2df-a475-4832-b77c-e681ef2d82c2")
+			(uuid "42b45083-6060-47d6-a82e-480883fc75af")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S5")
 					(unit 1)
 				)
@@ -3161,14 +3184,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a491c46-aaa0-429b-8f91-e12ff1d1b106")
+			(uuid "3c310236-2a20-496b-a03a-864274089c4e")
 		)
 		(pin "2"
-			(uuid "0ba3ad93-a363-4bb6-8f5e-bc56bfaf06b1")
+			(uuid "d3707d74-b816-4577-a7fa-d9015dff8564")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S1")
 					(unit 1)
 				)
@@ -3185,7 +3208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bdfa7c7-037d-478e-a58d-8c6738d38ef4")
-		(property "Reference" "D18"
+		(property "Reference" "D19"
 			(at 68.58 95.2499 90)
 			(effects
 				(font
@@ -3203,7 +3226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -3249,15 +3272,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ea1c0f2-6ff9-4e7c-aba1-b89d9c902899")
+			(uuid "ff419f17-738e-4d0e-b6a1-5e75dc7759b5")
 		)
 		(pin "2"
-			(uuid "924d8dda-a08e-4a52-ba9c-66216254ed88")
+			(uuid "fd18c3d4-6c2c-4530-a8ca-ad25801aa1de")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D18")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -3273,7 +3296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c410f29-c0b0-4f14-93f2-ba4ecc728bd2")
-		(property "Reference" "D20"
+		(property "Reference" "D21"
 			(at 68.58 146.0499 90)
 			(effects
 				(font
@@ -3291,7 +3314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 66.04 147.32 0)
 			(effects
 				(font
@@ -3337,15 +3360,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8e48508-d6ef-4c88-9485-afe08d6b5654")
+			(uuid "436aeecc-a3e9-4751-bad2-23df34e9a0bd")
 		)
 		(pin "2"
-			(uuid "1dd972fc-f31b-4c89-9e78-139ea6c90ef2")
+			(uuid "08a6805b-7499-4bc9-9390-e3dacbbafccb")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D20")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -3361,7 +3384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9a17bd-a034-43ef-ae5e-ee817bb4dd26")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 43.18 44.4499 90)
 			(effects
 				(font
@@ -3379,7 +3402,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 40.64 45.72 0)
 			(effects
 				(font
@@ -3425,15 +3448,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "170edd33-5b9e-4c46-9f0b-0c22b0a153b5")
+			(uuid "5069e462-7a32-4247-9738-5751ea47b85d")
 		)
 		(pin "2"
-			(uuid "ed1c379d-ea2e-4543-a04d-edf001ffe58c")
+			(uuid "e9cda8e7-1e79-43ab-a9eb-8b2b78daf7ac")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D6")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e3c7bf5-6db7-466c-9008-856fc2e9108d")
-		(property "Reference" "D30"
+		(property "Reference" "D31"
 			(at 93.98 120.6499 90)
 			(effects
 				(font
@@ -3467,7 +3490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 91.44 121.92 0)
 			(effects
 				(font
@@ -3513,15 +3536,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "81553761-d9a8-4f0b-a711-195ae3edc25c")
+			(uuid "154cdd1f-f047-494e-ac34-f6ad9da7766c")
 		)
 		(pin "2"
-			(uuid "a5011e01-e8eb-42bf-bfc9-3712b1fef437")
+			(uuid "861b4919-d6e6-46d9-bcd6-9a749445bd7e")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D30")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -3581,14 +3604,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9b52487-df92-4294-8033-4fc8d5dd4dc1")
+			(uuid "1607d3f6-c43a-4f41-a597-d0cd78613d36")
 		)
 		(pin "2"
-			(uuid "1fbecde1-13cf-4f15-a61c-c373f3ed53a4")
+			(uuid "7a65e6c9-e4ee-451c-b605-78350db98442")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S36")
 					(unit 1)
 				)
@@ -3605,7 +3628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a9b5839-5662-4d81-84dc-bdf988b1f83f")
-		(property "Reference" "D21"
+		(property "Reference" "D22"
 			(at 81.28 44.4499 90)
 			(effects
 				(font
@@ -3623,7 +3646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -3669,15 +3692,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "91eab56b-cbe7-4faf-a958-08aa52e6e0ec")
+			(uuid "87b8892d-aee3-44ed-ac05-1cbaa003ce03")
 		)
 		(pin "2"
-			(uuid "f5cbdf98-d90f-4f79-961e-f7f24031e36d")
+			(uuid "421def12-9e0d-4bb4-b75f-91edfe022f35")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D21")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -3737,14 +3760,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f3ca3df-dc76-44bb-ba71-9fb41e8725fb")
+			(uuid "be9f7c4e-c337-45fd-8973-76bdf5b8c942")
 		)
 		(pin "2"
-			(uuid "4cca76e7-50e8-4a1f-9d55-4b3747eb1932")
+			(uuid "472929f0-16c1-4e9c-931e-2481f807b955")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S20")
 					(unit 1)
 				)
@@ -3761,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b059dd2-8b4c-4e05-9fd1-9bc1fccb014b")
-		(property "Reference" "D13"
+		(property "Reference" "D14"
 			(at 55.88 95.2499 90)
 			(effects
 				(font
@@ -3779,7 +3802,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 96.52 0)
 			(effects
 				(font
@@ -3825,15 +3848,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c64513a-6e4b-4d64-af55-f4a899637c22")
+			(uuid "ec6b505c-2f42-46f4-ab8e-b3625b131579")
 		)
 		(pin "2"
-			(uuid "fa778ac7-13b6-4cd6-88a4-396caacd7bc6")
+			(uuid "8237a721-e11c-4b8b-9d78-beaa7a35a6fa")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D13")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3849,7 +3872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e9a6236-2ece-40d8-8832-c5eef52d938f")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 43.18 146.0499 90)
 			(effects
 				(font
@@ -3867,7 +3890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 40.64 147.32 0)
 			(effects
 				(font
@@ -3913,15 +3936,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "30befc29-5689-4210-993b-3ee79ff784ec")
+			(uuid "d41f6d26-e20a-4a3e-a05a-0cae94297676")
 		)
 		(pin "2"
-			(uuid "4b21e93e-8d4d-4ad4-b120-493208bc698b")
+			(uuid "d18ba359-0be8-4c05-84f3-52209778c600")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D10")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3981,14 +4004,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "60c71a3c-6e20-4553-b043-3f2b4957dc61")
+			(uuid "b15d164e-8e02-49be-ad96-7d343692567d")
 		)
 		(pin "2"
-			(uuid "89456efb-8c26-4c95-862e-024b80488176")
+			(uuid "fbd034ab-2808-4a06-aa90-4fb7fb8a0a9d")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S23")
 					(unit 1)
 				)
@@ -4049,14 +4072,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "aac2f28e-a92b-46d6-9aa7-7c75277cfa26")
+			(uuid "2f7cb2af-05ad-4a2e-9d64-2436ecf13767")
 		)
 		(pin "2"
-			(uuid "975d108c-3b99-4f2b-b40e-dbeec33d5874")
+			(uuid "62f59c4c-29f2-4f87-9c66-e97fbc4d3dd4")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S3")
 					(unit 1)
 				)
@@ -4117,14 +4140,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0055928b-db3d-4a16-a399-5001b3719466")
+			(uuid "a648e722-8843-4a28-8ac5-7d4b48cc933d")
 		)
 		(pin "2"
-			(uuid "7db1cd91-72e2-44a3-ae87-4d6372c8600c")
+			(uuid "4fc59d85-8363-4ab2-9834-c274d39404ca")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S25")
 					(unit 1)
 				)
@@ -4141,7 +4164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488a3502-0100-4b79-8b6e-05f38994002b")
-		(property "Reference" "D34"
+		(property "Reference" "D35"
 			(at 106.68 69.8499 90)
 			(effects
 				(font
@@ -4159,7 +4182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 71.12 0)
 			(effects
 				(font
@@ -4205,15 +4228,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9db89c5-84e2-4770-927b-0026e4ed430c")
+			(uuid "b146bc70-c391-40d3-ae73-cd7171bcc299")
 		)
 		(pin "2"
-			(uuid "e549bfb6-4a9b-4888-a905-8911ecc2156a")
+			(uuid "be146ec7-1a75-4db7-b635-22133e030174")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D34")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -4229,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b1553ba-0925-4590-b738-d7bccedc0fe1")
-		(property "Reference" "D22"
+		(property "Reference" "D23"
 			(at 81.28 69.8499 90)
 			(effects
 				(font
@@ -4247,7 +4270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 71.12 0)
 			(effects
 				(font
@@ -4293,15 +4316,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e52eb8d0-4384-403d-b527-22fea0f42ad1")
+			(uuid "f7192837-e259-498e-a9f4-0b8ff3ebe6cc")
 		)
 		(pin "2"
-			(uuid "147be629-829d-4747-b6e5-765f0276290e")
+			(uuid "7652405b-f95b-4236-89cd-e6ebe0e33798")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D22")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -4361,14 +4384,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c069a5aa-bac8-4ca4-bc4d-ab8357672c81")
+			(uuid "02dfd961-5c09-4935-844a-611e154df27b")
 		)
 		(pin "2"
-			(uuid "865a24aa-3591-4b2b-a7a3-106b1b50b229")
+			(uuid "ed3a3ff1-394a-4c25-8baa-375f6dc38d11")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S32")
 					(unit 1)
 				)
@@ -4429,14 +4452,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd752448-8969-4540-9923-b12fb4f7cf59")
+			(uuid "dcee1091-0870-4c13-887d-81d544acc738")
 		)
 		(pin "2"
-			(uuid "ad628423-a26e-4b0e-9c35-2519daadc5dd")
+			(uuid "19f4cc67-9490-4083-a9fc-6c5bb9a8da77")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S4")
 					(unit 1)
 				)
@@ -4497,14 +4520,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "adde5e06-5324-47d0-8572-252023efed67")
+			(uuid "4dfb5a03-b6f6-49e0-99b0-97a8f1e5c823")
 		)
 		(pin "2"
-			(uuid "b926f5ec-2e1f-45d5-8fdc-233f75836ab2")
+			(uuid "88216b8a-5c7e-4b11-ac8f-2d356c0cd26d")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S31")
 					(unit 1)
 				)
@@ -4521,7 +4544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d4ed579-16c7-4013-ab55-9ead98faa4b6")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 30.48 69.8499 90)
 			(effects
 				(font
@@ -4539,7 +4562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 27.94 71.12 0)
 			(effects
 				(font
@@ -4585,15 +4608,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb4db643-6fbc-4143-94d6-f18986c3e569")
+			(uuid "9a1b5427-7b92-499f-9d6a-7fe632f8aefb")
 		)
 		(pin "2"
-			(uuid "af04ec46-a5f1-458b-8125-b26a84027d3d")
+			(uuid "1ae8f20b-352c-4cc6-b448-4be436f77656")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D2")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4653,14 +4676,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "edb426de-73f0-4ea6-9587-ff73e166c690")
+			(uuid "f66438ff-c9b3-43b0-9afd-7f7932de30cc")
 		)
 		(pin "2"
-			(uuid "e6b5658e-8176-43da-a033-05d8ba42f006")
+			(uuid "cd4a3c80-1be8-4ec7-9493-46f2e45282b7")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S10")
 					(unit 1)
 				)
@@ -4677,7 +4700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6639975c-ac96-4486-a4b6-df98b7589eb1")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 55.88 44.4499 90)
 			(effects
 				(font
@@ -4695,7 +4718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 45.72 0)
 			(effects
 				(font
@@ -4741,15 +4764,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c47eb2e5-1a50-413a-b66b-4a05cbcd849b")
+			(uuid "afd9ee15-19e6-4764-8255-6b533ae09c0a")
 		)
 		(pin "2"
-			(uuid "924b4353-2b77-430d-89b4-d68b608ecb78")
+			(uuid "e2bd27cc-f7a9-4c59-99b2-a9ccc2b7b394")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D11")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4809,14 +4832,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "37317394-c049-4302-8b4a-053f33bf4b2e")
+			(uuid "13c2fa32-6fe6-44a7-a745-c3bcf4205d83")
 		)
 		(pin "2"
-			(uuid "35462780-f42c-4f16-8a2c-6c2b3dece507")
+			(uuid "c862cd41-3598-450d-85b6-c5b8b44ab9ff")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S17")
 					(unit 1)
 				)
@@ -4833,7 +4856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7db72b2d-bfcd-4be5-a617-a88ca7ab2ba9")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 30.48 44.4499 90)
 			(effects
 				(font
@@ -4851,7 +4874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 27.94 45.72 0)
 			(effects
 				(font
@@ -4897,15 +4920,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4fddb1b-aa6b-4029-9061-c31d1dbee874")
+			(uuid "9c656c32-8d9d-4fb6-89ce-9008c8100f0e")
 		)
 		(pin "2"
-			(uuid "4c500f2b-68f0-4621-9622-3d62979920fb")
+			(uuid "0b21083d-4dc3-4039-ba92-a20431d123f7")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D1")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4921,7 +4944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894f4a40-0ada-4c3e-b724-429d8961b59f")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 43.18 95.2499 90)
 			(effects
 				(font
@@ -4939,7 +4962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 40.64 96.52 0)
 			(effects
 				(font
@@ -4985,15 +5008,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "05536e5e-297b-4422-baf7-2576896d55ab")
+			(uuid "06cccaa2-01d7-47c1-aaa1-37ec8be7b3d9")
 		)
 		(pin "2"
-			(uuid "baf7bf1f-8dea-4559-a810-ac16c55fbd29")
+			(uuid "4260c505-7b48-4257-891c-3e7a5b847f6c")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D8")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -5053,14 +5076,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0e13264-76b2-47c3-9c27-4aede819e6db")
+			(uuid "38cd41d5-b6c0-49ca-8f33-7b05e008d12b")
 		)
 		(pin "2"
-			(uuid "7478139a-556f-45e1-973b-ee064889b506")
+			(uuid "415185ba-42a5-461e-8e14-4339d0f2f15e")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S29")
 					(unit 1)
 				)
@@ -5077,7 +5100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "921511f0-ab8f-4cab-b353-f31963e08a60")
-		(property "Reference" "D29"
+		(property "Reference" "D30"
 			(at 93.98 95.2499 90)
 			(effects
 				(font
@@ -5095,7 +5118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -5141,15 +5164,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e062c65-853f-4117-972c-f318e2aeac9a")
+			(uuid "1311b12e-595d-494d-ad48-826afcc0b994")
 		)
 		(pin "2"
-			(uuid "2fa24f01-2cb0-4110-9ef7-c297410e55f5")
+			(uuid "5a81df99-4071-4611-8617-0e67405e9e56")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D29")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -5209,14 +5232,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c77b742-23d0-4418-a056-c2869165a35e")
+			(uuid "3a281334-27bb-459c-87ca-eee6479a8e15")
 		)
 		(pin "2"
-			(uuid "0e050646-df93-40a9-b3ee-2b1de7e383a8")
+			(uuid "5ca88960-56e3-4945-a9fe-512c98646347")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S37")
 					(unit 1)
 				)
@@ -5233,7 +5256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ff07d8-f0d5-4027-8cd9-5bb69fbcb64b")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 93.98 171.4499 90)
 			(effects
 				(font
@@ -5251,7 +5274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 91.44 172.72 0)
 			(effects
 				(font
@@ -5297,15 +5320,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "948fda20-6443-44ee-9b13-47297da21d16")
+			(uuid "26f43420-7fdf-4b88-95e7-207912677f79")
 		)
 		(pin "2"
-			(uuid "fbdd70b6-b420-4105-bb0b-26528c4a5e55")
+			(uuid "48ff7745-6940-46b6-9760-93abaca89909")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D32")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -5365,14 +5388,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5fe5917e-59f9-497d-849a-364421435c44")
+			(uuid "54a0dd9d-baf5-4ad2-95b4-f4c2bdc7f720")
 		)
 		(pin "2"
-			(uuid "7da881fc-6f6d-4ffa-9626-ee0085ed22f7")
+			(uuid "1c90f959-a733-4db9-bd62-5529b3941619")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S27")
 					(unit 1)
 				)
@@ -5433,14 +5456,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa14e4ac-8c4e-4e29-8fe7-edb83824e631")
+			(uuid "c2a6db91-9e9b-4b72-a660-8b5ddbc59156")
 		)
 		(pin "2"
-			(uuid "f884cb51-93ca-4d20-905f-a6aaa634332c")
+			(uuid "b984e6c7-48c8-433b-ba5e-6c02172d3245")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S33")
 					(unit 1)
 				)
@@ -5501,14 +5524,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbfb0968-3a66-4d34-af74-24d2bbd0e35b")
+			(uuid "388c7d63-21dc-4fea-886c-081a36c5f497")
 		)
 		(pin "2"
-			(uuid "046655fd-efe9-4d8b-acbf-4c7b9a96753d")
+			(uuid "01979126-ee86-488f-b7a5-5cda01b3e559")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S18")
 					(unit 1)
 				)
@@ -5569,14 +5592,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "425b08e6-9c28-439d-b553-483b687d95d3")
+			(uuid "7367b96d-c9c0-4ce1-9540-2fab4bec7714")
 		)
 		(pin "2"
-			(uuid "e4318dd8-ce1e-40e2-84d6-402602fcc44a")
+			(uuid "054176c0-86c1-4dcc-a1db-4471935f7025")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S22")
 					(unit 1)
 				)
@@ -5637,14 +5660,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "db57ed67-27e8-404b-81ce-5c5fff743f97")
+			(uuid "5d1d645f-e9fa-47d5-ad47-41b66336187f")
 		)
 		(pin "2"
-			(uuid "667212ec-fc8e-4cf3-bfa4-9649d5c238e8")
+			(uuid "96436788-a9c1-4ae7-ae9e-71f4ea4ebb03")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S12")
 					(unit 1)
 				)
@@ -5705,14 +5728,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "85fb71e6-ec33-47df-9d94-b08e4e24d37c")
+			(uuid "2d5de0f4-e401-4846-a423-a04b290d45e3")
 		)
 		(pin "2"
-			(uuid "2ba7a708-4ef3-4484-8713-9260ceca4697")
+			(uuid "231ed8ae-5c88-471c-a00e-9b4b01da8adc")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S16")
 					(unit 1)
 				)
@@ -5773,14 +5796,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0a95c25-6e54-497e-bef3-d45c5eb03bd7")
+			(uuid "5967e2e7-f676-4d4a-b67d-9fbed57c8e7b")
 		)
 		(pin "2"
-			(uuid "b8fe6b05-b747-42ea-8b81-3aa43abdb69c")
+			(uuid "680d60f8-0158-40e7-abd6-18180c35d73e")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S11")
 					(unit 1)
 				)
@@ -5841,14 +5864,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "13847065-1301-4978-8744-4738c21d2ab6")
+			(uuid "46f3a55f-1540-4009-88b0-348e14e3f9d1")
 		)
 		(pin "2"
-			(uuid "31212f97-4961-42b4-93d2-42bae7451d9e")
+			(uuid "0b797aa9-d54a-4b34-ad5c-7d432ee4f978")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S35")
 					(unit 1)
 				)
@@ -5865,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beed2fc7-6aa3-45ee-ae74-2c9fcb1e8743")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 30.48 146.0499 90)
 			(effects
 				(font
@@ -5883,7 +5906,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 27.94 147.32 0)
 			(effects
 				(font
@@ -5929,15 +5952,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c61ab64d-441b-4d75-a1f5-14a089e13d86")
+			(uuid "5cf46a86-924a-4799-a31c-63203e59651d")
 		)
 		(pin "2"
-			(uuid "4359235a-5698-4fbe-adb0-754cb94f3fd0")
+			(uuid "20a5c508-9596-4899-ae0b-1e4f685c3e96")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D5")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5997,14 +6020,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d201870-7f2c-4233-93c8-13b080ac08bf")
+			(uuid "2975851c-4b41-40ea-8f3c-7f07026b06bd")
 		)
 		(pin "2"
-			(uuid "b3ac4851-c77a-47cc-a191-523212b030c9")
+			(uuid "10e00a77-21d2-48fa-874f-739c0855127f")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S30")
 					(unit 1)
 				)
@@ -6021,7 +6044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a04611-e4e5-4ae5-b9ee-92c37f3578f2")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 93.98 146.0499 90)
 			(effects
 				(font
@@ -6039,7 +6062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 91.44 147.32 0)
 			(effects
 				(font
@@ -6085,15 +6108,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b2a8cbe-b8c5-4f59-99d6-1a6eefd31934")
+			(uuid "9aaa9493-4749-45e4-a7a1-3c68f916457a")
 		)
 		(pin "2"
-			(uuid "fe8f5b99-99aa-4813-8dde-cea4e45a5c48")
+			(uuid "f8e4eab6-6368-44c0-96ea-4efab7a86848")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D31")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -6109,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ccb5b0-92a3-4bcd-8af5-2c4165a6746b")
-		(property "Reference" "D19"
+		(property "Reference" "D20"
 			(at 68.58 120.6499 90)
 			(effects
 				(font
@@ -6127,7 +6150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -6173,15 +6196,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8f92405e-c195-4380-8700-4f99ff53e996")
+			(uuid "26c040b5-70a6-4e94-9eb3-57a740a77102")
 		)
 		(pin "2"
-			(uuid "0d707651-66ee-4ea2-8c36-70e866fc4d2e")
+			(uuid "a6e9bd9b-7c1e-40ef-aad6-4ad66c8831e0")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D19")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -6197,7 +6220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c66415b9-21c9-4c62-8222-22856d9b40c9")
-		(property "Reference" "D24"
+		(property "Reference" "D25"
 			(at 81.28 120.6499 90)
 			(effects
 				(font
@@ -6215,7 +6238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 121.92 0)
 			(effects
 				(font
@@ -6261,15 +6284,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "14967c7d-7c6a-4d15-ac5e-96df0efe9494")
+			(uuid "ef911f77-abb3-4909-b7bf-c4616fe00918")
 		)
 		(pin "2"
-			(uuid "d9b6d067-abfb-4cba-a96d-364059ed95df")
+			(uuid "851f12d0-4cf4-4940-bd03-7bed60bf3d53")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D24")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6329,14 +6352,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc85dc6d-b6e1-4760-b990-950dd4b36796")
+			(uuid "dc491c46-8eae-4010-bc00-4fda227b85b1")
 		)
 		(pin "2"
-			(uuid "c1878d6b-0647-4832-96af-0236897c6afe")
+			(uuid "f3b604dd-8c50-423f-afb2-c7da6925a90f")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S6")
 					(unit 1)
 				)
@@ -6397,14 +6420,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b58c740a-78f3-4c74-9a05-6fe054ccf4e0")
+			(uuid "f7b35b0c-47c6-48a1-a512-efc94f6264bb")
 		)
 		(pin "2"
-			(uuid "eac67e58-4cdc-4834-b171-0df7af652c1b")
+			(uuid "d516accc-1d91-4919-8d77-26c4ee360565")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S8")
 					(unit 1)
 				)
@@ -6437,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -6465,14 +6488,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fa27899-c0fd-4969-be72-85293b628e63")
+			(uuid "edd9087d-fffe-427d-9a73-beb44622d873")
 		)
 		(pin "2"
-			(uuid "b8c9f1ca-2c27-43af-81eb-09f3d40e44ba")
+			(uuid "bf52baa0-de3e-4e8a-acc1-d39e9644876a")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S26")
 					(unit 1)
 				)
@@ -6533,14 +6556,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b37de03c-e894-4272-b3b4-e0f5a34ec5e7")
+			(uuid "33e1daf7-06f0-4527-82ef-f5ac595fbc1a")
 		)
 		(pin "2"
-			(uuid "332aa306-3cc4-4095-94f9-a00e85cda047")
+			(uuid "68549f33-fce2-4375-8aec-c7d879f1e673")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S7")
 					(unit 1)
 				)
@@ -6557,7 +6580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d59383bc-9630-439b-9ab8-e0a69c4b5d49")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 43.18 120.6499 90)
 			(effects
 				(font
@@ -6575,7 +6598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 40.64 121.92 0)
 			(effects
 				(font
@@ -6621,15 +6644,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb3f912c-5b41-44b9-9d7a-a1bb3f580025")
+			(uuid "8e08dc4c-1ea2-482b-b586-e643dd1f886d")
 		)
 		(pin "2"
-			(uuid "09a42388-1d48-49f4-810d-1f0e7bf43922")
+			(uuid "e0ee4620-39b6-4dfd-ac54-458ad5f473ab")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D9")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6645,7 +6668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f9b948-9f69-4e53-bcbe-7b884f35505c")
-		(property "Reference" "D16"
+		(property "Reference" "D17"
 			(at 68.58 44.4499 90)
 			(effects
 				(font
@@ -6663,7 +6686,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 66.04 45.72 0)
 			(effects
 				(font
@@ -6709,15 +6732,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "121c87dd-c6bd-46e9-85a6-b77ed81289bf")
+			(uuid "89a23889-16c4-4d17-b917-2b77ad8be437")
 		)
 		(pin "2"
-			(uuid "a305f9f9-0810-4e8e-b9a7-bd3f2bf0966a")
+			(uuid "61e6ce69-6737-4e02-8cfd-bb922b821bf4")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D16")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -6732,7 +6755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d68a4c94-5a9a-40b2-b23e-ada26c753520")
-		(property "Reference" "D36"
+		(property "Reference" "D37"
 			(at 106.68 120.6499 90)
 			(effects
 				(font
@@ -6750,7 +6773,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -6796,15 +6819,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "febafb6b-321d-4429-b321-1fc3a6353f24")
+			(uuid "633fd55b-57be-4344-8327-d5576e56a331")
 		)
 		(pin "2"
-			(uuid "251bccab-b500-4689-87bb-9e3fbd0e88e7")
+			(uuid "24618c46-fe66-4675-b33b-9c3d3176090a")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D36")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -6864,14 +6887,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bb3810c-d7ae-4e14-9353-a91f4ecc302d")
+			(uuid "5b798628-46e9-45ec-a208-a57f6290d265")
 		)
 		(pin "2"
-			(uuid "ec517e58-ed61-4c10-87b5-88b5da5c88eb")
+			(uuid "e7ae60c4-2105-4bde-9c74-e5a16e301291")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S34")
 					(unit 1)
 				)
@@ -6888,7 +6911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da4e8b74-a0da-4f88-a22c-07a175ad77e9")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 106.68 44.4499 90)
 			(effects
 				(font
@@ -6906,7 +6929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 45.72 0)
 			(effects
 				(font
@@ -6952,15 +6975,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c4c4d94-6068-49ce-8b44-1ac896ee1bcd")
+			(uuid "835ac4e9-d9dd-4d77-a60a-02b7708751f5")
 		)
 		(pin "2"
-			(uuid "503d04e7-65e7-4a40-ae47-6e6bf36064f7")
+			(uuid "693e6743-cb38-4d17-8459-47acd04a1744")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D33")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -7020,14 +7043,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "08a40772-f5ec-4c8d-a9dd-87ed7128bf3e")
+			(uuid "44256a3e-247d-43a8-832a-27367aea03d0")
 		)
 		(pin "2"
-			(uuid "0d7e04a7-dab2-48b9-8706-b7cb31e05a59")
+			(uuid "c7cb0f7c-ada1-4d6f-9dfd-a0dd44c52512")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S21")
 					(unit 1)
 				)
@@ -7088,14 +7111,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ace0ff21-378f-44fe-9777-814db4bbc0df")
+			(uuid "f9949a87-a5c6-428d-a0ee-71d219cb569b")
 		)
 		(pin "2"
-			(uuid "33b9d091-d51e-4756-9eef-1b1f80336ac6")
+			(uuid "708d5f5f-5e48-4e07-9ed5-ab2c3ce72912")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S2")
 					(unit 1)
 				)
@@ -7112,7 +7135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e39a48ff-3d1b-4b76-8a16-e63a2bd5bccc")
-		(property "Reference" "D23"
+		(property "Reference" "D24"
 			(at 81.28 95.2499 90)
 			(effects
 				(font
@@ -7130,7 +7153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -7176,15 +7199,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dda48a45-2925-4f47-abcd-8db01c7ff8e2")
+			(uuid "8a8ce0f6-33db-421f-a2fe-fd30a85d6c3e")
 		)
 		(pin "2"
-			(uuid "cbdeac4c-f203-4b09-8658-b7276dadca44")
+			(uuid "e191a7d6-eb53-4e56-b516-2e3b944e24cf")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D23")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -7244,14 +7267,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf7efc06-706f-40ec-bd39-6a6a97f7711f")
+			(uuid "ac498c14-aa69-49a5-bd2f-9c00c981dba3")
 		)
 		(pin "2"
-			(uuid "c10a9275-d261-4e8c-858a-d810b35f31a2")
+			(uuid "57108865-e1b3-4aef-b48a-9273e3c2e6f7")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S13")
 					(unit 1)
 				)
@@ -7312,14 +7335,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cd9b2ed-76fa-4d6a-a476-c324747db4a7")
+			(uuid "5f2a11cb-80e8-4ee6-a7ca-57d76d66ad28")
 		)
 		(pin "2"
-			(uuid "0284a984-2c5b-4162-bed4-bed2f1a90123")
+			(uuid "d2295a6f-497c-4ac2-9ad9-d80268c4cf0e")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S14")
 					(unit 1)
 				)
@@ -7336,7 +7359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef72640f-c9f6-426e-bbe0-784351468f31")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 30.48 95.2499 90)
 			(effects
 				(font
@@ -7354,7 +7377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 27.94 96.52 0)
 			(effects
 				(font
@@ -7400,15 +7423,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb123660-4e03-4645-8195-92688cfa5534")
+			(uuid "d6f99aeb-0457-4092-aef9-9f09cc901072")
 		)
 		(pin "2"
-			(uuid "5f993f26-f2f7-438d-989c-05cd89cee3c4")
+			(uuid "a08f7652-d6f2-4faf-9aca-2e721bb97c49")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D3")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7424,7 +7447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f26984ed-274f-455b-9ae7-fa5ba8c34d1f")
-		(property "Reference" "D35"
+		(property "Reference" "D36"
 			(at 106.68 95.2499 90)
 			(effects
 				(font
@@ -7442,7 +7465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -7488,15 +7511,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "edaa5026-4481-449e-b1e1-976ba4cba833")
+			(uuid "8bc42920-7172-4e71-b16a-aaab3135e5be")
 		)
 		(pin "2"
-			(uuid "ee4f8567-d448-454c-8650-3ad8af0aded9")
+			(uuid "77c740ca-d0ad-41da-ae94-4a08b216ad99")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D35")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -7556,14 +7579,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "be84d2cc-1b48-4dad-8e0f-00699aab107e")
+			(uuid "89004032-eee6-4b7c-974a-48e4de757083")
 		)
 		(pin "2"
-			(uuid "f692b1ad-e885-4d55-99f3-a21d5f7dd725")
+			(uuid "6430857f-b623-408d-b039-fff3fd774a15")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S19")
 					(unit 1)
 				)
@@ -7624,14 +7647,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "61517033-dc95-456e-ab7d-136c69c27761")
+			(uuid "7fe7c7ec-1efc-40a2-a7bb-110b5fc1ef0f")
 		)
 		(pin "2"
-			(uuid "f8af81c7-d47f-4887-9ff8-8794c1f1c526")
+			(uuid "fafd8232-8b66-40c5-b99a-666c9742a6bd")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S38")
 					(unit 1)
 				)
@@ -7648,7 +7671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5ebca5e-f64d-4cd1-b773-f4cfe63f4ea1")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 30.48 120.6499 90)
 			(effects
 				(font
@@ -7666,7 +7689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 27.94 121.92 0)
 			(effects
 				(font
@@ -7712,15 +7735,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2512faea-350b-4866-b185-6937e85253d4")
+			(uuid "b382ffbe-5ff0-4593-a13d-6231bd3bbc23")
 		)
 		(pin "2"
-			(uuid "c7e5cab1-4321-4f7c-880f-b111e377cf55")
+			(uuid "03bf276b-c20b-4cec-a254-3ab7307fe00d")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D4")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7780,14 +7803,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "52887b04-f034-4170-8750-9880dca1dbbe")
+			(uuid "2d7ceeda-b8f7-4fdd-a09d-ad204a3a6447")
 		)
 		(pin "2"
-			(uuid "f19d48f4-43f7-4b2d-bc84-38500cf51b9a")
+			(uuid "5618e710-c266-499c-96d1-6db14eb1bdc3")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
 					(reference "S15")
 					(unit 1)
 				)
@@ -7804,7 +7827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9be4507-672f-4cf9-876c-94d1a58e47d6")
-		(property "Reference" "D15"
+		(property "Reference" "D16"
 			(at 55.88 146.0499 90)
 			(effects
 				(font
@@ -7822,7 +7845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 53.34 147.32 0)
 			(effects
 				(font
@@ -7868,15 +7891,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1505d023-8659-413f-8954-836f4e4dabb8")
+			(uuid "1de8186b-0bd0-464c-9515-49a45c282d92")
 		)
 		(pin "2"
-			(uuid "d47af526-5912-4338-bf43-447b35ae3e7a")
+			(uuid "ff654bd9-c29f-4edd-9f18-71feb74fade0")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D15")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7892,7 +7915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1f0d79-d917-4eec-a1dd-a3521ca69849")
-		(property "Reference" "D37"
+		(property "Reference" "D38"
 			(at 106.68 146.0499 90)
 			(effects
 				(font
@@ -7910,7 +7933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 104.14 147.32 0)
 			(effects
 				(font
@@ -7956,15 +7979,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9f35131-62fb-4d64-84b0-9ae283a4cb62")
+			(uuid "c2a65a50-9a9f-4c91-875a-dd23f467aa00")
 		)
 		(pin "2"
-			(uuid "4ea08832-22fb-472e-a397-fbbb30fdac46")
+			(uuid "e4e295eb-cec3-4459-a8f7-0d5197c3e30a")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D37")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -7980,7 +8003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3ae684-845a-4fc7-a947-62889eba0f07")
-		(property "Reference" "D17"
+		(property "Reference" "D18"
 			(at 68.58 69.8499 90)
 			(effects
 				(font
@@ -7998,7 +8021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 66.04 71.12 0)
 			(effects
 				(font
@@ -8044,15 +8067,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7f2bacf-08f0-421c-b808-1f0ed47b16e7")
+			(uuid "60fc633c-9316-49d4-be32-96aaa9bd90d1")
 		)
 		(pin "2"
-			(uuid "bddb605f-8a9d-48ed-aa56-ee0f87ea93f7")
+			(uuid "4697594a-62b8-488a-861c-14cfc0f9e5ea")
 		)
 		(instances
 			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/9eca65a6-8d1e-499e-9b89-1626421f9a27"
-					(reference "D17")
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a2a6b3bd-c82e-469c-bf12-2c3386a797ce"
+					(reference "D18")
 					(unit 1)
 				)
 			)
