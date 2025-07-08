@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 5.1,
+          "height": 5.1,
+          "width": 5.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -250,16 +250,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1917700|228600|94d23064-ae1b-489b-a422-8f56be88cd6f|270c20a5-0f1a-49a6-a387-1afb3291a5f0|/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd|/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd|/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd",
-        "AD is the address for the RGB I2C. Set to ground for left side"
-      ],
-      [
-        "multiple_net_names|1917700|381000|94d23064-ae1b-489b-a422-8f56be88cd6f|270c20a5-0f1a-49a6-a387-1afb3291a5f0|/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd|/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd|/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

@@ -6285,7 +6285,7 @@
 		)
 		(uuid "08fb50f4-bf09-4afc-8a40-c3d9f92945fb")
 	)
-	(label "R_RGB_ROW_1"
+	(label "R_RGB_ROW_0"
 		(at 91.44 93.98 180)
 		(effects
 			(font
@@ -6755,7 +6755,7 @@
 		)
 		(uuid "d3f12c4c-3095-4b14-b2be-3bf3512351b9")
 	)
-	(label "R_RGB_ROW_4"
+	(label "R_RGB_ROW_0"
 		(at 97.79 194.31 180)
 		(effects
 			(font
@@ -6805,7 +6805,7 @@
 		)
 		(uuid "eb50af9b-d64a-4563-b414-e0c80cbc5a6f")
 	)
-	(label "R_RGB_ROW_3"
+	(label "R_RGB_ROW_0"
 		(at 97.79 161.29 180)
 		(effects
 			(font
@@ -6825,7 +6825,7 @@
 		)
 		(uuid "f2fce721-f8da-48ae-822b-b1ee15d8c6fa")
 	)
-	(label "R_RGB_ROW_2"
+	(label "R_RGB_ROW_0"
 		(at 97.79 128.27 180)
 		(effects
 			(font
