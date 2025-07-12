@@ -8,119 +8,6 @@
 		(title "TheFalcon[Left[")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2387,16 +2274,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 43.18) (xy 228.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006063f7-e47d-4ee6-845f-3477a86cc27e")
-	)
-	(wire
-		(pts
 			(xy 107.95 125.73) (xy 110.49 125.73)
 		)
 		(stroke
@@ -4437,16 +4314,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 43.18) (xy 233.68 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ca98db5-70c4-4e39-86cd-cbf2d4c073aa")
-	)
-	(wire
-		(pts
 			(xy 20.32 96.52) (xy 20.32 97.79)
 		)
 		(stroke
@@ -4734,16 +4601,6 @@
 			(type default)
 		)
 		(uuid "99e7c0b7-6159-437b-b500-851e5b32d4f4")
-	)
-	(wire
-		(pts
-			(xy 236.22 43.18) (xy 233.68 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a588d6d-8e3b-4244-90ce-98b10073e6e4")
 	)
 	(wire
 		(pts
@@ -6305,6 +6162,16 @@
 		)
 		(uuid "0d11725a-cd0f-41ea-9f25-e01183418729")
 	)
+	(label "AD"
+		(at 220.98 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dc205bd-ea4d-47f4-94ce-3054c935fe68")
+	)
 	(label "CS6"
 		(at 105.41 93.98 0)
 		(effects
@@ -6444,16 +6311,6 @@
 			(justify left bottom)
 		)
 		(uuid "4a0cb94a-f482-4da4-8f97-fabb123f7029")
-	)
-	(label "AD"
-		(at 232.41 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55fb6234-0110-4a00-b8ad-2ec590150003")
 	)
 	(label "CS3"
 		(at 181.61 38.1 270)
@@ -7135,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 196.088 90)
 			(effects
 				(font
@@ -7362,7 +7219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 272.542 53.34 90)
 			(effects
 				(font
@@ -7562,71 +7419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 233.68 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "133e660b-4fef-4888-9858-3daf700efd3e")
-		(property "Reference" "#PWR035"
-			(at 233.68 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 233.68 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 233.68 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c42116b-e987-4632-afbd-ca56c112054a")
-		)
-		(instances
-			(project "TheFalcon[Left]"
-				(path "/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 95.25 34.29 90)
 		(unit 1)
@@ -7651,7 +7443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 36.068 90)
 			(effects
 				(font
@@ -7694,73 +7486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 241.3 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1989dcc0-9c64-4fd1-b359-7f8538c0128e")
-		(property "Reference" "J4"
-			(at 243.84 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 243.84 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 241.3 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f1ece5b-83f2-452c-bf8f-be6e01dac4ac")
-		)
-		(instances
-			(project "TheFalcon[Left]"
-				(path "/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 96.52 59.69 90)
 		(unit 1)
@@ -7785,7 +7510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 61.468 90)
 			(effects
 				(font
@@ -8232,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 130.048 90)
 			(effects
 				(font
@@ -8299,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 127.508 90)
 			(effects
 				(font
@@ -8683,7 +8408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 45.72 90)
 			(effects
 				(font
@@ -8907,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 69.088 90)
 			(effects
 				(font
@@ -9327,74 +9052,6 @@
 			(project "TheFalcon[Left]"
 				(path "/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 224.79 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d5bc173-0b66-4d99-8ab8-f3ed7712e4d6")
-		(property "Reference" "R28"
-			(at 227.584 41.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 222.504 41.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 224.79 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 224.79 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb05c477-17ea-4fab-a80b-2418f2fef42c")
-		)
-		(pin "2"
-			(uuid "aac61fd2-bc67-4c32-bd3d-2a623b7a3bea")
-		)
-		(instances
-			(project "TheFalcon[Left]"
-				(path "/7314d873-34d2-434b-a863-40da9c12efca/a06d92ae-21d4-42c1-a6f0-af99eed318fd"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -9896,7 +9553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 95.758 90)
 			(effects
 				(font
@@ -11442,7 +11099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 169.418 90)
 			(effects
 				(font
@@ -11732,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 160.528 90)
 			(effects
 				(font
@@ -12025,7 +11682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 64.008 90)
 			(effects
 				(font
@@ -12092,7 +11749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 193.548 90)
 			(effects
 				(font
@@ -12159,7 +11816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 163.068 90)
 			(effects
 				(font
@@ -12226,7 +11883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 135.128 90)
 			(effects
 				(font
@@ -12424,7 +12081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 93.218 90)
 			(effects
 				(font
@@ -12805,7 +12462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 98.298 90)
 			(effects
 				(font
