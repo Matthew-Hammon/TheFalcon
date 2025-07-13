@@ -6152,6 +6152,26 @@
 		)
 		(uuid "0a4c5c78-cda1-417d-ba5d-fc451f3e35e0")
 	)
+	(label "SW2"
+		(at 74.93 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bc16720-9ea2-4ca3-8dd9-48a9f6519dee")
+	)
+	(label "SW4"
+		(at 54.61 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c74c562-5782-490b-9efe-f85b39adabb6")
+	)
 	(label "SW3"
 		(at 208.28 68.58 0)
 		(effects
@@ -6252,6 +6272,16 @@
 		)
 		(uuid "37ab55dc-d670-428c-8612-45078efa98db")
 	)
+	(label "SW8"
+		(at 13.97 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a910315-250f-469d-85b6-1bda21f33536")
+	)
 	(label "CS7"
 		(at 170.18 66.04 180)
 		(effects
@@ -6281,16 +6311,6 @@
 			(justify left bottom)
 		)
 		(uuid "4366d6a6-4c94-4bac-b1f7-1dfa7821b143")
-	)
-	(label "SW3"
-		(at 34.29 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4700fb29-7fe5-449f-a40e-32742c0c20b0")
 	)
 	(label "CS15"
 		(at 110.49 194.31 0)
@@ -6322,6 +6342,16 @@
 		)
 		(uuid "5685c21f-a0ed-4f5d-b97c-6b3eaacb6fae")
 	)
+	(label "SW7"
+		(at 24.13 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "594a6164-39f4-498d-9d00-daf85f0ede86")
+	)
 	(label "CS12"
 		(at 111.76 161.29 0)
 		(effects
@@ -6332,7 +6362,7 @@
 		)
 		(uuid "59e673a9-1744-46e2-8c8e-79b6b1c63f8b")
 	)
-	(label "SW6"
+	(label "SW3"
 		(at 64.77 27.94 0)
 		(effects
 			(font
@@ -6340,7 +6370,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5d9bd513-f6c5-474a-a5a6-0f41299215a9")
+		(uuid "5b16dea5-8bd9-4554-a257-e022e9e3e14f")
 	)
 	(label "CS4"
 		(at 170.18 58.42 180)
@@ -6352,16 +6382,6 @@
 		)
 		(uuid "60798d94-65b0-4c5c-b65e-5b183ec2a7cc")
 	)
-	(label "SW4"
-		(at 44.45 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6522e19f-f70a-4a38-b53f-c31c764fbc08")
-	)
 	(label "CS3"
 		(at 104.14 62.23 0)
 		(effects
@@ -6371,6 +6391,16 @@
 			(justify left bottom)
 		)
 		(uuid "65cc6fb0-ba17-4941-bc32-124a57829215")
+	)
+	(label "SW1"
+		(at 85.09 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a129e2b-ff86-4b1e-b4b4-8cc08327ea41")
 	)
 	(label "CS4"
 		(at 104.14 67.31 0)
@@ -6392,16 +6422,6 @@
 		)
 		(uuid "718425fa-f186-43ff-a037-90707fc7324e")
 	)
-	(label "SW5"
-		(at 54.61 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72513d67-6eee-4621-9553-cba9817eee8e")
-	)
 	(label "CS5"
 		(at 170.18 60.96 180)
 		(effects
@@ -6411,6 +6431,16 @@
 			(justify right bottom)
 		)
 		(uuid "79a09e2c-8aa9-478a-8e01-10fa8ed032a7")
+	)
+	(label "SW6"
+		(at 34.29 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c2f5fd7-ae72-4cdb-aacd-65237cb87fa0")
 	)
 	(label "B_RGB_ROW_4"
 		(at 96.52 165.1 0)
@@ -6472,16 +6502,6 @@
 		)
 		(uuid "99975229-f368-4054-89d8-69bc841d61fa")
 	)
-	(label "SW2"
-		(at 24.13 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "999a8c3b-c236-4381-8707-c97906d91ed5")
-	)
 	(label "CS2"
 		(at 184.15 38.1 270)
 		(effects
@@ -6512,16 +6532,6 @@
 		)
 		(uuid "a178f801-d3ea-4d28-86c4-4a120b017bf5")
 	)
-	(label "SW8"
-		(at 85.09 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a9ec814f-cf87-4cad-8fa6-1610c54c6f1c")
-	)
 	(label "B_RGB_ROW_0"
 		(at 90.17 30.48 0)
 		(effects
@@ -6531,6 +6541,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab5de5ee-f416-49c0-8fd1-be71e9f841d6")
+	)
+	(label "SW5"
+		(at 44.45 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7fb5b93-8caa-4e15-97fd-13569b4397aa")
 	)
 	(label "CS8"
 		(at 110.49 125.73 0)
@@ -6561,16 +6581,6 @@
 			(justify left bottom)
 		)
 		(uuid "c34bc80e-83f5-44f5-a82a-022b25968bca")
-	)
-	(label "SW7"
-		(at 74.93 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c65a1329-16f3-411d-9ba6-158f041fb14b")
 	)
 	(label "CS15"
 		(at 189.23 100.33 90)
@@ -6711,16 +6721,6 @@
 			(justify left bottom)
 		)
 		(uuid "f84ddd1b-b120-4299-95d8-0fb64d5eb750")
-	)
-	(label "SW1"
-		(at 13.97 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "feeba6da-7ed5-40cf-a962-815755739879")
 	)
 	(global_label "LED_MCU_SCL"
 		(shape input)
