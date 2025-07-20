@@ -2096,7 +2096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 38.1 114.3 0)
 			(effects
 				(font
@@ -2164,7 +2164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 76.2 114.3 0)
 			(effects
 				(font
@@ -2760,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -3004,7 +3004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 25.4 139.7 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 25.4 38.1 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 101.6 114.3 0)
 			(effects
 				(font
@@ -3648,7 +3648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -3892,7 +3892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 76.2 88.9 0)
 			(effects
 				(font
@@ -3960,7 +3960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 25.4 88.9 0)
 			(effects
 				(font
@@ -4028,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 76.2 139.7 0)
 			(effects
 				(font
@@ -4272,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U"
 			(at 88.9 165.1 0)
 			(effects
 				(font
@@ -4340,7 +4340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 25.4 114.3 0)
 			(effects
 				(font
@@ -4496,7 +4496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 38.1 139.7 0)
 			(effects
 				(font
@@ -4652,7 +4652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -4896,7 +4896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 88.9 88.9 0)
 			(effects
 				(font
@@ -5140,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 101.6 38.1 0)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 63.5 88.9 0)
 			(effects
 				(font
@@ -5344,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -5412,7 +5412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 63.5 38.1 0)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -5616,7 +5616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 88.9 114.3 0)
 			(effects
 				(font
@@ -6016,7 +6016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 38.1 38.1 0)
 			(effects
 				(font
@@ -6084,7 +6084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 38.1 88.9 0)
 			(effects
 				(font
@@ -6152,7 +6152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -6220,7 +6220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 38.1 63.5 0)
 			(effects
 				(font
@@ -6551,7 +6551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 101.6 63.5 0)
 			(effects
 				(font
@@ -6707,7 +6707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 76.2 38.1 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 25.4 63.5 0)
 			(effects
 				(font
@@ -6931,7 +6931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 50.8 88.9 0)
 			(effects
 				(font
@@ -6999,7 +6999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -7243,7 +7243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1.5U"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U"
 			(at 101.6 165.1 0)
 			(effects
 				(font
@@ -7467,7 +7467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U_Model"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U"
 			(at 50.8 139.7 0)
 			(effects
 				(font
