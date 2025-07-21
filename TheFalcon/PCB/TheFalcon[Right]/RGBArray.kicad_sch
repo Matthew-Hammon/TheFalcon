@@ -8,6 +8,119 @@
 		(title "TheFalcon[Left[")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1470,6 +1583,16 @@
 		)
 		(uuid "267c5840-e3ff-4de5-909f-ed3e2dc0438c")
 	)
+	(text "5V to change AD address\nif needed\n"
+		(exclude_from_sim no)
+		(at 244.094 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "895b0e6a-9b8b-4ff2-a17e-03f35d266ed4")
+	)
 	(text "R:   1.6-2.4V\nG&B: 2.2-3.0V"
 		(exclude_from_sim no)
 		(at 102.87 42.926 0)
@@ -1761,6 +1884,12 @@
 		(uuid "48d543a3-1f7d-4e1c-944a-95a4ad8ac721")
 	)
 	(junction
+		(at 228.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a41451c-fc56-4bfa-a7ee-26b3c04436b5")
+	)
+	(junction
 		(at 31.75 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1789,6 +1918,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aa63e42-aa09-4a81-8c7c-e37d359287f7")
+	)
+	(junction
+		(at 219.71 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1d45ab-2d3f-44e3-99e4-36f2259cd8e2")
 	)
 	(junction
 		(at 72.39 127)
@@ -1887,6 +2022,12 @@
 		(uuid "75d483cf-393d-471c-bf61-866ac88c523d")
 	)
 	(junction
+		(at 219.71 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b80017-9537-4180-9ebe-01741bfe563a")
+	)
+	(junction
 		(at 39.37 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1903,12 +2044,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80716877-e701-4cc1-8441-5cd52a3d623a")
-	)
-	(junction
-		(at 219.71 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84992a08-6aa5-4ce7-b2cc-28264201aaf7")
 	)
 	(junction
 		(at 62.23 58.42)
@@ -2345,16 +2480,6 @@
 			(type default)
 		)
 		(uuid "06bb566f-3e8e-4076-8fc6-57cc9222bd9e")
-	)
-	(wire
-		(pts
-			(xy 224.79 48.26) (xy 224.79 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "085c8d68-32de-4079-a0ad-25b41fc2cf88")
 	)
 	(wire
 		(pts
@@ -3645,6 +3770,16 @@
 			(type default)
 		)
 		(uuid "56948ba6-c780-478c-a3af-32ffc1794bef")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59571677-8fcf-4e2b-9377-5e3b0b2b07b3")
 	)
 	(wire
 		(pts
@@ -5038,6 +5173,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb86b36c-4d87-4ae5-8977-bf58499eb827")
+	)
+	(wire
+		(pts
 			(xy 29.21 125.73) (xy 39.37 125.73)
 		)
 		(stroke
@@ -5918,16 +6063,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 58.42) (xy 224.79 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d729c1-6e76-45d9-8110-9571b5ea06f2")
-	)
-	(wire
-		(pts
 			(xy 21.59 27.94) (xy 31.75 27.94)
 		)
 		(stroke
@@ -5935,6 +6070,16 @@
 			(type default)
 		)
 		(uuid "fa25cb02-ec76-42d4-adfb-f4077c4e1613")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6084ff-6eaa-449a-9a26-3f1f7f466cc6")
 	)
 	(wire
 		(pts
@@ -6096,6 +6241,16 @@
 		)
 		(uuid "0feba01f-4311-48ae-bf15-2b656da83408")
 	)
+	(label "SW4"
+		(at 76.2 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "124ea5ca-8f2b-446d-bcc2-f0ce622f0b24")
+	)
 	(label "CS6"
 		(at 171.45 60.96 180)
 		(effects
@@ -6126,16 +6281,6 @@
 		)
 		(uuid "157aa978-e67b-4ddb-acc5-4e3d4e475910")
 	)
-	(label "CS8"
-		(at 111.76 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "184590a4-38ad-405d-8781-6798dc444f90")
-	)
 	(label "SW3"
 		(at 209.55 66.04 0)
 		(effects
@@ -6145,6 +6290,16 @@
 			(justify left bottom)
 		)
 		(uuid "287b419b-2ca5-4c3b-a028-9d253eff8ceb")
+	)
+	(label "SW5"
+		(at 86.36 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a3814aa-ae9e-43c8-bb1e-0f59fa6474c1")
 	)
 	(label "SW7"
 		(at 25.4 25.4 0)
@@ -6196,15 +6351,15 @@
 		)
 		(uuid "377a66db-708f-4fe4-b21e-ba1a3794f8a0")
 	)
-	(label "SW5"
-		(at 45.72 25.4 0)
+	(label "CS3"
+		(at 111.76 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "40c6dd5f-10ed-4455-9420-2f310562942d")
+		(uuid "3d6798d6-4560-400b-96ca-b7eb0f675824")
 	)
 	(label "CS6"
 		(at 106.68 91.44 0)
@@ -6216,15 +6371,25 @@
 		)
 		(uuid "40ebc9fb-d649-4fc2-b2b4-e64110bf804d")
 	)
-	(label "SW4"
-		(at 55.88 25.4 0)
+	(label "CS1"
+		(at 113.03 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "49015af8-b320-4bea-a75a-9bfab9c761c3")
+		(uuid "41c7d3f3-0f0f-4a8a-9e0a-7f0947906367")
+	)
+	(label "CS7"
+		(at 102.87 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4df048ad-5b1b-4f05-9844-1924ce906935")
 	)
 	(label "R_RGB_ROW_4"
 		(at 99.06 191.77 180)
@@ -6245,16 +6410,6 @@
 			(justify right bottom)
 		)
 		(uuid "522f6e85-bc2d-410a-bf5f-0d448bee6bf2")
-	)
-	(label "CS3"
-		(at 105.41 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54f00487-40b9-49b8-b85f-80400bb41dc6")
 	)
 	(label "AD"
 		(at 193.04 35.56 180)
@@ -6286,6 +6441,16 @@
 		)
 		(uuid "5d40585b-7835-4db8-ae21-e1e316b5e4e4")
 	)
+	(label "SW2"
+		(at 55.88 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e9289dd-70ef-4a15-8dfc-9f2fdb57e664")
+	)
 	(label "CS12"
 		(at 113.03 158.75 0)
 		(effects
@@ -6295,16 +6460,6 @@
 			(justify left bottom)
 		)
 		(uuid "5ec281e5-819d-450d-86ee-add9c44f9a4a")
-	)
-	(label "SW2"
-		(at 76.2 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60720761-f4de-4444-a9c1-c5455421608a")
 	)
 	(label "CS5"
 		(at 171.45 58.42 180)
@@ -6326,26 +6481,6 @@
 		)
 		(uuid "7039939d-d9ed-4c3d-aa20-e868ff95eb18")
 	)
-	(label "CS7"
-		(at 113.03 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "733d751b-1d5c-4a4f-8350-51edf2f11b5c")
-	)
-	(label "AD"
-		(at 224.79 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ce83600-268b-4f90-b077-0daafa21a8f0")
-	)
 	(label "SW3"
 		(at 66.04 25.4 0)
 		(effects
@@ -6356,15 +6491,15 @@
 		)
 		(uuid "7f9cbe84-dfe8-4bee-a2f7-378b7ac01bf0")
 	)
-	(label "SW1"
-		(at 86.36 25.4 0)
+	(label "CS2"
+		(at 111.76 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "87866b61-104e-473f-b0f8-a79e03683ec0")
+		(uuid "8453e153-194d-474f-aac4-78aa66a0f154")
 	)
 	(label "CS11"
 		(at 171.45 73.66 180)
@@ -6416,6 +6551,36 @@
 		)
 		(uuid "908217b0-0918-4dba-8460-a10ae68cdcff")
 	)
+	(label "SW1"
+		(at 45.72 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "915e3cb4-d9a3-4bd5-95ea-4d4371ec6756")
+	)
+	(label "AD"
+		(at 227.33 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95784f33-0bb9-4821-b87e-79fd8d8b62e6")
+	)
+	(label "CS9"
+		(at 105.41 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "983160af-5168-4438-8ba9-c033f1c98f13")
+	)
 	(label "CS5"
 		(at 106.68 88.9 0)
 		(effects
@@ -6446,6 +6611,26 @@
 		)
 		(uuid "9c88fef3-db92-47ca-907c-08c2ece56c62")
 	)
+	(label "CS8"
+		(at 105.41 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e078401-c360-45e2-84a0-e20e0dca1337")
+	)
+	(label "SW8"
+		(at 35.56 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e6ecee1-b8c6-40c9-ae1d-8f08b7d992ab")
+	)
 	(label "G_RGB_ROW_1"
 		(at 93.98 88.9 180)
 		(effects
@@ -6465,16 +6650,6 @@
 			(justify right bottom)
 		)
 		(uuid "a919fb27-b6dd-4214-a882-f6cc001b8f3d")
-	)
-	(label "CS9"
-		(at 111.76 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae5ec488-679d-492d-b4aa-e5e2731f86b0")
 	)
 	(label "SW2"
 		(at 209.55 63.5 0)
@@ -6536,28 +6711,8 @@
 		)
 		(uuid "c3e133d7-6c7d-477e-8962-c2df938d451f")
 	)
-	(label "CS1"
-		(at 102.87 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c759a50b-4e0b-47dc-8f02-6df41c515644")
-	)
-	(label "CS2"
-		(at 105.41 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca80568a-cb95-4f74-8254-d9d862542974")
-	)
 	(label "SW6"
-		(at 35.56 25.4 0)
+		(at 15.24 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6635,16 +6790,6 @@
 			(justify right bottom)
 		)
 		(uuid "e669848f-d82b-49b2-bf5f-d7cf1b70492e")
-	)
-	(label "SW8"
-		(at 15.24 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea766411-bd8d-471e-b54f-bc0cf956cdae")
 	)
 	(label "SW4"
 		(at 209.55 68.58 0)
@@ -7165,7 +7310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0765b010-7c17-4289-a4f4-b29e92b42a69")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 278.13 49.5299 0)
 			(effects
 				(font
@@ -7219,7 +7364,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13903e04-5947-4190-a337-18b59e4fdcbf")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 93.218 34.036 90)
 			(effects
 				(font
@@ -7443,7 +7588,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7458,7 +7603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1db8f04f-45d8-45e7-bdb4-fc9a5751a5d7")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 97.79 57.15 90)
 			(effects
 				(font
@@ -7510,7 +7655,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7526,7 +7671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "264a14f9-77f3-4728-87bc-a3c055c0a886")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR03"
 			(at 208.28 38.1 0)
 			(effects
 				(font
@@ -7576,7 +7721,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "#PWR021")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7591,7 +7736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ee01e3a-cdf2-4ed7-8b0d-b313f0129231")
-		(property "Reference" "RGB37"
+		(property "Reference" "RGB36"
 			(at 93.218 185.42 90)
 			(effects
 				(font
@@ -7733,7 +7878,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "RGB37")
+					(reference "RGB36")
 					(unit 1)
 				)
 			)
@@ -7891,6 +8036,74 @@
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
 					(reference "RGB18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c555f68-fcb9-4159-b120-a1c65b446dcd")
+		(property "Reference" "R23"
+			(at 223.52 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 223.52 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6af54a51-f0ee-4f01-8deb-871bdd8ab0b2")
+		)
+		(pin "1"
+			(uuid "9e9c6a0e-b866-4b81-a118-18632412c0bc")
+		)
+		(instances
+			(project "TheFalcon[Right]"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8354,7 +8567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4740ab4c-5901-4690-99f3-f4c2516cbce4")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 214.63 41.9099 0)
 			(effects
 				(font
@@ -8408,7 +8621,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8580,7 +8793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "491d760e-2fba-4fd0-9aab-2c94a31bac48")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 95.758 67.056 90)
 			(effects
 				(font
@@ -8632,7 +8845,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8961,7 +9174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56ac9824-a812-4bc3-867b-59ecfab36e25")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 268.224 49.784 0)
 			(effects
 				(font
@@ -9015,7 +9228,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9726,7 +9939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a6880c7-7025-4162-9201-f255680768ac")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -9776,7 +9989,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11047,7 +11260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91667603-1fa6-4ff7-b543-13b41dd0facb")
-		(property "Reference" "R23"
+		(property "Reference" "R20"
 			(at 103.378 167.386 90)
 			(effects
 				(font
@@ -11099,7 +11312,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R23")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -11115,7 +11328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969d9e72-e7d7-4d18-a3cc-f02c33b6dcc9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR02"
 			(at 180.34 29.21 0)
 			(effects
 				(font
@@ -11165,7 +11378,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "#PWR022")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11323,6 +11536,73 @@
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
 					(reference "RGB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 236.22 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1de3e78-6a09-4437-9a20-c29235be8a8d")
+		(property "Reference" "J8"
+			(at 238.76 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 238.76 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e84e2c9-c614-4a1d-8cba-923a1cd9da35")
+		)
+		(instances
+			(project "TheFalcon[Right]"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11561,7 +11841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b02f658f-5b04-4540-bcbe-72a92566e4f0")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 220.472 51.308 0)
 			(effects
 				(font
@@ -11615,7 +11895,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7429c33-d79d-4ad8-89ac-ca6f50dee8a4")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 97.79 59.69 90)
 			(effects
 				(font
@@ -11682,7 +11962,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11831,7 +12111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c441258c-17d6-4364-893e-f5d23e2690f1")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 103.378 133.096 90)
 			(effects
 				(font
@@ -11883,7 +12163,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11899,7 +12179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c550dbd0-6aba-4912-bdc1-10e499339167")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR012"
 			(at 275.59 63.5 0)
 			(effects
 				(font
@@ -11949,72 +12229,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 224.79 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6d02e5a-b554-4b07-8e3d-51671d0374b2")
-		(property "Reference" "#PWR024"
-			(at 224.79 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 224.79 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 224.79 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a8e6a19-0a47-49fc-aecf-091551b1236c")
-		)
-		(instances
-			(project "TheFalcon[Right]"
-				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "#PWR024")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12245,6 +12460,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 228.6 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d5efff-98f5-4e5c-91c5-24a5b0e49f5c")
+		(property "Reference" "#PWR026"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 228.6 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3d6e118-6b63-47b3-bc5f-a8556e822ef5")
+		)
+		(instances
+			(project "TheFalcon[Right]"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:T36K3BGR-05D000121U1930")
 		(at 82.55 128.27 270)
 		(unit 1)
@@ -12410,7 +12690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e60df486-b7aa-4fd2-9e4f-34f23a00b8cb")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 105.918 96.266 90)
 			(effects
 				(font
@@ -12462,7 +12742,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13337,7 +13617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f57663fe-89fe-4c7e-af53-84b2b83ffe00")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 213.36 51.308 0)
 			(effects
 				(font
@@ -13391,7 +13671,7 @@
 		(instances
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c/a3ca12a1-a5de-489a-b1e1-bc265f2b74ea"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)

@@ -1480,16 +1480,6 @@
 		)
 		(uuid "9f020239-4352-4ffb-8ea9-a694caa69de9")
 	)
-	(text "Header pin to solder AD \nto change address"
-		(exclude_from_sim no)
-		(at 242.57 50.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cba7e956-9e35-4957-b9f5-30bf64a3940d")
-	)
 	(text "R:   1.6-2.4V\nG&B: 2.2-3.0V"
 		(exclude_from_sim no)
 		(at 101.6 45.466 0)
