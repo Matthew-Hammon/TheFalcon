@@ -63,7 +63,12 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|80050000|37700000|5e0589c7-afaf-431b-bda7-46ba1eebc61c|00000000-0000-0000-0000-000000000000",
+          "Just got rid of edge cuts"
+        ]
+      ],
       "meta": {
         "version": 2
       },

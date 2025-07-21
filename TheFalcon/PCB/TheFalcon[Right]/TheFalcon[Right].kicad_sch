@@ -4794,6 +4794,12 @@
 		(uuid "1177e2d0-d63b-4075-9017-7687fff72b29")
 	)
 	(junction
+		(at 163.83 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1485ea68-51e5-4e7e-b58d-b351d0b25354")
+	)
+	(junction
 		(at 49.53 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5042,8 +5048,8 @@
 		(uuid "06538cac-e57c-497c-a168-921fd273fd78")
 	)
 	(no_connect
-		(at 45.72 78.74)
-		(uuid "14dc928b-9435-4d65-a725-46eeae89a96e")
+		(at 86.36 86.36)
+		(uuid "62ff693f-2da2-43e6-8727-c4135e56338a")
 	)
 	(no_connect
 		(at 96.52 175.26)
@@ -5386,6 +5392,16 @@
 			(type default)
 		)
 		(uuid "261fe8ff-d395-4311-b15b-3548b607ea3d")
+	)
+	(wire
+		(pts
+			(xy 163.83 128.27) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2696e893-5bfe-4208-9c35-3649fe0067db")
 	)
 	(wire
 		(pts
@@ -6729,7 +6745,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 167.64 128.27)
+			(xy 154.94 128.27) (xy 163.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7431,22 +7447,22 @@
 	)
 	(global_label "PA15"
 		(shape bidirectional)
-		(at 86.36 86.36 0)
+		(at 45.72 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "5a04a0f6-f599-48cb-adab-ee0ce0d1805b")
+		(uuid "54472ebc-bcb1-46af-b1d0-c5aaa0d10bfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2341 86.36 0)
+			(at 36.8459 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7847,28 +7863,6 @@
 			)
 		)
 	)
-	(global_label "PA15"
-		(shape bidirectional)
-		(at 180.34 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd4dbd54-d0c7-4ef5-9f5d-4ad65ff6ac29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.2141 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB9"
 		(shape bidirectional)
 		(at 180.34 104.14 0)
@@ -7970,6 +7964,28 @@
 		(uuid "e7a2dbf3-485b-4719-9463-fa4c277e8325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.6389 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA15"
+		(shape bidirectional)
+		(at 180.34 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb6a822b-acfc-4d98-95cd-3d09666441c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.2141 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,6 +8727,72 @@
 			(project "TheFalcon[Right]"
 				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 163.83 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b509e1f-fbd8-4d59-9557-ceac75346924")
+		(property "Reference" "#FLG01"
+			(at 163.83 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9efe054-df51-4e62-b1ae-54eb21014041")
+		)
+		(instances
+			(project "TheFalcon[Right]"
+				(path "/c04da171-1d33-4593-80a3-c384d6d19f7c"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
