@@ -496,7 +496,7 @@
 			(net 101 "Col5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "8d6d2e89-74b6-480a-8f59-408c11b1f6ff")
+			(uuid "27379e79-0b54-42e9-b9ee-05fa0e49074e")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -518,7 +518,7 @@
 			(net 47 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d539d9ec-468c-4690-9c5f-daec7e80f6a1")
+			(uuid "cba1ef5c-ef89-4cb8-950e-02ffbe708a6b")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -771,7 +771,7 @@
 			(net 102 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "3cfb9146-4178-4c1a-a763-9f0c122553b7")
+			(uuid "41221919-ed0a-4332-b00c-b5609226d8d5")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -793,7 +793,7 @@
 			(net 59 "Net-(D29-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f1327f77-20a4-447f-a7dd-2e13455e1fec")
+			(uuid "e84d7c2f-593b-428b-900f-3be4f3b4e866")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -2216,7 +2216,7 @@
 			(net 101 "Col5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a4415b83-88e7-4429-8c13-dd38c057c68d")
+			(uuid "074ddc69-7683-4fdd-b68b-cb4f372dbf42")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -2238,7 +2238,7 @@
 			(net 49 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "099dbb22-095c-44ec-ad96-f4ccd652fe80")
+			(uuid "8f93a863-84ee-43bc-b7d4-e4651af046e6")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -2491,7 +2491,7 @@
 			(net 101 "Col5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6257f1cf-b06c-428a-bbe6-48e8a6b8e563")
+			(uuid "9d6d9f70-68ec-4130-afd2-8db84e4dec46")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -2513,7 +2513,7 @@
 			(net 60 "Net-(D23-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1ccac616-9c63-4895-a9d6-063602dc0629")
+			(uuid "788632be-c1c3-43d3-bc38-8636f05e98cb")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -3156,7 +3156,7 @@
 			(net 93 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b6d03f84-45ad-4078-849e-334cda14fc0f")
+			(uuid "be262b9c-b729-489d-b951-051f1fc75668")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -3178,7 +3178,7 @@
 			(net 48 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d3ce6c30-01b7-43dc-a66b-0a4202148448")
+			(uuid "b33b3c6c-35e7-4fde-8fd4-e2a2cf7b328d")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -3431,7 +3431,7 @@
 			(net 101 "Col5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7ff509d0-a9c9-47a0-bfa4-906e0d6a3442")
+			(uuid "97d3fcb2-0176-4c63-a7a9-91e9d620e087")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -3453,7 +3453,7 @@
 			(net 63 "Net-(D30-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d67a03c2-9018-41db-b1a6-637a5ea901db")
+			(uuid "29b86571-ee19-4bff-861b-74c294dbd7f4")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -4486,7 +4486,7 @@
 			(net 95 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4d4a970b-5fa1-4b13-991f-2e16cc7d1cc4")
+			(uuid "573aa9ab-a777-4295-b247-b8d3b4d78666")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -4508,7 +4508,7 @@
 			(net 55 "Net-(D25-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "1fccd359-fe56-4658-a408-1721102c016f")
+			(uuid "3eafcbaa-f70d-456f-ba7e-864826c536b3")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -5541,7 +5541,7 @@
 			(net 96 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a10f1ba0-7d3f-4751-a84d-79522fe9e866")
+			(uuid "42b0d1b5-5ef3-4900-a90b-484968ce9122")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -5563,7 +5563,7 @@
 			(net 64 "Net-(D33-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "97bcb345-926d-4b2f-ae96-10c0e93beaa9")
+			(uuid "8ea5ba79-b10d-4491-a2ab-30daa6660d15")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -6206,7 +6206,7 @@
 			(net 102 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "29b31207-cda4-4e91-8329-91ade6cc61b6")
+			(uuid "66ca75df-d3dd-473c-992b-441c0bfc6bf9")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -6228,7 +6228,7 @@
 			(net 125 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9a7ab323-2f42-49ae-8a4e-e5d003537022")
+			(uuid "6f85a37c-e4b5-458e-a063-d2c89f17c7c3")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -6481,7 +6481,7 @@
 			(net 91 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2d9ed341-d3eb-4418-b454-45bbacae8855")
+			(uuid "bbbfe4da-fed1-439b-a4cb-d0bb76e925cd")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -6503,7 +6503,7 @@
 			(net 53 "Net-(D21-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0ad8ff5a-a568-4e51-8cbb-8139a3ad9076")
+			(uuid "bf3f5325-5f05-4715-811c-e10f3ebfca2a")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -6756,7 +6756,7 @@
 			(net 95 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "0a2480bd-76ea-40e5-ad6e-03bc88138ea1")
+			(uuid "23e889e4-4ae5-4378-a311-7e0cd54d83ff")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -6778,7 +6778,7 @@
 			(net 46 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "84292a34-05e4-48f1-9883-8c7b136a4ac5")
+			(uuid "629fcd5c-537c-4c3c-b614-febff02e7ff7")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -7031,7 +7031,7 @@
 			(net 96 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6e79bf83-00ca-4b59-b02b-3bcf9497ef73")
+			(uuid "bd20a1ee-a47f-41a0-81d2-37bdcbbb453a")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -7053,7 +7053,7 @@
 			(net 43 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "48727a97-4c3a-48c3-a4b5-aa479b5ffc3d")
+			(uuid "0a6abd08-2d41-4c65-a486-2148e431f811")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -7696,7 +7696,7 @@
 			(net 95 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "6cc600f0-047b-4c91-bfc4-2b1d134056ba")
+			(uuid "ffc728fe-2463-4e1a-bfd2-90e5e5239130")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -7718,7 +7718,7 @@
 			(net 54 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f2ccc78d-cfb5-4d79-8255-895f6f1212de")
+			(uuid "189553d4-8881-476a-861f-3ecb07acc7d6")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -7971,7 +7971,7 @@
 			(net 102 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1473d845-eff7-4629-96e5-fa4bba8c0e85")
+			(uuid "7182a42f-1e46-4b81-8c77-e07300001494")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -7993,7 +7993,7 @@
 			(net 58 "Net-(D22-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f4b7604c-37be-42f7-bd82-2fc8a175fa83")
+			(uuid "9ecdfba0-278d-4967-bb6c-2e15e47ae95c")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -8636,7 +8636,7 @@
 			(net 92 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7ecce9d1-df6f-42d8-ae32-b97781a4df90")
+			(uuid "35820cad-01d4-4387-a373-49b96e70e3d5")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -8658,7 +8658,7 @@
 			(net 38 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9605c4b4-21ba-48a0-b3e6-88c7b9194b1d")
+			(uuid "f945e3d7-f143-4f54-b5cb-9c0fa6cf9c00")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -9301,7 +9301,7 @@
 			(net 91 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "28a47013-f6f6-4482-87ed-8182009ff067")
+			(uuid "8f7183d2-42be-4c66-b830-4697a55ead34")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -9323,7 +9323,7 @@
 			(net 50 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "962b5366-9df5-4638-974b-ebd25bec1981")
+			(uuid "4dd2bda6-6e2d-4ec5-8c5e-d31e72215883")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -10746,7 +10746,7 @@
 			(net 93 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "7d2ade5b-cb7c-4462-bc9a-67340f7921cc")
+			(uuid "845a49af-90e1-4ca0-9d7c-a4b1983ec330")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -10768,7 +10768,7 @@
 			(net 36 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "66d20f8c-fbdb-44a1-94af-005c4b944d87")
+			(uuid "53e31eb5-71c0-44d4-b85d-d7cde1e18010")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -11021,7 +11021,7 @@
 			(net 95 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "554a6233-d2a4-44ce-af9b-fb6e9f2564a8")
+			(uuid "56bc3a0b-1a93-43a9-a937-aabd6515c7e3")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -11043,7 +11043,7 @@
 			(net 66 "Net-(D32-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "e9156955-552a-4d88-8230-b4b9ce86feae")
+			(uuid "b85ca8a9-3484-496f-9a9a-4ffc1ffbffb4")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -12466,7 +12466,7 @@
 			(net 91 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "f3c1c058-45ec-457f-b632-f91e2e934b94")
+			(uuid "6e00d826-94db-4632-9a97-bc8e2b2540fc")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -12488,7 +12488,7 @@
 			(net 61 "Net-(D28-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b5f40b29-fcbe-411a-8bb2-67801866ac91")
+			(uuid "46bc2fd9-f1ff-4550-8d50-ff034ee897b0")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -13911,7 +13911,7 @@
 			(net 93 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c70de39c-63fc-4764-8ec7-ed4e04907a9b")
+			(uuid "5a087627-a377-4cbe-bff2-91b205e3cca6")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -13933,7 +13933,7 @@
 			(net 67 "Net-(D31-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "30c0d781-8210-4e2b-abbf-271f76be5c6e")
+			(uuid "21ecdb2c-90f2-4964-a49f-a7b8c8ed1f1c")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -14186,7 +14186,7 @@
 			(net 102 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "b06f8445-d1d2-4900-8729-932313f1fc37")
+			(uuid "f04538a4-5df0-4f2c-bf0a-395671a10478")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -14208,7 +14208,7 @@
 			(net 42 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c1c05a1d-1efb-4e94-aa98-9684179f2ccd")
+			(uuid "23ef6edb-b9f4-4cb5-8716-fc0b3d624216")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -15626,7 +15626,7 @@
 			(net 92 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9d2e1b7b-5a81-4d6e-982f-075b7ab7615e")
+			(uuid "3f039b96-63ca-46e2-8c8a-9af09eb92e71")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -15648,7 +15648,7 @@
 			(net 62 "Net-(D27-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d77fdc15-b13a-4b93-81a4-e5037a274efb")
+			(uuid "62bd05c8-8d96-4916-99f0-d285e0748159")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -15901,7 +15901,7 @@
 			(net 93 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "da93d54c-39d6-49d1-88c4-d919e0fc3733")
+			(uuid "ccc6cf5d-4547-4721-ace4-fe0bc8c71e25")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -15923,7 +15923,7 @@
 			(net 56 "Net-(D24-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "30e7fb23-3991-4813-8eee-93a7aa76faef")
+			(uuid "6d5a0143-b3de-4a00-9573-0f7535907302")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -16177,7 +16177,7 @@
 			(net 96 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "629ef383-beda-4033-89fb-5d76c0eb4769")
+			(uuid "454f2b34-1b3c-445e-a712-a2892b48becf")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08 10)
@@ -16199,7 +16199,7 @@
 			(net 115 "Net-(D34-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "741a1ca3-1baa-4ad5-9c86-3c8d321980b8")
+			(uuid "93e86f06-925e-4976-a74d-0de6e2ef00c6")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -17232,7 +17232,7 @@
 			(net 93 "Col4")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "332b5ffc-bbfb-402b-9b18-0c1a0f74a85a")
+			(uuid "acabf4a7-4d8a-4e6c-9fe8-b25028800ba1")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -17254,7 +17254,7 @@
 			(net 45 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "082fa257-d434-427d-bf50-f58cac04601c")
+			(uuid "7ee9a4f3-0ad1-4c70-983c-ad9b51243b07")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -18287,7 +18287,7 @@
 			(net 96 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d009cda0-c146-45d7-ae30-caa287124aa1")
+			(uuid "33b475b2-af01-4479-96b0-5b7c8be64b5f")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -18309,7 +18309,7 @@
 			(net 51 "Net-(D19-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "42d26f2f-7eb5-467b-b515-6653092ca53c")
+			(uuid "321b0e9e-1952-4967-9db9-381305e2758e")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -18562,7 +18562,7 @@
 			(net 92 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "77affaf0-1505-4e3c-ab39-eb5e3b52251c")
+			(uuid "16219500-63b3-4160-b629-e1877bf49525")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -18584,7 +18584,7 @@
 			(net 44 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "cf507078-6914-4b86-9edb-107ce4c52afd")
+			(uuid "3b2f149f-fff6-4f50-92ea-002d9f23af18")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -18837,7 +18837,7 @@
 			(net 96 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1ed7babe-3784-4e26-8da2-b339e28d0941")
+			(uuid "878c1f7a-24a8-458e-bdd7-0874e3c55002")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -18859,7 +18859,7 @@
 			(net 57 "Net-(D26-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "76a327f5-5d61-4b54-ae14-72ae97a12897")
+			(uuid "056eb814-cdc1-4250-ad96-770c61fbe4bf")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -19112,7 +19112,7 @@
 			(net 102 "Col6")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "91e35af9-ac33-4282-904c-3c821bff9fec")
+			(uuid "971be656-1917-45d8-9b4c-01c7d816fbf9")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -19134,7 +19134,7 @@
 			(net 41 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "c3d3c45d-67e5-41e1-ab29-02f5e7956486")
+			(uuid "d3e73ab0-5824-4ece-9447-c9264a083cee")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -20167,7 +20167,7 @@
 			(net 92 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "391d8467-fc96-4718-8a0f-19f5c6e36aad")
+			(uuid "27f51c47-8c2f-4256-b872-883f8ba8a829")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -20189,7 +20189,7 @@
 			(net 52 "Net-(D20-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "bd166618-3ae4-4817-84a2-8695e44ec472")
+			(uuid "563377b2-5355-45db-8a2c-be2937c3e7fb")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -21612,7 +21612,7 @@
 			(net 91 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fb9964bc-bc6c-4fa0-a489-529b57d401fb")
+			(uuid "d22049e2-0140-4a6a-92a4-5f0da25db5d4")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -21634,7 +21634,7 @@
 			(net 39 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9924a9a9-e667-4870-9e32-fcaeeef654ce")
+			(uuid "d443c558-aead-4172-9ec9-11cd1a2f4e4d")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -21888,7 +21888,7 @@
 			(net 91 "Col0")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9ae14e99-7634-451c-8084-6f2881411ac2")
+			(uuid "800acd11-d2f5-4307-b56e-54227cbaef1e")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08 300)
@@ -21910,7 +21910,7 @@
 			(net 65 "Net-(D36-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "56fdc041-5ab7-40d4-b8e1-f7c77bf0303d")
+			(uuid "d856cf20-a545-4cd2-bdbe-967694f752da")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -22163,7 +22163,7 @@
 			(net 96 "Col2")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "da10d69a-b7e7-4a88-ac8e-59e01dce4026")
+			(uuid "cbf87f8a-d91c-4c69-a73d-50563e327ae2")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -22185,7 +22185,7 @@
 			(net 35 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d18105c1-dcf3-474d-bf0f-05a684f3bd8b")
+			(uuid "636c04a8-d0e0-4acf-b095-fe56c5308cf9")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -22439,7 +22439,7 @@
 			(net 92 "Col1")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fbeb3e9a-5fa3-4abd-9f6b-7072ae11a687")
+			(uuid "be041f8e-f6d7-4bca-8c6c-8fcbb2d1f43f")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08 290)
@@ -22461,7 +22461,7 @@
 			(net 116 "Net-(D35-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "9581f21e-b4df-4af0-84eb-e17bfc76f129")
+			(uuid "e6f36f5e-a745-4b65-8022-d74acbe1b9ef")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -22714,7 +22714,7 @@
 			(net 101 "Col5")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c43317eb-9b15-4024-9855-2621bcc6b5cd")
+			(uuid "9a5267ae-49d0-4df5-b625-77b035075bc8")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -22736,7 +22736,7 @@
 			(net 37 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "fb1e1e20-6d9f-4c75-a3c0-2d45c97bda87")
+			(uuid "01bf8eab-8b92-4b20-91d1-4cabc24e6ffe")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -23769,7 +23769,7 @@
 			(net 95 "Col3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4f37d981-c27a-468c-8ca1-b3853b942d57")
+			(uuid "59a94cd3-b964-4038-b0a5-e0845c5ad43f")
 		)
 		(pad "2" thru_hole circle
 			(at 2.54 -5.08)
@@ -23791,7 +23791,7 @@
 			(net 40 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "be6c368c-7dc3-4c03-960a-1652eb05096c")
+			(uuid "597364ce-cd89-4a63-8e3a-574132f08db3")
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
@@ -32847,7 +32847,7 @@
 			(net 107 "unconnected-(USB2-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "7c494bc4-3695-49da-84e4-ec1a962300f2")
+			(uuid "d3ac5dcb-ba5c-4774-805e-f28d5a31decc")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.075 90)
@@ -32859,7 +32859,7 @@
 			(net 107 "unconnected-(USB2-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "7c494bc4-3695-49da-84e4-ec1a962300f2")
+			(uuid "d025e521-cb6b-4399-9233-0b060d8d990d")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 3.125 90)
@@ -32871,7 +32871,7 @@
 			(net 107 "unconnected-(USB2-SHIELD-PadS1)")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "7c494bc4-3695-49da-84e4-ec1a962300f2")
+			(uuid "30c82827-5a2a-4f88-9dbe-710c7caf54e4")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"

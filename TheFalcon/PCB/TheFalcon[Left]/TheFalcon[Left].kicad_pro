@@ -63,16 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|158065000|32600000|7103052e-5648-486f-903c-87f8cb4536a7|00000000-0000-0000-0000-000000000000",
-          "Just the edge of the board mask has been changed, only variation"
-        ],
-        [
-          "lib_footprint_mismatch|33340000|27742500|3bc0314d-31a4-4c49-9571-da9df58a0c0c|00000000-0000-0000-0000-000000000000",
-          "Just the edge of the board mask has been changed, only variation"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -523,7 +514,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "TheFalcon[Left].step",
       "svg": "",
       "vrml": ""
     },
