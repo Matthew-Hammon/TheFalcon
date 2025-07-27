@@ -1,4 +1,4 @@
-25730631530861751
+25634364557828516
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60213,13 +60213,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-GateronHotSwapSocket
-G_Pro-Hotswap-1U
-
-
-0
-2
-2
 Gateron_KS33_Hotswap
 Gateron-KS33-Hotswap-1.5U
 
@@ -60243,6 +60236,13 @@ Gateron-KS33-Hotswap-1.75U
 2
 Gateron_KS33_Hotswap
 Gateron-KS33-Hotswap-1U
+
+
+0
+2
+2
+Gateron_KS33_Hotswap
+Gateron-KS33-Hotswap-1U_Model
 
 
 0
@@ -60278,69 +60278,6 @@ Gateron-KS33-Hotswap-6.25U
 2
 Gateron_KS33_Hotswap
 Gateron-KS33-Hotswap-7U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-1.5U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-1.25U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-1.75U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-1U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-2.25U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-2.75U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-2U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-6.25U
-
-
-0
-2
-2
-Gateron_KS33_Solderable
-Gateron-KS33-Solderable-7U
 
 
 0
@@ -67994,230 +67931,6 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-1.5U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-1.25U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-1.75U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-1U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2.25U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2.25U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2.75U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2.75U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2U-Vertical
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-2U-Vertical-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-3U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-3U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-6.25U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-6.25U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-6U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-6U-Offcenter
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-6U-Offcenter-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-6U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-7U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-7U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-8U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-8U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-9U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-9U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-10U
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-10U-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-ISO
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-ISO-ReversedStabilizers
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-ISO-Rotated
-
-
-0
-2
-2
-MX_Hotswap
-MX-Hotswap-ISO-Rotated-ReversedStabilizers
-
-
 0
 2
 2
@@ -94136,6 +93849,13 @@ LED
 4
 4
 SamacSys_Parts
+T36K3BGR05D000121U1930_MODEL
+T36K3BGR-05D000121U1930-2
+LED
+0
+4
+4
+SamacSys_Parts
 T36K3BGR05D000121U1930_MODEL_CUT
 T36K3BGR-05D000121U1930-2
 LED
@@ -94163,118 +93883,6 @@ Crystal or Oscillator
 0
 4
 4
-ScottoKeebs_CAD
-CAD_Choc_1.00u
-Choc keyswitch V1 CPG1350 V1 Keycap 1.00u
-Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_Choc_1.25u
-Choc keyswitch V1 CPG1350 V1 Keycap 1.25u
-Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.25u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_Choc_1.50u
-Choc keyswitch V1 CPG1350 V1 Keycap 1.50u
-Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.50u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_Choc_1.75u
-Choc keyswitch V1 CPG1350 V1 Keycap 1.75u
-Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.75u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_1.00u
-MX keyswitch plate cutout 1.00u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 1.00u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_1.25u
-MX keyswitch plate cutout 1.25u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 1.25u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_1.50u
-MX keyswitch plate cutout 1.50u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 1.50u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_1.75u
-MX keyswitch plate cutout 1.75u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 1.75u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_2.00u
-MX keyswitch plate cutout 2.00u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.00u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_2.25u
-MX keyswitch plate cutout 2.25u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.25u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_2.50u
-MX keyswitch plate cutout 2.50u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.50u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_2.75u
-MX keyswitch plate cutout 2.75u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 2.75u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_3.00u
-MX keyswitch plate cutout 3.00u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 3.00u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_6.25u
-MX keyswitch plate cutout 6.25u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 6.25u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_7.00u
-MX keyswitch plate cutout 7.00u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 7.00u
-0
-0
-0
-ScottoKeebs_CAD
-CAD_MX_10.00u
-MX keyswitch plate cutout 7.00u
-MX Keyboard Keyswitch Switch Plate Cutout Keycap 7.00u
-0
-0
-0
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -94926,6 +94534,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Standoffs
+M2.5_Standoff_4SW
+
+
+0
+0
+0
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
