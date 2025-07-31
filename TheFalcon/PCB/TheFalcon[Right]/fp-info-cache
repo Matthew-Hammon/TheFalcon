@@ -1,4 +1,4 @@
-25728879119613365
+25730633074699118
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68223,6 +68223,13 @@ MX-Hotswap-ISO-Rotated-ReversedStabilizers
 2
 MX_KS33
 MX_KS33-Solderable-1.5U
+
+
+0
+4
+2
+MX_KS33
+MX_KS33-Solderable-1.5U-Vertical
 
 
 0

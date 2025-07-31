@@ -4272,7 +4272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U-Vertical"
 			(at 93.98 170.18 0)
 			(effects
 				(font
@@ -7311,13 +7311,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U"
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U-Vertical"
 			(at 106.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
