@@ -104,7 +104,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -132,12 +132,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "manufacturing/")
 		)
 	)
 	(net 0 "")
@@ -340,103 +340,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49c4009a-a27d-4e19-b862-16c98b514c0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7550df41-f244-4d01-b37e-5d2909ac193c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "815e32a1-9011-4bd5-8af9-80af4b1ec4ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8739e470-1780-40aa-985c-5644e40df4ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d921f224-507a-4bc3-9394-e9a5658133c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18eb17c2-d515-40b6-9eeb-3a00020e56ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05b1de7a-0786-4cbb-88ba-9b81adacb4eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42bf2e0f-4e9b-419a-9270-79c2e28657d4")
+			(uuid "7fe78244-d042-42da-9c75-6532e1dcfa66")
 			(effects
 				(font
 					(size 1 1)
@@ -730,103 +639,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1437d1be-5363-4a71-b7de-9bffdcbc0c24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1318c9b7-ece8-4898-8fe6-121ce7eafb3d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2768ed9c-8f35-4b94-b942-03290a80b50a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96809ba2-5417-4a38-85b5-5881f1ca7a31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b68a3272-1d18-452d-9767-78515dd1a08d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ad3adf2-5557-4aeb-929d-217d0e91fb03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2972eb60-6b54-48ac-b962-e89fbeeb52db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42898143-9697-46b3-9062-4b013d94cde5")
+			(uuid "5ad6729c-1a90-4bb2-8cd3-7b17de199f13")
 			(effects
 				(font
 					(size 1 1)
@@ -1120,103 +938,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a1affbb-e580-4857-a1fd-51c6b86a70b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9220143e-a1b5-4ea2-a7d9-df7411f7c120")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1abfa75e-c329-4849-be1d-9b9d04c7943c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef72842b-dfb8-4b15-999b-0f880f198dc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "166214f1-9fe1-40c0-aff5-75808bf9d90a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20c76cd9-cecf-41c7-a6ca-fbd1a12fef4a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "31210d74-b1e5-4d14-bb07-ceba92e79d83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "627c3d8f-de49-43f2-ac73-b2dd68f6c6ce")
+			(uuid "f976f075-feb8-418e-ada6-11786beaa3c9")
 			(effects
 				(font
 					(size 1 1)
@@ -1510,103 +1237,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66cf2ad8-a98d-4c62-9f05-459f8c6e5323")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18229877-ba4d-4c40-b057-6b82c2328db5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b329703-9642-485b-af37-8c4eb905ac7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8079e804-c44f-49c0-855d-7b945a12fd3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19749f09-d4c7-4977-b551-3e98d136a1d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19a67013-fc30-4f5e-93fa-ae457ba92c61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c244c01-389e-417e-9762-5b8c300bdef4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb0df8c3-a035-4869-ad43-8e2c0d60a7ea")
+			(uuid "dbab9458-a5be-44ec-82d4-4692207b2037")
 			(effects
 				(font
 					(size 1 1)
@@ -1900,103 +1536,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ae17570-1eb6-4147-bb99-86e396a4e523")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98530dbb-8865-4077-ae1c-2678aea78ec3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f72fa07e-f492-4ea2-a965-da178a76743d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76557d11-49f0-4b3f-b592-b2c5ae9f262e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0737bbd5-0cb9-4c2d-8887-a777a6c80592")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4ece101f-c8ec-42fc-9e14-c78aac9d479f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d13c29f5-6e6d-4605-93c1-5f8970b564fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2271c6b0-a5ee-460d-9570-c6f108e255a8")
+			(uuid "8b8f4dcc-e5cc-4112-8694-6ae2217f4f06")
 			(effects
 				(font
 					(size 1 1)
@@ -2290,103 +1835,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee716f04-afc0-46f5-bd3e-935bec991581")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "701b7a56-660b-4d3c-b59f-9f0f8b20e695")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c645fd1e-d0c3-43e4-ae88-5625bced0a57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0f9974e-8c85-47f9-9861-fa2a59bf9e49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c7feb4b-f3ef-4f94-942b-20aaf5eaf345")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b68b4f8-004a-4f5a-a95c-3f8c051fbd04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8367cf0c-3126-42c4-9bde-75a8be69c073")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "243a8c8f-6ae4-4981-a89e-2710c49c9dfb")
+			(uuid "be659af0-1185-4cbd-ab32-78f862742d1f")
 			(effects
 				(font
 					(size 1 1)
@@ -2680,103 +2134,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "008fedf9-ce94-4398-92aa-101ed16a6081")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be3010b4-76c1-4b23-9117-68923d1912ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab12825d-c962-4ac9-a6b3-2d86a6439a2f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b95de25d-96f3-4c99-a5d7-164efb9ad723")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41d997ca-cb2b-4523-a74f-3357cf16a6c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64581512-e392-494c-a38e-6454db07918f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c18480bc-366e-41ea-9318-c5805885255b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e918688-3da8-42bc-9ef4-7e19361d48b9")
+			(uuid "ff756ab1-a7ad-4656-bb46-613475118d28")
 			(effects
 				(font
 					(size 1 1)
@@ -3070,103 +2433,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cca5d980-2b4d-42d7-a475-4c1f4322c2fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab98d47b-a684-4cc6-80ab-87cd8206cf65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13d448be-2c30-4c1a-9614-3139bc096368")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1be969e9-0d53-43b1-990f-f0693c81de82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3dcd7c0d-6a36-40ef-a3f4-cbf7fe6d9ea5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d51a3838-16d8-4c90-a255-b42349418381")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "741ab682-2925-42d6-98d3-6a3195864e85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15db43b3-b539-4aec-af94-663c6a113560")
+			(uuid "0a35a09f-fea9-4f1c-8f87-dba4423a9e95")
 			(effects
 				(font
 					(size 1 1)
@@ -3453,6 +2725,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d52e30d-b65e-4f8f-886f-3424ea1d2f5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/3f862827-5f11-4fe2-8e14-ee12a633f915")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -3725,6 +3010,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "910713ec-70f0-4638-8c89-6ea2f60b0a49")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4012,103 +3310,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ec90904-57ec-4977-9297-af3fced5e343")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7efbc7ef-5ce5-4207-b47a-390e4b9b4baf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b28662e-76d0-4017-a8d7-5892c10a9661")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96d52d24-6259-4d0f-bd72-53f1eb3c30ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2203c40d-6955-477c-b8eb-04c1a2e53e32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0de85c1-cad0-4887-9ff7-e0aabada3ddb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa3c622e-36d9-42f3-8468-d9c8879efb8c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6feb95d4-19fd-4ee8-9496-4659c2a5d7af")
+			(uuid "6750867b-2bba-4fb9-b275-9913ed9a320a")
 			(effects
 				(font
 					(size 1 1)
@@ -4402,103 +3609,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5528914d-0b7b-4ff4-92ad-841eb6eb78be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba65e5f0-d9ff-46a2-8d5f-a7b1a3f40a83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cad29acc-be3f-4ba5-8f44-cbdeef889af6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f57df6ed-86c7-4239-a594-aa927bd0fb67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20f9acec-2f27-4204-8ce4-246afd903437")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "089b6df7-664f-46d8-98ce-5786bd99629a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90d0f708-9565-4cb3-abfc-6955b92b6a7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b856a0b5-fc72-4f9f-a87d-098621b41d1b")
+			(uuid "ac412186-5c54-47a7-958d-585b73c019b3")
 			(effects
 				(font
 					(size 1 1)
@@ -4785,6 +3901,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e237270-32b3-4342-8e4a-f327e29d9a66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/218cf928-1c12-498e-8aeb-089524311828")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -5061,6 +4190,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1f8b2dc-4535-494e-a7e4-bc0518189626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/357b4c43-8531-4362-86e2-6ff39bcae634")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -5333,6 +4475,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "777ddc58-0b2d-40ea-9700-d80526e9d677")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5620,103 +4775,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb996c8f-936f-4ae3-845b-e6d9ba22d3db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2eb40dcf-7736-429c-b5b2-bc1323edad42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac8b1919-3bdb-4c08-a9e4-df0a30eec04a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3671893-9d1f-4752-bcea-24de98b32ba3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8f07d054-85c2-4f93-931a-fcbf8598a8b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9d658ba-784b-4bb7-9fae-ae95599ec45f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dd2b46a0-4f38-4c9a-9153-ce42c619d899")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b4a9699-cb4f-4e0a-bbd4-4b794d8ac538")
+			(uuid "c7d1e34c-f596-4be7-b23f-3da2afe5fcf8")
 			(effects
 				(font
 					(size 1 1)
@@ -6010,103 +5074,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84b35b1d-fe3b-4939-be03-2e0e7b05f5bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9afe5633-4fe1-4cf1-ab5a-62e62cd8118a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab0067f7-62e7-4af2-bac9-2936c975edf2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9d1bd78-6e4b-4cd0-ba80-7ad4b12f2ea2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1296a3d-4ed7-49c9-8761-f09479fd7112")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a3cc0d4-a4d5-4a79-9da6-07db523752b8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c332882-8948-40fe-820d-4b5cb3b660f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc9c199a-7702-4090-b782-52ee7c32d33f")
+			(uuid "1d698f58-00f5-4e2f-bc0a-4ff1e1f519f7")
 			(effects
 				(font
 					(size 1 1)
@@ -6400,103 +5373,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb1f9228-1379-4aea-aab1-7e82643a869c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87b905cd-e7c3-4e12-b6ac-c8afc2e25d22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdd36f19-e030-4c8a-ac1b-4d6fefe2da7b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09a26e41-ef94-4d22-b9d6-bc1913371dbe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f448c00-7566-4ef6-ae77-94f1dfd8f814")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05291501-5978-4405-851f-caa930336c5b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb31ee6a-658e-4fa5-a617-d618c2d465cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6ee043d2-3671-4263-a893-491b6ebe07f6")
+			(uuid "047f3d13-cb2a-4156-a969-7f85e91bbc01")
 			(effects
 				(font
 					(size 1 1)
@@ -6783,6 +5665,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bdf42e8-fa61-4586-b693-80f7b0fc3454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/45f18d22-3b9f-4fe0-82c1-68c9b65523f8")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -7055,6 +5950,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a9a95e2-d6d9-4767-bd78-7f7712236588")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7335,6 +6243,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f2a40fe-635d-4982-8e29-1b2753698b9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/60f01d52-507d-41e0-b8a5-463f1f33584e")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -7611,6 +6532,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65fe59d0-2602-441d-804e-560fbb8e1220")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/be86b1f2-4e00-4571-88d3-34cc95247222")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -7883,6 +6817,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e81b367f-f9af-4c48-8a96-e5f24c90392b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8170,103 +7117,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b71c9b1-f267-43f0-aa81-ebb56fabd1f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53d6d916-5dfa-4e8b-b0e5-cb497888c094")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d95de2fd-7407-4bfd-b506-72b31b4acd22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74c8ee5a-5f49-4492-9f3d-296650e7c8b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0abd0918-5a87-463f-a653-7f6daf016dd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d19db627-7820-4337-9545-3220ca7742ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ba51eac-5838-4864-a849-d8a80710d7b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15f6fe86-dd8d-4995-b5b9-ff7f590d07b8")
+			(uuid "9271e70a-2f49-4de7-82eb-42415e6bdf5f")
 			(effects
 				(font
 					(size 1 1)
@@ -8553,6 +7409,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f670d4c9-24b8-4b3a-9135-b39399c3b8cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/3ad35fcf-31b9-41d4-8296-94eb5c2a4b17")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -8786,7 +7655,7 @@
 		(property "Reference" "S4"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "5423bf8c-7a4d-4d28-8d7e-b50e00d96a59")
+			(uuid "70b81a84-6359-4500-8604-0509898aea79")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8797,7 +7666,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "b2d63bd0-605c-4fa2-a0b3-217923e46847")
+			(uuid "261d9224-74b4-4f2b-b9b1-a31173fb5243")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8809,7 +7678,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afe3392d-e60e-48db-9442-f4c759bf8013")
+			(uuid "01b137f6-ef9f-47c6-8fb1-80ffa087f6af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,10 +7690,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5bce4374-70e6-4b51-9c68-431d74566266")
+			(uuid "ebccaed1-7347-49ba-9d62-e973a52a5c69")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "180cfbe0-5858-45d8-8060-0b0bd0d0c035")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9101,6 +7983,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f22bb850-6f80-474d-813b-1c25a6fc5a91")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9388,103 +8283,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1856845-95f2-479c-a080-187101fa225b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a28b54ff-6baa-4f85-bf9c-9fa4724cfb42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "612be06f-0c87-4fae-a936-e33070a87dc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "693d2f8e-a572-4578-988d-7e2100c92e2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29c4c7a1-2994-41dd-a3e0-8797e5c7e5a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0cee823-af52-45f2-a792-22d4db137e28")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "27853241-dad7-48b5-8855-f85def189944")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "739d4b75-cdcd-40a7-aaec-ddcd56ac9163")
+			(uuid "dc0a7d95-97a3-4b73-bd1e-ad9a2587bd97")
 			(effects
 				(font
 					(size 1 1)
@@ -9728,7 +8532,7 @@
 		(property "Reference" "S7"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "0324c229-8596-46ca-9334-447494d965a4")
+			(uuid "ca116f56-2af8-4345-9972-a612da94ffb8")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9739,7 +8543,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "a2ddc678-3db9-4695-9533-5c07319f2cfd")
+			(uuid "f50f73b4-efc7-4773-969c-286a84663464")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9751,7 +8555,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2250190a-f721-42a4-a7e1-134194bcb78b")
+			(uuid "d26c8353-0f41-4192-86a1-000826329b61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,10 +8567,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "939ba48a-f033-4585-b2c1-35361c22bf58")
+			(uuid "b4df3f3a-8419-4dd3-8eb3-f80084560c56")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2371e2df-210b-485a-9344-e1de8f8afa67")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10054,103 +8871,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28643f20-09ee-4c1b-91bb-fe0055b0100d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cb4c9d61-fac0-4e09-8dc7-32f1a9e426a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a67eb17-8d46-4f8a-930f-d4dda04e9469")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e202a7e1-d7e4-47f6-9f4c-d2caa2fb08fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a602e49-5e1a-4acb-a73c-e6ebeafdf31d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3924c902-f6df-4915-920e-2a1f9d314447")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e5971d9-39f8-41f7-b550-f23d44bc00bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "957fabac-31dc-4abf-94d0-ee96efea0e51")
+			(uuid "e7dd1d5d-ae27-41df-a8f5-5b291c074708")
 			(effects
 				(font
 					(size 1 1)
@@ -10437,6 +9163,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e24c632-82a1-499c-894b-461ce950449f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/a43c5343-60a1-48cb-b16f-df072627dd1f")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -10709,6 +9448,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6247dd0a-0163-4c9a-a3a8-23bd7eef5585")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10996,103 +9748,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f786880-4217-4f27-983b-515134a77f3f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d423103-e419-4251-b622-60bfa9c83d42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47c6ac0d-5f39-475b-985b-c7919b341e95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea57a0d5-45e4-42e1-9890-160225981006")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "deddb56f-a905-4d37-ba3b-dc23ed1db636")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "338903f4-a706-453a-99e9-2b7f71f688d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f2b863ff-3a76-4115-831b-ef482d603ddf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "27482f53-29b9-410d-9038-d99d3d6972ef")
+			(uuid "b041791e-112e-4f2b-bd5e-cc1e108330d2")
 			(effects
 				(font
 					(size 1 1)
@@ -11336,7 +9997,7 @@
 		(property "Reference" "S3"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "99bfcd81-e479-4549-b008-aac7b2403bcf")
+			(uuid "aab62728-cf80-4448-93a7-21fa5655a81e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11347,7 +10008,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "fdc8a7ea-6880-4e00-9efe-b781b4d458a9")
+			(uuid "91776f19-e1b1-46db-bfb2-6b77788fb6de")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11359,7 +10020,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d7c7933-62ca-4af6-a336-5265e3684d45")
+			(uuid "5361d05e-cbec-4ad7-b7f9-47352069c482")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,10 +10032,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7b2abff4-5af4-477e-8529-927b5181b80a")
+			(uuid "6cdd28e7-14f6-44f2-875a-c2055d0eb283")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "302a84e1-34fb-4111-bd00-5e68f61c7b2d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11662,103 +10336,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "234928cb-2203-410c-8617-cf5aa3f97295")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1baaebe4-d00c-4859-962e-c16d53209752")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dabbff28-0b7b-4619-bff1-7aefa2234b06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55a428a8-4d5e-46bd-9e35-4b2a870a19ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "675e9a7c-b31f-41de-bc9d-94510aeb16e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cdb7650a-1585-41c5-8174-a4fb0dc89d0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ceb3043b-a2e1-4c3b-8c57-049962ec97b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1856db8-e919-4a84-aaa3-d58b3a549b29")
+			(uuid "8378b6d0-a7b0-4949-8e50-926f6155a73f")
 			(effects
 				(font
 					(size 1 1)
@@ -12047,6 +10630,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e50173fd-d1ae-4010-956c-f0382dd945d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/87e0dbcf-6e1b-4fc1-953e-a976552c2069")
 		(sheetname "/")
@@ -12197,103 +10793,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6017e63-24dd-4ab7-aef6-1b070ea1501f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8efccf6-f8d9-449f-826a-90b35838e388")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc4f772d-edfe-4ff6-ab19-8f15d78860a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5cf83908-cf17-407d-a53c-2efc24a25c59")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0f1a38d8-0970-4ac2-a7a8-d39a6a11b9aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3fb18344-266d-4dcd-9dff-ab0e8b873b1b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5723f44b-63e5-4575-96dc-ecd72660c1ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff1493a2-bb2c-4ad2-b765-f946ff11e3b6")
+			(uuid "1ad398a6-5ff6-480a-8139-1d19c1b67cd0")
 			(effects
 				(font
 					(size 1 1)
@@ -12587,103 +11092,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 330)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b64523ad-4f82-442c-a1d6-6ab04e32b5ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70bccac5-239c-4a9e-80b5-3f9e0b4e2fe4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65a285d1-8e2d-4203-9a64-5ab5bb4766ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f82eba1b-9091-4462-b2bb-0bedc9e82856")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b5b75fa-be47-43b5-8f71-fa199f5c6a35")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7328925e-4607-43ff-a0b7-d488eaa077ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "faa73503-b8ab-4942-a9db-b107c15155d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 330)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "663443c9-da5d-40dd-a426-c8f0d5f4085a")
+			(uuid "a94b16aa-fbcf-4f01-87e3-29df9e0690f4")
 			(effects
 				(font
 					(size 1 1)
@@ -13470,103 +11884,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 340)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdb5aaec-77e5-41ad-9d59-d3805d26ab51")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f741df54-75dd-49e3-8495-87a3225e32ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc8cf337-9876-41a0-8c18-c5fba92b4599")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71dc58c5-9613-47a0-97f1-232a2707fd24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4846699-ef8a-4539-a482-0761cbc240e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "619c8e80-08fe-4e2b-93b8-5828b1f2a861")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5068db8-a162-4e7a-97e2-1934d926a408")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 340)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e72b86e-91ae-4224-a2fd-af48a53b696c")
+			(uuid "d5b85371-aea7-4724-997c-d82fe60ced32")
 			(effects
 				(font
 					(size 1 1)
@@ -13853,6 +12176,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bef60a7b-4828-4c50-9245-3e6aa8e3bcab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/f2a30620-3349-4aa3-ae74-0e365650a00a")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -14125,6 +12461,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7db7d8d1-e253-45fe-9446-d175953fbf93")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14405,6 +12754,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75a0c4b2-e926-4bea-8913-acc2ab405f84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/4f84034b-01a5-4a31-b57b-e3d791def6f1")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -14638,7 +13000,7 @@
 		(property "Reference" "S2"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "a61aba48-29de-4794-8841-f22f39cc821a")
+			(uuid "97db439c-53a6-402c-a4a4-7ac36664f2f3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14649,7 +13011,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "4a2ba61e-f5f0-423e-b1e4-943028b9e213")
+			(uuid "9948881e-dbd9-4e33-a74b-9cb64d1d4f76")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -14661,7 +13023,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c61126d4-8266-4e3f-a394-6e7869b19988")
+			(uuid "e8da3403-2a85-4d08-9e98-fdb943251567")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14673,10 +13035,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d94079f5-9431-4be2-893e-42748848cb7c")
+			(uuid "f5b41616-17c8-4a06-aafb-d9ae6ffdac5f")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e240929-0299-43a5-bcea-8b50af78faa6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14964,103 +13339,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87d256dc-eb3e-4c35-b804-01a249efd4bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71571403-db2c-4245-bb92-4009c0c9bd68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfdb7b4c-2043-40d3-b6b9-e87093570fbd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "491597c0-c1dc-46c3-8cd9-1570c22b7d39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b11b7d71-00f1-4da8-9053-abb29fa18031")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d3874e4-dd06-4703-a3d6-16538f3749c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be57af55-2ebf-42e0-81f5-54c981963e64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23d8417e-9fc1-493e-b629-7f2e7b07584b")
+			(uuid "3cc480c3-ec03-4a10-9ba1-273202afe9fd")
 			(effects
 				(font
 					(size 1 1)
@@ -15349,6 +13633,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0097f1c0-34e4-4b59-8953-0a1301c4a0e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c7fcb6a2-f346-4302-9b0f-da52bfd1486b")
 		(sheetname "/")
@@ -15499,103 +13796,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c893e8ed-a96e-4e3c-8199-8e22b8dc6267")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "659b31f3-f7bd-4a45-bc14-cfb86af4e089")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2eeb504b-1dd5-4dd2-bd5c-1bbf9f23e54a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bdff415-ea50-4242-affb-1b0fd76a04bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3fe032f4-46b9-469d-9ee2-d41af258f492")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b7a7a54-8c84-464b-96bb-33d68892a813")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7c0b92e-23b9-490f-b33e-107078e366b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8bcd3b71-0528-43dd-8866-b23ecef3d493")
+			(uuid "5155ef5d-4074-41f1-b2f6-5e0f06790389")
 			(effects
 				(font
 					(size 1 1)
@@ -15889,103 +14095,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15a7b2f4-fd0e-4c97-97f4-6b4180e1f223")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9ce5d9a7-bd04-4eb2-82ac-720e6fc2acba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edd6f1ad-a9f0-462d-8215-aebf8b99e49f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fe4560c-391c-40e1-b1af-67cac3c92fcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0ff2b4a-dd89-474f-9a16-f737451fab30")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b45c351-0774-43ec-93ba-21d1d3358820")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cae0fdc0-f18e-418a-8d79-5bb42c9c7ecc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8853d332-298d-4a93-8bd7-fae33d1dd69e")
+			(uuid "9f6ebdc9-3d1d-4845-b494-b63655e91a39")
 			(effects
 				(font
 					(size 1 1)
@@ -16274,6 +14389,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80cbc4df-f759-4f76-92d6-2e6f9e2c3d85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4e544d81-75e5-4451-a608-8904976e9a5c")
 		(sheetname "/")
@@ -16424,103 +14552,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 350)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57bf42eb-e602-4aa4-9585-1c9e92710dcb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8398fe24-47a3-4772-b445-4d492d9939b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59ed5277-10a1-49a0-bc5c-7abb86d00d95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18520cab-f663-4a4f-8056-cd00ff1340df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e3d90dd0-2bdf-4b32-8f5f-8875c7e67f65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00e788c5-5565-4596-b3b4-ba22b2d5b789")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59f3f20e-3105-4abb-94f4-2b12f97a2153")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 350)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "230ca6e2-b5ac-4821-961d-bad7677412ea")
+			(uuid "d03424e4-6486-452c-9c10-8b5eca081377")
 			(effects
 				(font
 					(size 1 1)
@@ -16764,7 +14801,7 @@
 		(property "Reference" "S8"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "da9a8042-c3bf-4d01-8f0e-5529cce368d3")
+			(uuid "be2d46a1-7e07-46eb-8007-8dc1349a267b")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16775,7 +14812,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "301a0040-e0e3-487f-bca8-e9771a4ce2e9")
+			(uuid "853793da-f720-45a6-8699-44573d338349")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16787,7 +14824,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10b88fd1-a7e7-4a74-9045-8b34758a8dce")
+			(uuid "04adf00c-c954-4ebe-b432-935492fe886e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,10 +14836,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21a84539-0d5a-47a5-800c-05b7374566c1")
+			(uuid "c69c1333-2569-46f7-b594-d6104a9742e0")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6918981c-32a0-4cd7-a688-620820503faf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17090,103 +15140,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64bc050f-368b-461d-9061-d47c5f2ba66e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96b1ec7e-0f51-4d62-982a-694a95db44af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6bc167e9-3f03-4820-a2a0-ed297b014f6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a91735d7-1694-4fc0-ba80-f00b775a55b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c362072-890a-4a1b-849b-9afbc4c96101")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fc4ca1a7-cc81-4a73-ab44-6717c20845ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef4986f9-da04-4682-99a5-9640bac9565b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91eaf827-5cdb-442a-8754-0ff0c07b48e1")
+			(uuid "1961ff7f-2247-44be-84b4-c2f1f10c8f4b")
 			(effects
 				(font
 					(size 1 1)
@@ -17480,103 +15439,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bb47413-9292-4d45-8b3a-2ca8d24c2281")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7a0ebfb-04b7-499c-9339-b0723da1d205")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38b44ed9-3de0-42ee-870f-e3a8b205c388")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "209f8111-e519-40dd-8ee1-f8bca72fbc52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d618596c-ae41-48bf-a14b-7ebace918dfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ecfc3467-7070-4165-a383-c4d958631aaf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "324ac99f-2046-4ed8-9521-a94a06188358")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ec139f7f-716a-4660-ac72-0b850a2b509d")
+			(uuid "cee2ece8-0398-4f35-9f36-0770d32631d4")
 			(effects
 				(font
 					(size 1 1)
@@ -17859,6 +15727,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f43f8e1-c4fe-4e2c-bb10-bce084bd2798")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18146,103 +16027,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d24e0af-3d9d-4ab2-bbec-58f47b3058b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb296ce7-b026-4420-aa3e-8ad197cc3905")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b8376f7-5adf-4a0f-9665-5d8d59d17204")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f469996c-e527-40d2-9db1-ccef01e609de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4bf9dae-429d-4763-a50a-248aa27fd57f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edc12208-e06e-477e-9699-03761fda7e54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2a289de9-eac2-4c75-9d1c-4cd1d825c6b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b9d7357-cc12-432b-b967-c3d5a9e63295")
+			(uuid "3d875953-ede6-4e32-8735-329ce39bc9fc")
 			(effects
 				(font
 					(size 1 1)
@@ -18486,7 +16276,7 @@
 		(property "Reference" "S5"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "0fc1f4fc-3c26-4817-a9d5-8fe921c0763d")
+			(uuid "ecffbb59-b953-4581-a349-86d2133d7e87")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18497,7 +16287,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "47922f90-e413-48a5-b1ca-d646fd00e1c0")
+			(uuid "0955efdf-a450-4990-a9ff-abeeb113d990")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18509,7 +16299,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "724a501e-df6a-41db-b179-f1eb5a8d14ef")
+			(uuid "4a16018a-f6f5-42bd-b178-4d94146d083d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18521,10 +16311,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a68615c7-4969-4e75-a4a8-3bd61fc5a890")
+			(uuid "91b530df-52b7-4646-82d3-35cf75c993ad")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2516193b-978c-4136-af45-51e4f32a4edc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18812,103 +16615,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "563f8789-3fcf-419c-9e33-e466c775a035")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbccbb0c-06c5-4523-a6ee-76cb8f9f41b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57452b74-786b-4459-b67c-42e470cca8d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47d79b31-731a-4a31-b492-139cf797fddb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa8ade2e-125c-43a8-859e-b0c85d2b2933")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91031d26-13ff-4eb2-ae3f-fc587b148a79")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9d43795-5eaa-47bb-a19c-39874adc32d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d98a5a79-2256-4033-9d34-3d8e51f7e642")
+			(uuid "032bd8b4-1731-4885-868e-4e168143696e")
 			(effects
 				(font
 					(size 1 1)
@@ -19202,103 +16914,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "832e8fa1-2961-4d99-8338-c780f08648a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22d12c57-282f-4895-acd1-5850c47877d7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4e30466-809a-4718-a206-d4ce374960ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d61af8a-ce96-4dfc-a0b7-c8c8b99d149b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3b24c36-4c88-432c-8ac5-37271554fd5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95ab3c14-8eda-4a3f-88cf-f91d6a79b356")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e61f6680-a976-4154-b32b-93e95f1afaf1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5cefb7c-70d9-4a57-8342-f1f7e627ad1a")
+			(uuid "c854843a-8f82-4038-ab33-75a0b091a2ec")
 			(effects
 				(font
 					(size 1 1)
@@ -19592,103 +17213,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e321ed6-73c2-4f2f-badd-eb9903719306")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8341dbca-481c-4ace-8854-9db4bf676706")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14047e6e-4192-4a03-9472-1f1b055b2abd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbcb3ad6-564f-4c3c-bbd0-d026845bbd05")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6abc9bae-3834-4437-8fa0-5816ef111a18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48181a7d-ea59-4a77-99f9-eebc8b54e4cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02605298-98b8-4564-b38b-6b9468e107c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d87ed89-7eb8-45ae-a916-4157d38ce337")
+			(uuid "7afba435-fc53-4f6a-b347-090d048d2ee7")
 			(effects
 				(font
 					(size 1 1)
@@ -19971,6 +17501,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a18c440-7fff-4b1b-9500-477324fbde4d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20258,103 +17801,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "646007fe-df86-419b-ba02-79a5c20a3c33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8fa47a8d-960e-4ab3-9d8a-2a8b01fac72d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bdee8201-5989-4c81-a915-82cb95dff198")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d26bc651-1c19-48e6-b194-01f84ad82900")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4436ea10-f332-4c40-8bf6-4d4d92ed1c33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78234b1a-de29-4dd5-8bb4-1e59565b8bf1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2bb41fc8-f6c8-4142-af3b-b7cb0251c5e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "876a921b-c91f-48de-8dcd-a17211f33274")
+			(uuid "82219810-9e76-43a5-8f90-0e736b7a6c99")
 			(effects
 				(font
 					(size 1 1)
@@ -20641,6 +18093,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf8bc41-33f8-40e8-875e-9f1e42cb5030")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/cf7d864c-53d3-478b-8586-a5f56cf83d78")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -20917,6 +18382,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c1583f1-5fac-45a2-b54e-6b1c4e35cede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/e5ccd6fd-e7f2-4da3-80a0-5a43472ce482")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -21189,6 +18667,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d86ed41-7706-472f-838f-983609abe1b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21476,103 +18967,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0c381efa-9cef-44c5-bdf6-5cc39321d208")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dc217117-746b-4253-9b9d-74205d2fab39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b6271105-f975-482a-a7a1-13f78df07a22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3cb035a-3392-40ef-898f-fcb9d9063792")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fa84515d-d7b8-483a-8825-e0585e8765ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "62f65d14-f73a-4902-a2e1-53bd2ac8bffd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "852b023c-ab27-4e9f-8f33-5b30b8e99a6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50a30c1b-26ab-4aa8-82ef-31ba68d41df2")
+			(uuid "3b311cc2-5519-4c82-b639-0f5260aa76a6")
 			(effects
 				(font
 					(size 1 1)
@@ -21866,103 +19266,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d031d6f-686c-440f-947e-367d9426de6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2f6d6fe-d4aa-494a-86d1-8c7c654d2130")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bcebd1fa-e6af-4d19-a87b-ab4e36c0bce9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fae7920-7dd1-45e6-a6fc-5018c37239f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ececfb76-525d-470a-8acd-9b1f4edf5a5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32b03742-6930-4638-8689-2fb3e2b59ae4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "07257461-cc79-4397-b1ee-bb41c6edc555")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b4b18e9-a887-47f2-9369-6fce4e938f49")
+			(uuid "ec651a56-627b-48a3-a5c4-4ad5aa0e02d1")
 			(effects
 				(font
 					(size 1 1)
@@ -22249,6 +19558,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "077fd647-40f5-49bb-a275-a651157ffe21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/d7c9f3c9-6925-4c65-b44d-78719783ad46")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -22522,6 +19844,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "901c9ff1-296c-4e99-9efc-38929c4f7149")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73f7c31c-0ec5-4648-9965-adc54ae2385c")
 			(effects
 				(font
 					(size 1 1)
@@ -22806,6 +20141,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a13e827c-d8e2-4c64-8c14-06cd19a9cbf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/76dcd53d-17d1-4fc6-98cf-8af80f618b36")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -23039,7 +20387,7 @@
 		(property "Reference" "S1"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "91ea5d96-2e20-4bd4-a387-4b0f4d409f0e")
+			(uuid "98b3ca4b-01c3-471d-a21a-e398e9f5ab52")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23050,7 +20398,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "85f01be2-0a44-4f4a-93a1-a670322e4dd5")
+			(uuid "00966000-eafd-4955-9f12-9b66d26647e9")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23062,7 +20410,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7fce9c34-f53a-49ff-bc11-d34a217a5493")
+			(uuid "360784e3-97cf-4693-aab3-469b6448544b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23074,10 +20422,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d059cd23-8666-4b55-992c-034e7ba98499")
+			(uuid "b4426dee-8ea2-4975-933d-9f2893e7b0b4")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae2a9d66-8c13-463d-9228-49d6b1043cbf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23358,6 +20719,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc1c9a38-9e56-4f8a-b40d-999727c3cf62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/26948883-4e9b-4ab2-aaa4-997ab860f54e")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -23591,7 +20965,7 @@
 		(property "Reference" "S6"
 			(at 0 3.175 0)
 			(layer "Dwgs.User")
-			(uuid "dc9ea3d5-47fb-40fb-8520-e90df00e1d3a")
+			(uuid "1a93e9b5-9c8c-4dbc-92c3-f13baf52889f")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23602,7 +20976,7 @@
 		(property "Value" "Keyswitch"
 			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
-			(uuid "1c02e309-70fe-4745-962e-33524eafe9a4")
+			(uuid "33366716-b59e-4f6e-841e-0b6ae2cfb719")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23614,7 +20988,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67b90d7e-52b7-4419-8604-4b2d1598f281")
+			(uuid "27059352-9680-49d6-ad06-81d2e293bf26")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23626,10 +21000,23 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75d340e2-2769-4be7-8afa-85d14b953a42")
+			(uuid "0f833ad7-2d90-42a7-b0cc-972552d27bb8")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "670b51a9-b8c7-4732-8f98-585593a27d3f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23914,6 +21301,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 340)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfeb9e93-575b-4e36-a99e-833d061d97f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/80e69483-1737-444d-b81d-20b1859516eb/4f52a1d6-4b59-46b3-8438-f4d752454932")
 		(sheetname "/KeyMatrix/")
 		(sheetfile "KeyMatrix.kicad_sch")
@@ -24187,6 +21587,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b17a2723-5608-475e-81f5-87b5ae08bdce")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24475,103 +21888,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcda5c79-a5e4-4706-aadb-06d1af55c482")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24b5abda-a576-4316-8cfe-a84542ca20a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f34ca16f-4054-4eba-8153-91e371258038")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "256dd00e-dd59-442f-ba47-c3c79100bf02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce024770-2fde-44d4-a6dd-dca7ee6f7281")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe885425-508e-4f48-9ac4-3a3323738c70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "893d8ea3-6acb-4d09-b4e6-c800b3ed7e3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea474d9d-60aa-4791-baa3-2e76a50d6187")
+			(uuid "8741d8e2-e8a3-4ea6-8078-9a403a439e57")
 			(effects
 				(font
 					(size 1 1)
@@ -24860,6 +22182,19 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d847bd6d-1e38-45e6-8010-839531bce4ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/478d9daa-4b05-453b-b73f-63274a45b38f")
 		(sheetname "/")
@@ -25010,103 +22345,12 @@
 				)
 			)
 		)
-		(property "Height" "1.95"
+		(property "LCSC Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35c388de-b8c3-4bb5-a19f-af2a1bfbc8b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d2c23af-dd44-4658-9854-6157e35e9da9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14210517-7381-47ec-a6bf-90e9312f898a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b2c9c73-44a5-40b3-9584-f9d6c3aa8092")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "333c6285-d575-49f7-9f16-b6a48fef28a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a424395-6cca-4206-ab45-712a00ff04f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b47d9b00-4c58-4e54-a822-7d7459a9e390")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c59a33e-9900-4339-aa27-0665941e76fa")
+			(uuid "15b2243b-e7a0-44eb-af01-7df9d553ac95")
 			(effects
 				(font
 					(size 1 1)
@@ -25401,26 +22645,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "84bcfbd1-9803-4fcd-8d5d-23e01740c4ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8763034f-625d-45be-95d3-416d7e4442ec")
+			(uuid "e1910251-9b23-4159-aedf-0ad53afb94e5")
 			(effects
 				(font
 					(size 1 1)
@@ -25711,6 +22941,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C529355"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9bf9508c-c7a3-4e28-86ff-a7573cacda94")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -26627,96 +23871,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Height" "0.8"
-			(at 0 0 180)
+		(property "LCSC Part Number" "C2940549"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "390c6a1e-fc42-4a20-83bc-a83c6574b988")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2b0ff734-b7db-4d31-82be-cdd41c43bfb5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IS31FL3729-QFLS4-TR"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "49040ba7-058a-4d19-83f0-4775e6fe26c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" "870-IS31FL3729QFLS4T"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4d33c8cf-9d85-4368-8e7b-9802d21125c6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31FL3729QFLS4T"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c0fd859d-9300-4d3f-89d9-c989ebddfc85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Part Number" "IS31FL3729-QFLS4-TR"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9fa2cf11-cdcc-489b-ab59-a393bde64181")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/is31fl3729-qfls4-tr/integrated-silicon-solution-inc?utm_currency=USD&region=nac"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c0d1f000-b5df-4426-8de9-a757406b3f16")
+			(uuid "1ebcb42e-5e6b-45bc-bd7d-a1a448aaffce")
 			(effects
 				(font
 					(size 1 1)
@@ -27209,6 +24369,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1592"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d45abe28-5b7d-453a-a670-edd1469f59f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/74898e1b-e30d-4cbb-845f-4789465db187")
 		(sheetname "/")
@@ -27414,12 +24588,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+		(property "LCSC Part Number" "C84260"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a2af8c1d-b351-499a-a11c-6491292abd63")
+			(uuid "294b3e5e-8d1c-4bdb-bbbe-1ab7aa578bc2")
 			(effects
 				(font
 					(size 1 1)
@@ -27657,26 +24831,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "793e0735-b116-4c34-807e-0c2805f5f6f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ebc4db70-6419-4cc9-bd6f-86b6e296d129")
+			(uuid "e25e14a5-53b2-4c12-91a6-1d11e633a21a")
 			(effects
 				(font
 					(size 1 1)
@@ -27972,6 +25132,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "70c1b465-85b8-4f15-a0b5-daa9ad82bbc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/f57663fe-89fe-4c7e-af53-84b2b83ffe00")
 		(sheetname "/RGB Array/")
@@ -28179,26 +25353,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "79afca43-f413-4624-8e0d-134084cc274b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "030859cd-be19-4c63-8d20-b58b97691e4e")
+			(uuid "37e2262f-4c3f-454b-8475-7dde874641c7")
 			(effects
 				(font
 					(size 1 1)
@@ -28496,6 +25656,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C29780639"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3c792a78-5862-486e-9af1-5e6c5408e40b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOT?666*")
 		(path "/75442db1-54f9-4bf2-a2b8-3544c7fb1a7e")
 		(sheetname "/")
@@ -28775,6 +25949,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8754b4d-a3c6-4706-9cd6-ae414800b320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d3711fc4-73e7-43aa-b254-382832c655d1")
 		(sheetname "/")
@@ -28926,7 +26114,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "121cd646-c45a-4c85-929e-571fb6d872a4")
-		(at 135.95 23.8)
+		(at 136.3 23.8)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -28942,7 +26130,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "891bee52-ecf8-42ad-9313-06d9f0adba6b")
@@ -28975,6 +26163,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C23067"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6854f759-8f75-4384-a911-57502f91e8d0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29180,6 +26382,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4a3a7880-a243-4bc9-8b15-37da9d19eddb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29392,26 +26608,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a4c22046-87c9-43af-9d98-faa17aa89622")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3f46ed06-00f7-4361-b247-785c699400d4")
+			(uuid "46392cb2-e3f3-400e-8f1c-9276c6561d6b")
 			(effects
 				(font
 					(size 1 1)
@@ -29709,26 +26911,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2dfdbacc-b48e-41d6-b1ef-bb8819f3ddb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f1014b5d-c9a6-441d-a757-911abd29d2b2")
+			(uuid "077a1200-bb15-456d-a4a8-9aca02c4f801")
 			(effects
 				(font
 					(size 1 1)
@@ -30024,6 +27212,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1713"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bfdb619d-bceb-45e3-8d29-075da1850b09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f3fd87de-d759-46bd-a921-15ae028baf36")
 		(sheetname "/")
@@ -30231,26 +27433,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f8c97f70-f1c2-47b6-b750-9c7054196825")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ad550e84-11e0-4eb0-85ad-92656b302eea")
+			(uuid "838187ea-fe10-4741-b41b-dfaa97005b48")
 			(effects
 				(font
 					(size 1 1)
@@ -30546,6 +27734,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1592"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be2c806e-cf5c-49d7-a5f7-7404a4b49e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/75296b1f-d585-4988-ab83-03196d077674")
 		(sheetname "/")
@@ -30753,26 +27955,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "45a92efd-0dab-4dc0-bb21-c23e7d03fe26")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f947efb8-0379-41ee-a11d-82f167dba46b")
+			(uuid "487ccc2d-b23a-4518-8675-14c724ebc5d6")
 			(effects
 				(font
 					(size 1 1)
@@ -31068,6 +28256,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C23162"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a450e418-e930-4ab5-b475-fc340a64c180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7103b67f-43c9-4d4b-9d68-c08976444cec")
 		(sheetname "/")
@@ -31273,6 +28475,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7e211d3-de69-4b75-b23b-062f4815ba07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e825c8b4-08da-4840-b86f-893de6bb89f6")
 		(sheetname "/")
@@ -31441,7 +28657,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "cde0c0b6-6850-4f1e-aa8c-3d81233bf6ce")
@@ -31474,6 +28690,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C23067"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1ed79f0c-ebe0-48d8-92cc-30695d253aec")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -31686,26 +28916,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c39cb6a2-03fe-4412-99ab-dbe1ea9dbde9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1cad9605-35b5-4be2-97b3-e290372904af")
+			(uuid "704012c2-311f-4e0e-82d0-5583cfaf9973")
 			(effects
 				(font
 					(size 1 1)
@@ -32001,6 +29217,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80ae6d63-6779-4cd7-9ef4-da8b3b6882cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/56ac9824-a812-4bc3-867b-59ecfab36e25")
 		(sheetname "/RGB Array/")
@@ -32208,26 +29438,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4c2b15cd-775f-4563-917b-03f10b315095")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "34f58617-cacf-4217-92fc-b4b9fb3cc570")
+			(uuid "d83ed3c7-41bd-4e3a-ab66-a2d0fcb8b8ba")
 			(effects
 				(font
 					(size 1 1)
@@ -32525,26 +29741,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b07b39a-5faa-4973-adee-332491b28d68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "70820aa4-582f-4c07-98b7-5e924b96c96c")
+			(uuid "8fc77cfc-84e8-49eb-a2ca-7ee65b1bb791")
 			(effects
 				(font
 					(size 1 1)
@@ -32840,6 +30042,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54f705d5-89bb-4576-9650-9720a75104c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/47057285-da84-4f16-ad6a-42000bda9646")
 		(sheetname "/")
@@ -32992,26 +30208,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6ee42d40-5074-4ce4-a4d4-3a4fd12d2c74")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bb7066b0-93a8-499e-b8f0-c0fed0772e6c")
+			(uuid "4507a8fb-2e38-446a-863d-8984fdd9c797")
 			(effects
 				(font
 					(size 1 1)
@@ -33309,124 +30511,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Height" "0.8"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C12668"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eb7824cb-0856-4bc7-96c0-0090894dd5dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Name" "Yangxing Tech"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3327921f-2811-4440-8285-c5f34881274c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer_Part_Number" "X322516MOB4SI"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9778be9b-b33d-447d-af10-1afa87488c70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "527111f3-ec68-46a9-b5d2-c0b3553b6675")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "738275fa-5aa5-440c-9adc-570f396e465e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b44348ec-ef56-466f-b691-6b02fa3db6ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c50d554-adb4-4da2-9397-fa133460c7a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Link1" "https://jlcpcb.com/partdetail/Yxc_CrystalOscillators-X322516MOB4SI/C12668"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ff77f773-57bb-44a1-b4d4-a373364746a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Link2" "https://za.rs-online.com/web/p/crystal-units/1712765?cm_mmc=ZA-PLA-DS3A-_-google-_-PLA_ZA_EN_PMAX_Catch+All-_--_-1712765&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20574379828&gclid=Cj0KCQjwgvnCBhCqARIsADBLZoK9jNeg1b5b6Et591tjkL7akk3ukOVb_sr3d97PKCrE3KEJZamjL4saAjJ9EALw_wcB"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "62d1592b-45a3-4083-ac18-2cf2028c1137")
+			(uuid "d231be06-0d16-4542-9aba-aba9ff93b18d")
 			(effects
 				(font
 					(size 1 1)
@@ -33702,26 +30792,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b84cc40-29bf-494f-a02f-2c1dafdcb0f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0ef42b7f-34b7-4577-9c15-d3205e0afa87")
+			(uuid "ff72ae34-a27e-4f63-8013-1dd7a56483d9")
 			(effects
 				(font
 					(size 1 1)
@@ -34020,12 +31096,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/gswitch-GT_USB7010ASV/C2988369"
-			(at 0 0 180)
+		(property "LCSC Part Number" "C2988369"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "205fc138-b7a4-4ca1-a51b-47b93e1b94de")
+			(uuid "55e03bc1-24c4-4ebb-883c-e3f1e2b1a658")
 			(effects
 				(font
 					(size 1 1)
@@ -34429,26 +31505,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bd785646-55fb-44d1-b753-9484adbb92aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b93194f8-57de-49a0-9ced-d23816d6724b")
+			(uuid "98339b70-ff4a-4e06-b62f-51d0754d37be")
 			(effects
 				(font
 					(size 1 1)
@@ -34744,6 +31806,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C15401"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad0e0b29-b913-4929-adb0-c5cd59569a0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/4740ab4c-5901-4690-99f3-f4c2516cbce4")
 		(sheetname "/RGB Array/")
@@ -34951,26 +32027,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c538479c-ac84-4163-982f-6ab240d23bd3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "27ef66d3-9224-4c0d-9193-c3c7d14137b7")
+			(uuid "3a7815d2-84da-485e-816b-e5138e929c98")
 			(effects
 				(font
 					(size 1 1)
@@ -35266,6 +32328,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5e893fd-2c28-417f-a98f-b76e3bebe96c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/a8ef613d-0bf9-47a5-a892-43927042801e")
 		(sheetname "/RGB Array/")
@@ -35466,6 +32542,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C1545"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36ff22f8-12cc-4222-bd61-ffca9276928d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -35676,6 +32766,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c60a583-17e0-4453-b0fa-cc14ff3dc9fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/c256ba30-eb5e-410f-8fc1-547a6dd23cf1")
 		(sheetname "/RGB Array/")
@@ -35881,6 +32985,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d128c97-00a0-49c9-b1a1-025e7d9b73a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/c441258c-17d6-4364-893e-f5d23e2690f1")
 		(sheetname "/RGB Array/")
@@ -36081,6 +33199,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed6735c1-5359-46ee-ae74-202fa1ec9e7c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -36293,26 +33425,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a8f3f939-e10d-4d8c-beee-67b27d12d201")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a5a5fc0f-6f04-4306-b6a2-4db3f6cfe7ab")
+			(uuid "1e88c4d8-17c2-409b-809c-43f8909a8294")
 			(effects
 				(font
 					(size 1 1)
@@ -36608,6 +33726,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ac3c093-ee16-4141-871b-b4e20f25274b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/3fb01623-0164-417e-b712-9e67058f63f4")
 		(sheetname "/RGB Array/")
@@ -36808,6 +33940,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "611c0629-1448-45d0-9aac-41986af87954")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -37020,26 +34166,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cff9c33d-7d44-4790-ab9d-bf519bd95013")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8a30239d-faa8-4808-a0fb-6d4f5b842e69")
+			(uuid "f03f0401-957e-4c6e-aa73-9d60ad51d25d")
 			(effects
 				(font
 					(size 1 1)
@@ -37281,7 +34413,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "597ac2e6-0bfa-4ed8-819b-d73cbfdba09f")
-		(at 139.4 23.85 180)
+		(at 139.65 23.75 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -37297,7 +34429,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "ea263cdc-516e-4bb1-b423-5ce60960db9c")
@@ -37330,6 +34462,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C23067"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6d9672b9-1503-468c-835e-d38dda933f27")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -37483,14 +34629,14 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
+	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "5d13b65b-2274-48cf-ad90-0364ac43a95e")
 		(at 43.2 40.05 90)
-		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
-		(tags "CFP3 SOD-123W")
+		(descr "SOD-123")
+		(tags "SOD-123")
 		(property "Reference" "D1"
-			(at 1.55 1.9 90)
+			(at 0 2 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "982fb118-359b-4cb3-8e99-cdcdfd1004f6")
@@ -37503,7 +34649,8 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 0 -2 90)
+			(at 0 -2.1 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6dcf6aa0-70b6-43b5-ad53-4065c4ae1161")
 			(effects
@@ -37522,7 +34669,7 @@
 			(uuid "8a032744-092d-467d-97b4-ec70b1c0fc3d")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -37536,32 +34683,18 @@
 			(uuid "4abb489e-6e10-490d-b970-5e1e2fc52aac")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4af67a90-3254-458a-9dba-fd8decd37e78")
-			(effects
-				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "dd0526c9-faad-424d-819e-aec91293a7bc")
+			(uuid "ca5e897d-00c8-46f8-8dbf-1f27cf07b2ff")
 			(effects
 				(font
 					(size 1 1)
@@ -37576,114 +34709,124 @@
 		(sheetfile "KeyMatrix.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -2.26 -0.95)
-			(end 1.4 -0.95)
+			(start -2.36 -1)
+			(end 1.65 -1)
 			(stroke
-				(width 0.2)
+				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "37f6a9f3-c501-406d-89b5-267241a0832c")
+			(uuid "9196067e-7e85-4fd5-a503-54330b35a3dd")
 		)
 		(fp_line
-			(start -2.26 0.95)
-			(end -2.26 -0.95)
+			(start -2.36 1)
+			(end -2.36 -1)
 			(stroke
-				(width 0.2)
+				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "45937cb3-9a44-43f9-9445-c1c9e36163d0")
+			(uuid "c5bd1aff-c96e-4d32-8fb2-e97bf7e99b4e")
 		)
 		(fp_line
-			(start -2.26 0.95)
-			(end 1.4 0.95)
+			(start -2.36 1)
+			(end 1.65 1)
 			(stroke
-				(width 0.2)
+				(width 0.12)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "93351133-f277-4870-8387-ac1a483b44d3")
+			(uuid "99900787-a502-4091-bfc2-f58f1f660592")
 		)
 		(fp_line
-			(start 2.25 -1.1)
-			(end -2.25 -1.1)
+			(start 2.35 -1.15)
+			(end -2.35 -1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "aab535a7-a946-4194-a43d-7578a70d9a83")
+			(uuid "45924334-d7a5-4cd0-a8ee-8f041db1305c")
 		)
 		(fp_line
-			(start 2.25 1.1)
-			(end 2.25 -1.1)
+			(start 2.35 1.15)
+			(end 2.35 -1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "c6f7cbd0-1c5e-4b4d-9e1a-7cf0100626d4")
+			(uuid "50b66853-e52b-4a00-9034-1845971f57bb")
 		)
 		(fp_line
-			(start -2.25 1.1)
-			(end -2.25 -1.1)
+			(start -2.35 1.15)
+			(end -2.35 -1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8a7fbfdb-8f20-45f4-a682-cf66b68dc329")
+			(uuid "a319eaf0-3aa7-49b7-87ce-1ff7aeb779c6")
 		)
 		(fp_line
-			(start -2.25 1.1)
-			(end 2.25 1.1)
+			(start -2.35 1.15)
+			(end 2.35 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "6b5a4765-d400-4f6a-a702-2b2ddde77298")
+			(uuid "282f1ea8-e36c-4627-b631-53208e9db9fe")
 		)
 		(fp_line
-			(start 1.3 -0.85)
-			(end -1.3 -0.85)
+			(start 1.4 -0.9)
+			(end -1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "41ed2352-d4f5-4258-9292-ce01e91c4e94")
+			(uuid "0cfe79d4-bde2-4ed9-8b54-eb3762f46b99")
 		)
 		(fp_line
-			(start -1.3 -0.85)
-			(end -1.3 0.85)
+			(start -1.4 -0.9)
+			(end -1.4 0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "7730622f-9759-49e8-9d02-dd3ada01aa7f")
+			(uuid "c1c677ec-8430-4278-b4e6-66f1ad361644")
 		)
 		(fp_line
-			(start 0.75 0)
-			(end 0.25 0)
+			(start 0.25 -0.4)
+			(end -0.35 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "a9c2851f-bb8e-45bb-a39c-cb6468ecb061")
+			(uuid "d7a39fbc-64b6-45f4-a7d9-3971a834f1ff")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "1bb40e4b-7540-4684-9b3e-9068688f95c8")
 		)
 		(fp_line
 			(start -0.35 0)
-			(end 0.25 -0.4)
+			(end -0.35 -0.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "2f40e425-901b-4e37-8a08-eba5c885a56e")
+			(uuid "bdfb73d7-4466-4ef7-8737-ad758b4f0042")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -37693,7 +34836,17 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e130c3b7-853d-4385-87a3-e3b8138d9600")
+			(uuid "44af9f2b-d42a-4049-a52e-54541cf99483")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "36c4d952-c433-41d9-96a7-304cb57946ff")
 		)
 		(fp_line
 			(start -0.75 0)
@@ -37703,7 +34856,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "6d9bc15f-ad83-4007-8d1f-19c1999d2658")
+			(uuid "1faee260-d1e4-4612-b346-89bb6e7a49ca")
 		)
 		(fp_line
 			(start 0.25 0.4)
@@ -37713,40 +34866,31 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "696376c3-2758-4efd-8112-cfafbfb9c4e6")
+			(uuid "edd9f7c7-6865-454e-86d9-5847a88aa0a3")
 		)
 		(fp_line
-			(start -0.35 0.55)
-			(end -0.35 -0.55)
+			(start 1.4 0.9)
+			(end 1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ff68272c-11dd-4198-ab27-fc67fe1a5621")
+			(uuid "beeda7c8-a9d9-4f0a-94a0-6e1bc68c6766")
 		)
 		(fp_line
-			(start 1.3 0.85)
-			(end 1.3 -0.85)
+			(start -1.4 0.9)
+			(end 1.4 0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "693024ab-38f6-43b3-9356-a581cb353a53")
-		)
-		(fp_line
-			(start -1.3 0.85)
-			(end 1.3 0.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "5d7b7f37-02f1-4164-a779-98be72617911")
+			(uuid "3e21b630-cc13-49b2-bb63-1482d899508f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 90)
+			(at 0 2 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "76b25f90-639c-48cf-af0a-6a20c781aedf")
 			(effects
@@ -37757,26 +34901,28 @@
 				(justify mirror)
 			)
 		)
-		(pad "1" smd rect
-			(at -1.4 0 90)
-			(size 1.2 1.2)
+		(pad "1" smd roundrect
+			(at -1.65 0 90)
+			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
 			(net 9 "Row0")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "dff7ded2-89f6-48a1-8057-f7d53ed033c3")
 		)
-		(pad "2" smd rect
-			(at 1.4 0 90)
-			(size 1.2 1.2)
+		(pad "2" smd roundrect
+			(at 1.65 0 90)
+			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
 			(net 8 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2c94b27d-cb51-4fe1-b15f-10d8bd79ee06")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/Nexperia_CFP3_SOD-123W.step"
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37840,6 +34986,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C17738"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43f79285-6ce6-4678-a539-44402a716b01")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -37993,14 +35153,12 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
+	(footprint "CustomSPDTButton:SPDT_Switch_KiCad_BasicComponent"
 		(layer "B.Cu")
 		(uuid "652b1894-1896-4b5a-921c-78da9b353037")
-		(at 131.8 23.85 180)
-		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
-		(tags "Tactile Switch")
+		(at 131.6 24 180)
 		(property "Reference" "SW2"
-			(at 0 2.5 0)
+			(at 0 0.5 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "03d6212b-f467-4835-9c68-ed0942871fad")
@@ -38013,7 +35171,8 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 -2.5 0)
+			(at 0 -1 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6ebbca35-afce-483a-8b68-1a326845e050")
 			(effects
@@ -38032,7 +35191,7 @@
 			(uuid "3889ebac-0432-4d6e-81c1-7ad6521c7e54")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38046,7 +35205,21 @@
 			(uuid "059dce00-af11-4315-ab00-f88b82ebaff0")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C231329"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81812cb0-bd5d-4988-90a9-3d744781a0e9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38055,160 +35228,10 @@
 		(path "/5313cea6-2eb1-4eac-9bdb-9ad8b957cafc")
 		(sheetname "/")
 		(sheetfile "TheFalcon[Left].kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.65 1.4)
-			(end 1.65 1.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f1f65342-6585-4041-b1eb-d3673e80e06e")
-		)
-		(fp_line
-			(start 1.65 -1.4)
-			(end 1.65 -1.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "312cd3a7-351a-469a-a730-3ee380ea2068")
-		)
-		(fp_line
-			(start -1.65 1.4)
-			(end 1.65 1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5a8aef05-2086-4470-b6c8-bd1a3f2bf15d")
-		)
-		(fp_line
-			(start -1.65 1.1)
-			(end -1.65 1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "6dedfd9c-d87d-4dd6-bc3c-6c99c7c9606b")
-		)
-		(fp_line
-			(start -1.65 -1.1)
-			(end -1.65 -1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5b4e0d56-09a9-45d9-a0e2-58d386c223ae")
-		)
-		(fp_line
-			(start -1.65 -1.4)
-			(end 1.65 -1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "bb5962a7-7ec7-4b21-a96f-775570af715d")
-		)
-		(fp_line
-			(start 2.4 1.65)
-			(end -2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d2f3f306-a041-4db6-b32b-b7261b61ce87")
-		)
-		(fp_line
-			(start 2.4 -1.65)
-			(end 2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "6221c971-ddd9-4eaf-8ea6-44675810e541")
-		)
-		(fp_line
-			(start -2.4 1.65)
-			(end -2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "72496ece-d038-4b18-bc2e-f21aa81e7ee7")
-		)
-		(fp_line
-			(start -2.4 -1.65)
-			(end 2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "b129b06a-fca5-48ed-a3a7-76e6a9aba9ac")
-		)
-		(fp_line
-			(start 1.5 1.25)
-			(end 1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "85be9b93-563b-4126-90c6-823d82f03a75")
-		)
-		(fp_line
-			(start 1.5 -1.25)
-			(end -1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "8207ef9a-5a51-49f6-b21c-334538475dbb")
-		)
-		(fp_line
-			(start -1.5 1.25)
-			(end 1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "97ace2b2-9b96-4887-a658-ed747bdb7be2")
-		)
-		(fp_line
-			(start -1.5 -1.25)
-			(end -1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "74a32282-de47-4649-8543-3afb2fde29cb")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "B.Fab")
-			(uuid "e9d129cb-2b3c-4ccc-9f45-163aa2072c76")
-		)
+		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 -2.5 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "59e6b656-300b-4d74-818d-cb6d3e4147c8")
 			(effects
@@ -38219,36 +35242,29 @@
 				(justify mirror)
 			)
 		)
-		(pad "1" smd rect
-			(at -1.7 0 180)
-			(size 0.9 1.7)
+		(pad "1" smd roundrect
+			(at -2.225 0 180)
+			(size 1.05 2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.15)
 			(net 86 "BOOT0")
 			(pinfunction "1")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "eec4477d-a9bf-4754-8783-d111456bac2f")
 		)
-		(pad "2" smd rect
-			(at 1.7 0 180)
-			(size 0.9 1.7)
+		(pad "2" smd roundrect
+			(at 2.225 0 180)
+			(size 1.05 2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.15)
 			(net 2 "+3.3V")
 			(pinfunction "2")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "0246f4c0-6830-46c2-850d-5a555f9b3f0b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Connector_Wire:SolderWire-1sqmm_1x04_P5.4mm_D1.4mm_OD2.7mm"
 		(layer "B.Cu")
@@ -38302,6 +35318,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "455fd39c-1d97-485a-a0e4-7808d4ce1cfa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38605,7 +35635,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "712be6bf-ab21-4918-bb3d-a964d97ed451")
@@ -38638,6 +35668,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C23067"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c7c9a2c1-c31d-45c3-abdc-fb2f8373d27b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38850,26 +35894,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fc5a2235-98f7-4cfb-aba0-19c08f17f938")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5f407dfe-0ab1-447b-a8d4-bd67c92866f2")
+			(uuid "cb55356e-7336-4653-aee0-122003e80e5f")
 			(effects
 				(font
 					(size 1 1)
@@ -39167,26 +36197,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "779e3c6a-4aa2-40dc-88c2-b81541a00479")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "83a513ad-1a78-48d3-99d6-b21ab3d7408b")
+			(uuid "aff5b92f-01d4-4ebc-954a-30c6fcc890c0")
 			(effects
 				(font
 					(size 1 1)
@@ -39482,6 +36498,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "95616c26-69f3-4ec3-9cdf-c024be66cdc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/07209294-65f2-4709-8be3-4305e505b07d")
 		(sheetname "/RGB Array/")
@@ -39689,12 +36719,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/gswitch-GT_USB7010ASV/C2988369"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2988369"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "96c8d517-00f8-4dd1-a772-ccd90a0f914e")
+			(uuid "61ecd48d-809e-43bb-a584-ea9b185ac712")
 			(effects
 				(font
 					(size 1 1)
@@ -40096,6 +37126,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17470bd0-f82b-43a0-af9e-056618165c83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/e60df486-b7aa-4fd2-9e4f-34f23a00b8cb")
 		(sheetname "/RGB Array/")
@@ -40303,26 +37347,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "37f70f8b-032b-4c9f-9aa7-a1d2129ffbfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "96c42f2c-0082-45bf-936f-0302b5480ffa")
+			(uuid "192f530f-b940-4113-a741-38d09e2f5c3e")
 			(effects
 				(font
 					(size 1 1)
@@ -40620,26 +37650,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "de7c042e-6e0b-478c-9e23-c55a3299e7aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "668df523-c0a4-44c9-bbd1-3ed7c8e8daa8")
+			(uuid "bab83349-ae23-4d2b-8464-3fb86936476d")
 			(effects
 				(font
 					(size 1 1)
@@ -40935,6 +37951,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C23162"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fde82241-e706-4cd4-a716-11e4f84139ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8e199c45-ad47-43d1-b50b-e50f5b0b911f")
 		(sheetname "/")
@@ -41142,26 +38172,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6f75e3c7-e114-447f-b152-c9d178b8bed0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b0e15b87-3328-4185-a83b-d8125322c44b")
+			(uuid "5e28d044-edec-45aa-a72d-8ebb26e4bb25")
 			(effects
 				(font
 					(size 1 1)
@@ -41457,6 +38473,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5f1d752-8033-4747-ad70-d08902bb0de2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/491d760e-2fba-4fd0-9aab-2c94a31bac48")
 		(sheetname "/RGB Array/")
@@ -41657,6 +38687,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C1859"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd855d85-77f5-418d-99be-58d8fc423c9c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -41869,26 +38913,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d1066260-bcc4-462a-966e-27f876690c06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f1e17656-1fd9-467c-905d-85d029c938d9")
+			(uuid "ea022344-4e4d-43f9-b963-7658fcab622a")
 			(effects
 				(font
 					(size 1 1)
@@ -42186,26 +39216,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d55d02f8-4666-4b43-9767-66573437f7a1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b80c62c4-6cf0-4170-a389-a8c028456738")
+			(uuid "21948ed2-d0a3-4c15-9205-be05175c7069")
 			(effects
 				(font
 					(size 1 1)
@@ -42501,6 +39517,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5bc3bacf-0d48-440d-b14b-ff21426aeb00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/13903e04-5947-4190-a337-18b59e4fdcbf")
 		(sheetname "/RGB Array/")
@@ -42701,6 +39731,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C1545"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bea8d7b2-3b17-49ec-9863-2093aaff0ac5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -42913,26 +39957,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "379887cc-18e5-483e-b022-9f8fc0ade119")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "82e280ec-73df-48ec-bb32-290fb1eb47b4")
+			(uuid "52adcba6-4d5a-4168-a1d4-b4f202b954e8")
 			(effects
 				(font
 					(size 1 1)
@@ -43228,6 +40258,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1524"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4812009-c66d-4190-8e5a-006393940e2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d8871527-97bd-4a90-888d-6c42992199d8")
 		(sheetname "/")
@@ -43376,14 +40420,12 @@
 			)
 		)
 	)
-	(footprint "Button_Switch_SMD:SW_SPST_B3U-1000P"
+	(footprint "CustomSPDTButton:SPDT_Switch_KiCad_BasicComponent"
 		(layer "B.Cu")
 		(uuid "9bcf23ba-5d0a-4ae7-b3e9-97aadeb25b52")
-		(at 141.65 32.05 90)
-		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
-		(tags "Tactile Switch")
+		(at 141.7 32.05 90)
 		(property "Reference" "SW1"
-			(at -0.95 -2.6 90)
+			(at 0 0.5 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "2a02654e-23ef-4006-ab69-2c881a7090a0")
@@ -43396,7 +40438,8 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 0 -2.5 90)
+			(at 0 -1 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "44c9636b-f501-40fd-9f6a-4f52a614b556")
 			(effects
@@ -43415,7 +40458,7 @@
 			(uuid "cc7645c0-4816-4dcc-9cf4-4a7ef7293575")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -43429,7 +40472,21 @@
 			(uuid "9e28517f-2b99-4e41-a067-c6cb8d19c979")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C231329"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80aef900-de23-4537-9146-81816950bd36")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -43438,160 +40495,10 @@
 		(path "/3da00365-7b12-49b3-addb-8e923e440a0c")
 		(sheetname "/")
 		(sheetfile "TheFalcon[Left].kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.65 -1.4)
-			(end 1.65 -1.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "b762f6e0-a0d4-495f-8bfa-c2864c3aabf3")
-		)
-		(fp_line
-			(start -1.65 -1.4)
-			(end 1.65 -1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "ca7f2877-b86e-43f0-a3cc-1a095731dd8c")
-		)
-		(fp_line
-			(start -1.65 -1.1)
-			(end -1.65 -1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "74122dc3-68ba-4bdb-a757-27164c29723b")
-		)
-		(fp_line
-			(start -1.65 1.1)
-			(end -1.65 1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "e9e6c13d-e78f-485a-9ef7-9bb282e223c1")
-		)
-		(fp_line
-			(start 1.65 1.4)
-			(end 1.65 1.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fc094e51-c25a-4612-8312-844cabc37f96")
-		)
-		(fp_line
-			(start -1.65 1.4)
-			(end 1.65 1.4)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "38f3ef1b-f643-41c7-be6b-32a0c7594c47")
-		)
-		(fp_line
-			(start 2.4 -1.65)
-			(end 2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "e1f64d26-9dd7-4d46-b457-56bb75b85c8a")
-		)
-		(fp_line
-			(start -2.4 -1.65)
-			(end 2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "125c9d1d-4a82-40a0-9e96-f97b44b22aa6")
-		)
-		(fp_line
-			(start 2.4 1.65)
-			(end -2.4 1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a627a093-4a39-46c9-800c-2e7105d79b12")
-		)
-		(fp_line
-			(start -2.4 1.65)
-			(end -2.4 -1.65)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "81085a9f-fa31-4584-870e-82ac6a58dabd")
-		)
-		(fp_line
-			(start 1.5 -1.25)
-			(end -1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ef17fe4f-cd28-4f4a-ba3c-a2415403639f")
-		)
-		(fp_line
-			(start -1.5 -1.25)
-			(end -1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ca02f2b6-c90d-49b3-ac6b-4ff3e8d57ee7")
-		)
-		(fp_line
-			(start 1.5 1.25)
-			(end 1.5 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "7c3a0128-00cb-495b-9251-5664920ac687")
-		)
-		(fp_line
-			(start -1.5 1.25)
-			(end 1.5 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "1f48af5a-4c0f-4012-9240-b87f533e2f15")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 0.75 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "B.Fab")
-			(uuid "644050bb-eae7-4ebb-97de-924bbc564a7a")
-		)
+		(attr through_hole)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
+			(at 0 -2.5 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "aa0d46d2-c45e-4517-bfab-7e4f2098782d")
 			(effects
@@ -43602,36 +40509,29 @@
 				(justify mirror)
 			)
 		)
-		(pad "1" smd rect
-			(at -1.7 0 90)
-			(size 0.9 1.7)
+		(pad "1" smd roundrect
+			(at -2.225 0 90)
+			(size 1.05 2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.15)
 			(net 1 "GND")
 			(pinfunction "1")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "f314b6f8-a94f-4a1e-846a-dbd3a6db5cae")
 		)
-		(pad "2" smd rect
-			(at 1.7 0 90)
-			(size 0.9 1.7)
+		(pad "2" smd roundrect
+			(at 2.225 0 90)
+			(size 1.05 2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.15)
 			(net 3 "NRST")
 			(pinfunction "2")
 			(pintype "passive")
+			(thermal_bridge_angle 45)
 			(uuid "4531c17f-c382-425d-8fb9-ed51ae10194f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
@@ -43685,6 +40585,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "622f8c32-eb17-4a85-a60d-db82e265bf47")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -43890,6 +40804,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C1859"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8ce8526-424c-4010-bd6e-96b4edcf3ed8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -44102,26 +41030,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2552dc99-4b65-4533-a092-69d4d874dea4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0999c25b-7171-47e4-93e5-9e015efa0eb2")
+			(uuid "ef7e903b-ecc2-4edd-8436-b8815ff79cca")
 			(effects
 				(font
 					(size 1 1)
@@ -44417,6 +41331,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C135336"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f488c4e6-b3d5-4c11-a53d-081c421dcc0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/43742665-189e-453d-a8f3-230ac972b4fd")
 		(sheetname "/")
@@ -44624,26 +41552,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c4a3ba8b-57c2-4489-9208-22405ab571a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "974adc00-5548-4048-865d-ee9d4dad305f")
+			(uuid "1d2033ef-5e91-498d-84a6-91508ec3f50a")
 			(effects
 				(font
 					(size 1 1)
@@ -44941,26 +41855,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0a481ce2-6a65-4247-ab94-d237626a5fb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5fc4ae56-f526-4ceb-bcb3-e5edb66c51f8")
+			(uuid "ccb46956-a049-4ec4-93d0-830db1248e26")
 			(effects
 				(font
 					(size 1 1)
@@ -45256,6 +42156,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "829acbfe-95ef-4b76-a2dd-d009f3bf7fe4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c6d80895-be02-4543-ac78-c4a5420f1df3")
 		(sheetname "/")
@@ -45461,6 +42375,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22843"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "609ee3a2-405d-499b-800f-683cc0d3192b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3c321cbe-4928-42be-9ef0-743a7bbea66d")
 		(sheetname "/")
@@ -45661,6 +42589,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C17738"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6cdee502-a629-499c-a5fa-654b37ea80d4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -45873,26 +42815,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fb9fe4ee-8c30-4bd5-87a8-591170a1f6b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "88a6af59-a18b-4784-8a1a-15071775f19f")
+			(uuid "407d1846-3857-4284-ad08-d1b14d9be77c")
 			(effects
 				(font
 					(size 1 1)
@@ -46188,6 +43116,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1592"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bff6b589-82c5-4664-a20a-9f5b0435d25e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/b02f658f-5b04-4540-bcbe-72a92566e4f0")
 		(sheetname "/RGB Array/")
@@ -46393,6 +43335,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6192c919-4062-4b75-938f-7d972f4e45f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0974c5dd-dc05-4595-b10d-990006b16ef6")
 		(sheetname "/")
@@ -46538,6 +43494,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C14675"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9fe531c8-0410-4dc2-ad27-73c570360a88")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -46750,12 +43720,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/31512546-USBLC6_2P6_UMW/C29780639"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C29780639"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "60e0825f-f391-44fa-a4a3-0dfb9f79fe69")
+			(uuid "6927950b-5acb-4e17-ab94-318a73c44f98")
 			(effects
 				(font
 					(size 1 1)
@@ -47043,6 +44013,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da2ed272-bed9-4348-81f4-cd186dd51d14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a06d92ae-21d4-42c1-a6f0-af99eed318fd/4141426c-c2f4-4a6f-a15d-aaa4a0afe7c4")
 		(sheetname "/RGB Array/")
@@ -47250,26 +44234,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "18ce3995-93cc-4b51-b856-b0e9bf2e468a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8fdfcf0b-6412-414b-8fed-8ec0017ee5c8")
+			(uuid "bf879fe5-f8d2-4b00-b4cf-848384e11137")
 			(effects
 				(font
 					(size 1 1)
@@ -47565,6 +44535,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b3cb5e6-2350-44ce-bcc7-c23262b8ee53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fef845a6-b7ca-4284-b9a7-7a46d6247180")
 		(sheetname "/")
@@ -47772,26 +44756,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 270)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e0117ff8-708a-42ec-8c29-c725de279a18")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "707268f0-be7f-480a-8a78-b63598adbf9e")
+			(uuid "95c5312f-aab6-4812-bf33-f3e1c95955d8")
 			(effects
 				(font
 					(size 1 1)
@@ -48089,26 +45059,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "96e0f903-46cb-4185-92ce-10b73c20121c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b93baa5f-cdc2-4694-afb5-4fdb29ed3de0")
+			(uuid "3ebb48a5-fbfa-4948-a8ea-2bb57f8a753a")
 			(effects
 				(font
 					(size 1 1)
@@ -48406,26 +45362,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7b053080-cd3c-45f5-bcdf-39e613309f08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1cd920f3-e14f-4067-9db9-0e346afe4d83")
+			(uuid "0ca8e656-23b9-4901-8f93-2b12d295994a")
 			(effects
 				(font
 					(size 1 1)
@@ -48723,26 +45665,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9c4b5674-8f42-4a50-aa5d-31d0b08998f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "852809cd-f68b-4e34-a124-ee38950beeb9")
+			(uuid "81e9078c-c8f8-4c4d-ac7a-9b78d4efd1a1")
 			(effects
 				(font
 					(size 1 1)
@@ -49040,26 +45968,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8cd2511a-5650-4e0b-89b1-8165bfd5d1e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5246701d-ddfd-4e9d-9154-990e546e7efa")
+			(uuid "466f4386-c8b1-4a4b-a671-77a787fbd92e")
 			(effects
 				(font
 					(size 1 1)
@@ -49357,26 +46271,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 0 0 90)
+		(property "LCSC Part Number" "C2099"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0684e1f8-ed08-4b57-93dc-0d1adcda0b85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c73d4c2f-6036-491f-a73a-c1880cbc0aa6")
+			(uuid "2f79f473-d7cc-4d3c-99e7-93023e16b1e1")
 			(effects
 				(font
 					(size 1 1)
@@ -49674,12 +46574,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186"
-			(at 0 0 180)
+		(property "LCSC Part Number" "C6186"
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "695dc338-d252-4ae4-aabd-98778bb34577")
+			(uuid "f8e80a79-e2f8-463f-8e3e-b628613bd027")
 			(effects
 				(font
 					(size 1 1)
@@ -49957,6 +46857,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e3bc098-2531-40de-a245-5be89bb0bdfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/afc35c96-04fd-4288-8e61-35c2857b4009")
 		(sheetname "/")
@@ -50157,6 +47071,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c6862ee-033e-403a-8e81-20e83043afad")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -51640,7 +48568,7 @@
 		(uuid "992cd766-9f0b-47f2-9a12-7f5606f8e48a")
 	)
 	(via
-		(at 141.7 34.9)
+		(at 142.1 35.45)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -51921,7 +48849,7 @@
 		(uuid "d13890e4-72a9-4a97-93d5-9501525178a5")
 	)
 	(via
-		(at 141.75 24.2)
+		(at 142.7 24.35)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -52190,6 +49118,22 @@
 		(uuid "0f290b01-806e-4ee4-88d8-776d1b378ae2")
 	)
 	(segment
+		(start 142.2 23.85)
+		(end 140.225 23.85)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "1358e527-99e1-4312-8c21-a172ba82e122")
+	)
+	(segment
+		(start 142.7 24.35)
+		(end 142.2 23.85)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "13965875-c3e4-4d87-a1b3-16f1dbb5bee8")
+	)
+	(segment
 		(start 134.53 28.97)
 		(end 134.65 28.85)
 		(width 0.3)
@@ -52302,14 +49246,6 @@
 		(uuid "437ced14-b6c7-4990-8208-61c2fd695534")
 	)
 	(segment
-		(start 141.4 23.85)
-		(end 141.75 24.2)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "43db2c32-5665-4de3-81b1-f1d5ec0b0ae4")
-	)
-	(segment
 		(start 66.74 26.3475)
 		(end 66.78 26.3875)
 		(width 0.3)
@@ -52324,14 +49260,6 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "47241ee0-3730-4396-ba53-9c343c2713c4")
-	)
-	(segment
-		(start 140.225 23.85)
-		(end 141.4 23.85)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "475ea1bc-87a0-4017-912c-d11b54339220")
 	)
 	(segment
 		(start 131.5 32.18)
@@ -52356,14 +49284,6 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "524f4935-1abc-4764-80c1-4c4c71cdb34c")
-	)
-	(segment
-		(start 141.65 33.75)
-		(end 141.65 34.85)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "5332acbf-db44-4054-a796-854c22735c73")
 	)
 	(segment
 		(start 124.45 27.85)
@@ -52396,14 +49316,6 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "593c7286-e597-451e-91cf-c02c0776bb93")
-	)
-	(segment
-		(start 141.65 34.85)
-		(end 141.7 34.9)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "5b1e6a73-a1c8-4938-8c97-22941b84bbf8")
 	)
 	(segment
 		(start 119.95 36.38)
@@ -52484,6 +49396,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "8258fe04-7591-4b77-980c-9f50c4feb190")
+	)
+	(segment
+		(start 141.7 35.05)
+		(end 142.1 35.45)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "874a915e-7ce0-44cc-994e-ce58f5ba6f02")
 	)
 	(segment
 		(start 122.975 39.155)
@@ -52684,6 +49604,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "d5827246-ee0b-4404-8404-d38bcab4b03a")
+	)
+	(segment
+		(start 141.7 34.275)
+		(end 141.7 35.05)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "d94763e9-e465-440c-957e-8cf5c807a2a3")
 	)
 	(segment
 		(start 122.325 41.55)
@@ -53062,6 +49990,14 @@
 		(uuid "ed446dce-d1f6-4b21-87c9-5077ae60be93")
 	)
 	(segment
+		(start 128.37 27.83)
+		(end 128 27.83)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "037b1506-6d8f-4d07-b0fa-d204adc23aff")
+	)
+	(segment
 		(start 121.32 38.545)
 		(end 121.425 38.65)
 		(width 0.5)
@@ -53118,12 +50054,12 @@
 		(uuid "16768180-d11b-4b09-a763-7b932f25b3b3")
 	)
 	(segment
-		(start 128.37 27.83)
-		(end 128 27.83)
+		(start 126.8 25.55)
+		(end 128.1 24.25)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "1d76e16f-a41c-4be4-bdf0-9ad1fec7184c")
+		(uuid "1836bba9-02ee-47bc-9ef5-ea2c892f9d73")
 	)
 	(segment
 		(start 57.35 24.8)
@@ -53156,6 +50092,14 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "3f424efd-992f-4e8b-899b-77dc6d20d3e9")
+	)
+	(segment
+		(start 128.1 24.25)
+		(end 129.55 24.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "3fb879f9-c6bd-41c2-9dbc-f5812a65dc48")
 	)
 	(segment
 		(start 121.45 34.8125)
@@ -53262,6 +50206,14 @@
 		(uuid "6d25677e-bf46-42b9-b6a1-b61fc1f265df")
 	)
 	(segment
+		(start 129.55 26.65)
+		(end 128.37 27.83)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "6f1876ca-dc06-441e-8f1c-e57de8112d5d")
+	)
+	(segment
 		(start 118.0375 27.9)
 		(end 117.15 27.9)
 		(width 0.3)
@@ -53270,28 +50222,12 @@
 		(uuid "70aa6f01-4887-44d9-b050-8bead600a882")
 	)
 	(segment
-		(start 127.7 24.65)
-		(end 128.6 24.65)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "75472b20-dcce-4a88-8de0-71016aec3fb3")
-	)
-	(segment
 		(start 54.7825 32.3175)
 		(end 56.9 30.2)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
 		(uuid "76f5d212-01c6-4751-b681-ad003b904368")
-	)
-	(segment
-		(start 128.6 24.65)
-		(end 129.55 25.6)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "7cd2e7aa-a580-4361-b497-d2e818aef5e4")
 	)
 	(segment
 		(start 125.9 24.65)
@@ -53406,14 +50342,6 @@
 		(uuid "a2464388-4ae3-4a63-ac69-ba63d10fc238")
 	)
 	(segment
-		(start 129.55 25.6)
-		(end 129.55 26.65)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "a613c456-e123-41de-9bbe-3330a2e0ccc4")
-	)
-	(segment
 		(start 120.3 37.55)
 		(end 120.3 39.35)
 		(width 0.5)
@@ -53518,14 +50446,6 @@
 		(uuid "cb297408-3c05-4fae-a32d-9827a856dd80")
 	)
 	(segment
-		(start 129.3 24.65)
-		(end 130.1 23.85)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "cb4b8bb6-9d9a-407c-97f8-32c94e50408c")
-	)
-	(segment
 		(start 120.2 31.55)
 		(end 121.45 32.8)
 		(width 0.3)
@@ -53558,12 +50478,12 @@
 		(uuid "d9246d65-f2b4-4f51-82e7-633c9635b798")
 	)
 	(segment
-		(start 128.6 24.65)
-		(end 129.3 24.65)
+		(start 129.55 24.25)
+		(end 129.55 26.65)
 		(width 0.5)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "d99249ba-8545-4e4f-a06b-e848bc81622e")
+		(uuid "ddddb89e-c856-4743-a108-e3dbf29f1f4a")
 	)
 	(segment
 		(start 107.225 22.35)
@@ -53572,14 +50492,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "e2651a0b-517d-4e71-bfde-fe405e7edfb4")
-	)
-	(segment
-		(start 129.55 26.65)
-		(end 128.37 27.83)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "e3dcd53f-fc98-4f4e-99d0-db5707afdfe8")
 	)
 	(segment
 		(start 117.15 27.9)
@@ -53596,14 +50508,6 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "f4b6b7dd-2e3c-472b-ae06-4f4b53633609")
-	)
-	(segment
-		(start 126.8 25.55)
-		(end 127.7 24.65)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "fb499805-68c1-49f8-b2f3-f07bc0f8496c")
 	)
 	(segment
 		(start 120.3 39.35)
@@ -53726,22 +50630,6 @@
 		(uuid "57d8e51d-e8c9-4547-b411-e8e4884a8765")
 	)
 	(segment
-		(start 141.65 30.35)
-		(end 143.62 32.32)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "375441c3-2dfe-4d82-b6dd-35f7c33a9f70")
-	)
-	(segment
-		(start 143.62 32.32)
-		(end 144 32.32)
-		(width 0.3)
-		(layer "B.Cu")
-		(net 3)
-		(uuid "4155b212-935c-49ec-a01b-3c69b9efd65f")
-	)
-	(segment
 		(start 126.3625 30.9)
 		(end 129.1 30.9)
 		(width 0.2)
@@ -53751,11 +50639,35 @@
 	)
 	(segment
 		(start 139.3 30.35)
-		(end 141.65 30.35)
+		(end 139.825 29.825)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 3)
-		(uuid "98c5742f-1155-40d0-9e8b-9307ee14bdc0")
+		(uuid "aa52a572-2c39-48ed-81f5-0d385a2e916d")
+	)
+	(segment
+		(start 141.55 29.425)
+		(end 144 31.875)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "bdaf1a2b-44db-4f5e-9371-66b125f49d53")
+	)
+	(segment
+		(start 144 31.875)
+		(end 144 32.32)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "c0553372-5e53-445e-b66a-2d176772cfa9")
+	)
+	(segment
+		(start 139.825 29.825)
+		(end 141.7 29.825)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "fb77352c-dd55-4da7-9482-4c9975c604a4")
 	)
 	(segment
 		(start 129.1 30.9)
@@ -57559,6 +54471,14 @@
 		(uuid "27f3c47f-ff09-440b-99c9-d4981e9fb5cd")
 	)
 	(segment
+		(start 161.4 120.15)
+		(end 161.4 118.55)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 47)
+		(uuid "3295ef78-afd2-4353-be90-e43941ada2d5")
+	)
+	(segment
 		(start 157.8 117.25)
 		(end 159.85 117.25)
 		(width 0.2)
@@ -57575,28 +54495,12 @@
 		(uuid "37aec463-21a5-4e5e-b025-63506e27127a")
 	)
 	(segment
-		(start 160.45 122.75)
-		(end 160.45 119.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 47)
-		(uuid "44644dcd-37b6-4982-9162-71bbf66d2ed9")
-	)
-	(segment
 		(start 128.839 28.411)
 		(end 126.3735 28.411)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 47)
 		(uuid "493ea398-95a4-427a-b896-fc6bbf8194a5")
-	)
-	(segment
-		(start 161.4 120.15)
-		(end 161.4 118.55)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 47)
-		(uuid "4d8da61f-5594-4a2d-9e82-510043cf73a0")
 	)
 	(segment
 		(start 142.2 114.7)
@@ -57607,6 +54511,14 @@
 		(uuid "4f3960a5-8c76-46ec-a165-8f413ff8b452")
 	)
 	(segment
+		(start 167.6 124.05)
+		(end 165.3 124.05)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 47)
+		(uuid "50c6005b-cb6b-411a-84d4-f8e2e9aa0c6e")
+	)
+	(segment
 		(start 161.4 118.55)
 		(end 161.4 115.7)
 		(width 0.2)
@@ -57615,20 +54527,36 @@
 		(uuid "5903f867-2c43-4bf4-9c84-61500c428bc5")
 	)
 	(segment
+		(start 160.45 121.1)
+		(end 161.4 120.15)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 47)
+		(uuid "747279d6-5d0a-4e09-a7cd-9389f94f919e")
+	)
+	(segment
+		(start 165.3 124.05)
+		(end 161.4 120.15)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 47)
+		(uuid "77d1edf6-fed2-428e-9ba2-22368b3a94b1")
+	)
+	(segment
+		(start 160.45 122.75)
+		(end 160.45 121.1)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 47)
+		(uuid "87c9a601-f995-44fc-940f-d25a5ba38a78")
+	)
+	(segment
 		(start 175.2 131.65)
 		(end 167.6 124.05)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 47)
-		(uuid "731e5f21-eb81-4e6e-8679-8636a3bcb107")
-	)
-	(segment
-		(start 179.35 131.65)
-		(end 175.2 131.65)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 47)
-		(uuid "892bef41-bca6-468c-a753-f766f89863fd")
+		(uuid "9b8aba46-f3ac-42e1-badb-7e7bf901d01f")
 	)
 	(segment
 		(start 161.4 36.25)
@@ -57637,22 +54565,6 @@
 		(layer "B.Cu")
 		(net 47)
 		(uuid "a122c2d1-b2a0-4688-b15d-0c2510f01d5e")
-	)
-	(segment
-		(start 164.2 124.05)
-		(end 164.2 122.95)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 47)
-		(uuid "a1583504-b4a6-4591-8e2f-b9f43f4c8296")
-	)
-	(segment
-		(start 167.6 124.05)
-		(end 164.2 124.05)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 47)
-		(uuid "a66616bf-1214-4f85-9d71-1c6391dc147a")
 	)
 	(segment
 		(start 159 33.85)
@@ -57671,12 +54583,12 @@
 		(uuid "b1427aba-1663-4d48-a2fb-04fd3842faf9")
 	)
 	(segment
-		(start 164.2 122.95)
-		(end 161.4 120.15)
+		(start 179.35 131.65)
+		(end 175.2 131.65)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 47)
-		(uuid "c8be863e-7aa0-47c1-b50c-2f2c1d7df1c0")
+		(uuid "b982d699-86aa-4dff-b0bf-d0d3a8c610d5")
 	)
 	(segment
 		(start 159.85 117.25)
@@ -57693,14 +54605,6 @@
 		(layer "B.Cu")
 		(net 47)
 		(uuid "f4ce26b9-04ac-4dfc-a6fa-4a4deb030efb")
-	)
-	(segment
-		(start 160.45 119.5)
-		(end 161.4 118.55)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 47)
-		(uuid "fe022b5c-5d8d-40f7-a81a-ed1c6961a321")
 	)
 	(segment
 		(start 160.45 127.370475)
@@ -67467,14 +64371,6 @@
 		(uuid "2d5c3880-1ca4-4e95-b0f6-de568340ac95")
 	)
 	(segment
-		(start 157.827682 136.877682)
-		(end 155.570058 136.877682)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 96)
-		(uuid "43a0b9fc-5309-4f5b-9184-f355d31c4a8d")
-	)
-	(segment
 		(start 64.05 128.3)
 		(end 72.075 128.3)
 		(width 0.2)
@@ -67491,20 +64387,12 @@
 		(uuid "4d99146f-22ca-437c-aec4-d12b45c4ce40")
 	)
 	(segment
-		(start 158.7 137.75)
-		(end 157.827682 136.877682)
+		(start 157.6 139.65)
+		(end 158.05 139.2)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 96)
-		(uuid "5cd5e833-c599-4285-bf73-769aa3485a47")
-	)
-	(segment
-		(start 158.7 138.55)
-		(end 158.7 137.75)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 96)
-		(uuid "67f9c7b6-7fe8-4c42-80e2-effcac3bd7c3")
+		(uuid "6017c2f6-1804-4233-8655-7168d8647faf")
 	)
 	(segment
 		(start 41.275 123.725)
@@ -67513,6 +64401,14 @@
 		(layer "B.Cu")
 		(net 96)
 		(uuid "70fe26b3-000d-41d3-8e55-5eda0733b4cf")
+	)
+	(segment
+		(start 157.127682 136.877682)
+		(end 155.570058 136.877682)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 96)
+		(uuid "726999e3-eda9-42d1-a4f7-33fa332458f4")
 	)
 	(segment
 		(start 78.375 118.975)
@@ -67563,6 +64459,14 @@
 		(uuid "97145cc0-242f-4b30-b102-f3fd02c24f33")
 	)
 	(segment
+		(start 158.05 139.2)
+		(end 158.05 137.8)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 96)
+		(uuid "a16631a9-b827-40a3-9680-c222faf88071")
+	)
+	(segment
 		(start 136.132801 126.95)
 		(end 135.931078 126.748277)
 		(width 0.2)
@@ -67595,12 +64499,12 @@
 		(uuid "fb7625f4-79b9-40b6-ade2-337bb7b18b1e")
 	)
 	(segment
-		(start 157.6 139.65)
-		(end 158.7 138.55)
+		(start 158.05 137.8)
+		(end 157.127682 136.877682)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 96)
-		(uuid "ff82121e-67be-47e7-b10b-409600f8b314")
+		(uuid "fc370d76-334c-46fd-b38c-f0aa4fb37cf5")
 	)
 	(segment
 		(start 122.35 118.9)
@@ -69923,6 +66827,14 @@
 		(uuid "00f15316-b39b-4be4-a286-ba3d80f6cac9")
 	)
 	(segment
+		(start 138.75 33.35)
+		(end 142.2 36.8)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 107)
+		(uuid "2a2bcbe4-0a7b-4d29-90bd-207f00dad2a8")
+	)
+	(segment
 		(start 145.2275 97.16)
 		(end 145.2275 101.4225)
 		(width 0.2)
@@ -69945,6 +66857,22 @@
 		(layer "B.Cu")
 		(net 107)
 		(uuid "423195ff-8a68-419d-8146-83d5ef9d193d")
+	)
+	(segment
+		(start 128.55 31.4)
+		(end 130.5 33.35)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 107)
+		(uuid "4378d3c1-624a-4c65-8078-27c6a30de3cf")
+	)
+	(segment
+		(start 130.5 33.35)
+		(end 138.75 33.35)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 107)
+		(uuid "44d7bc6e-a02e-470e-b7e2-33fae532722a")
 	)
 	(segment
 		(start 173.208393 136.985295)
@@ -69979,6 +66907,14 @@
 		(uuid "6536df2d-1793-4d39-8f71-374088f2f678")
 	)
 	(segment
+		(start 142.2 36.8)
+		(end 146.4375 36.8)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 107)
+		(uuid "6970e90b-9c84-4518-beb6-db93d58cb183")
+	)
+	(segment
 		(start 146.4375 55.85)
 		(end 145.269654 57.017846)
 		(width 0.2)
@@ -70009,14 +66945,6 @@
 		(layer "B.Cu")
 		(net 107)
 		(uuid "7a62c077-09c5-4755-af0d-dc986063f0d7")
-	)
-	(segment
-		(start 126.3625 31.4)
-		(end 128.55 31.4)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 107)
-		(uuid "83964800-4f16-4674-8040-975d6bca8b42")
 	)
 	(segment
 		(start 175.383334 134.810354)
@@ -70051,6 +66979,14 @@
 		(uuid "8cabe82a-3ac8-4acf-8ffc-546df2a1746c")
 	)
 	(segment
+		(start 126.3625 31.4)
+		(end 128.55 31.4)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 107)
+		(uuid "8fb39112-518f-4d12-910d-602355fadd24")
+	)
+	(segment
 		(start 143.4 103.25)
 		(end 143.4 106.45)
 		(width 0.2)
@@ -70073,14 +67009,6 @@
 		(layer "B.Cu")
 		(net 107)
 		(uuid "999d3047-e907-4baf-80f8-1d2b8eb4f0c5")
-	)
-	(segment
-		(start 128.55 31.4)
-		(end 130.5 33.35)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 107)
-		(uuid "9f1dabc7-4be3-459e-b60b-f8a88749e885")
 	)
 	(segment
 		(start 144 72.4625)
@@ -70107,14 +67035,6 @@
 		(uuid "aa569ee5-0e53-42dd-bc61-0fa4bf9cfa92")
 	)
 	(segment
-		(start 142.55 36.8)
-		(end 146.4375 36.8)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 107)
-		(uuid "b53bd656-5680-47ae-9159-42576157ebc9")
-	)
-	(segment
 		(start 145.2875 82.6625)
 		(end 143.4 84.55)
 		(width 0.2)
@@ -70123,28 +67043,12 @@
 		(uuid "c19321f6-cf73-48ea-9228-a6e714bcfed0")
 	)
 	(segment
-		(start 130.5 33.35)
-		(end 139.1 33.35)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 107)
-		(uuid "c9b9ade1-be39-4725-b34d-903b0e423b53")
-	)
-	(segment
 		(start 146.4375 74.9)
 		(end 145.2875 76.05)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 107)
 		(uuid "ccd07823-6369-4c11-ac86-05306ad07361")
-	)
-	(segment
-		(start 139.1 33.35)
-		(end 142.55 36.8)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 107)
-		(uuid "ce236bea-3742-4def-b06a-5cab8a8632d0")
 	)
 	(segment
 		(start 145.2875 76.05)

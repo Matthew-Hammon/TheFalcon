@@ -1,3 +1,7 @@
 *.zip
 ~$PartsList.xlsx
 TheFalcon/PCB/TheFalcon\[Left\]/~TheFalcon\[Left\].kicad_pcb.lck
+TheFalcon/PCB/TheFalcon\[Left\]/manufacturing/*
+TheFalcon/PCB/TheFalcon\[Left\]/production/*
+TheFalcon/PCB/TheFalcon\[Right\]/manufacturing/*
+TheFalcon/PCB/TheFalcon\[Right\]/production/*

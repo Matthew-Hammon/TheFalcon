@@ -2123,6 +2123,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b4ced66-3418-4a66-862c-764f4ab3f0a4")
 		)
@@ -2183,6 +2192,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 81.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 81.28 119.38 0)
 			(effects
 				(font
@@ -2261,17 +2279,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 109.22 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 177.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 109.22 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,17 +2358,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 96.52 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 96.52 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,17 +2437,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 58.42 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 58.42 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,17 +2516,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 45.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 45.72 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,17 +2595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 177.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 83.82 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,17 +2674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 96.52 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 96.52 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,6 +2743,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 93.98 68.58 0)
 			(effects
 				(font
@@ -2857,17 +2830,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 58.42 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 58.42 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2945,17 +2909,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 152.4 0)
+		(property "LCSC Part Number" "C2099"
+			(at 83.82 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,6 +2986,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 30.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e468f52-dfec-4ef6-807d-1d88272c614f")
 		)
@@ -3091,6 +3055,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 30.48 43.18 0)
 			(effects
 				(font
@@ -3169,17 +3142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 71.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 71.12 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,17 +3221,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 71.12 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 152.4 0)
+		(property "LCSC Part Number" "C2099"
+			(at 71.12 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,17 +3300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 45.72 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 45.72 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,17 +3379,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 96.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 96.52 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,6 +3448,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 106.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 106.68 119.38 0)
 			(effects
 				(font
@@ -3589,17 +3535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 83.82 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,6 +3604,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 68.58 144.78 0)
 			(effects
 				(font
@@ -3745,17 +3691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 58.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 58.42 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,17 +3770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 152.4 0)
+		(property "LCSC Part Number" "C2099"
+			(at 45.72 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,6 +3839,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 81.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -3987,6 +3924,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 30.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7826745-80f2-4a8f-8ac8-4b97528e23c0")
 		)
@@ -4047,6 +3993,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -4125,17 +4080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 109.22 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,17 +4159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 83.82 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,6 +4236,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 93.98 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6150c23-341e-4e34-a6e2-dc1d59ecd3d9")
 		)
@@ -4359,6 +4305,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 30.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 30.48 119.38 0)
 			(effects
 				(font
@@ -4437,17 +4392,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 33.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 33.02 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,6 +4461,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 43.18 144.78 0)
 			(effects
 				(font
@@ -4593,17 +4548,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 58.42 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 58.42 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4671,6 +4617,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 68.58 68.58 0)
 			(effects
 				(font
@@ -4749,17 +4704,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 45.72 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 45.72 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,6 +4773,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 93.98 93.98 0)
 			(effects
 				(font
@@ -4905,17 +4860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 96.52 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 96.52 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,17 +4939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 96.52 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 177.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 96.52 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,6 +5008,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 93.98 43.18 0)
 			(effects
 				(font
@@ -5147,6 +5093,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 106.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d10b519e-e76a-4703-b45f-291b33541a66")
 		)
@@ -5190,7 +5145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 33.02 50.8 0)
 			(effects
 				(font
@@ -5217,17 +5172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 33.02 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 33.02 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,6 +5241,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -5371,6 +5326,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d9a3b50-6d23-448f-8295-062a6514abc5")
 		)
@@ -5431,6 +5395,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -5507,6 +5480,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5aac445-fc36-45ec-917c-18aa53819a27")
 		)
@@ -5575,6 +5557,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56ddb232-9daf-4a3a-a23b-867bfd86cf96")
 		)
@@ -5635,6 +5626,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 106.68 93.98 0)
 			(effects
 				(font
@@ -5713,17 +5713,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 33.02 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 152.4 0)
+		(property "LCSC Part Number" "C2099"
+			(at 33.02 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,6 +5782,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 93.98 119.38 0)
 			(effects
 				(font
@@ -5869,17 +5869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 71.12 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 71.12 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,17 +5948,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 83.82 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,6 +6017,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -6111,6 +6102,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efa156f1-a9d1-407b-9a07-ffaeb167af8a")
 		)
@@ -6179,6 +6179,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 81.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ce42454-c114-4dde-a40b-5b5df0ae9a64")
 		)
@@ -6239,6 +6248,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 43.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 43.18 68.58 0)
 			(effects
 				(font
@@ -6317,17 +6335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 45.72 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 45.72 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,17 +6414,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 71.12 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 71.12 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,17 +6492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 109.22 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 109.22 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,6 +6561,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 106.68 68.58 0)
 			(effects
 				(font
@@ -6648,17 +6648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 109.22 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 50.8 0)
+		(property "LCSC Part Number" "C2099"
+			(at 109.22 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,6 +6725,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6994af81-e57d-4a56-b137-8a2e4c95dea9")
 		)
@@ -6794,6 +6794,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 30.48 68.58 0)
 			(effects
 				(font
@@ -6872,17 +6881,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 83.82 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 83.82 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 83.82 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,6 +6958,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf30fd0e-9d35-4744-8171-3c1654e59486")
 		)
@@ -7018,6 +7027,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -7096,17 +7114,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 33.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 33.02 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,17 +7193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 109.22 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 109.22 101.6 0)
+		(property "LCSC Part Number" "C2099"
+			(at 109.22 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,6 +7270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5a7d007-2156-4e02-91ce-bcd0ce6c28d2")
 		)
@@ -7293,7 +7302,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3cb7c69-7e72-460a-a398-d6bb871b35f2")
 		(property "Reference" "S36"
 			(at 106.68 162.56 0)
@@ -7312,11 +7320,12 @@
 			)
 		)
 		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1.5U-Vertical"
-			(at 106.68 170.18 0)
+			(at 130.302 171.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -7329,6 +7338,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -7407,17 +7425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 33.02 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 33.02 127 0)
+		(property "LCSC Part Number" "C2099"
+			(at 33.02 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,6 +7494,15 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 55.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 55.88 144.78 0)
 			(effects
 				(font
@@ -7563,17 +7581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 58.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 152.4 0)
+		(property "LCSC Part Number" "C2099"
+			(at 58.42 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,17 +7660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 71.12 76.2 0)
+		(property "LCSC Part Number" "C2099"
+			(at 71.12 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
