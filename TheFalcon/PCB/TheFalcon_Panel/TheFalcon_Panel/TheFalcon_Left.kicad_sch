@@ -4728,7 +4728,7 @@
 	)
 	(text "Need to check to make \nsure the power caps \nare ceramic"
 		(exclude_from_sim no)
-		(at 126.238 30.988 0)
+		(at 108.712 38.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8525,6 +8525,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0218e226-0c01-4b67-b6ff-d8f0f5a8993b")
+		(property "Reference" "mouse-bite-12"
+			(at 152.4 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mb"
+			(at 152.4 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
+					(reference "mouse-bite-12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 125.73 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0222069d-50f5-4fcd-b145-694cd90d3d47")
+		(property "Reference" "mouse-bite-9"
+			(at 128.27 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mb"
+			(at 128.27 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
+					(reference "mouse-bite-9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 267.97 113.03 0)
 		(unit 1)
@@ -8668,7 +8796,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 45.72 0)
+		(at 149.86 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8677,7 +8805,7 @@
 		(fields_autoplaced yes)
 		(uuid "11c688ac-e67f-4c70-b8fc-f9e96ab519a1")
 		(property "Reference" "mouse-bite-6"
-			(at 158.75 44.4499 0)
+			(at 152.4 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8814,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 46.9899 0)
+			(at 152.4 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8823,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 45.72 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 45.72 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8841,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 45.72 0)
+			(at 149.86 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9332,7 +9460,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 40.64 0)
+		(at 125.73 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9341,7 +9469,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c7dc623-e8a7-4aa0-85a0-dcbec09d1ff1")
 		(property "Reference" "mouse-bite-5"
-			(at 158.75 39.3699 0)
+			(at 128.27 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,7 +9478,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 41.9099 0)
+			(at 128.27 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,7 +9487,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 40.64 0)
+			(at 125.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +9496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 40.64 0)
+			(at 125.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +9505,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 40.64 0)
+			(at 125.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,6 +9583,70 @@
 			(project "TheFalcon_Panel"
 				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f6929c1-c6f0-48a0-afe0-e219a546c60a")
+		(property "Reference" "mouse-bite-8"
+			(at 152.4 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mb"
+			(at 152.4 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
+					(reference "mouse-bite-8")
 					(unit 1)
 				)
 			)
@@ -9682,7 +9874,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 35.56 0)
+		(at 149.86 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9691,7 +9883,7 @@
 		(fields_autoplaced yes)
 		(uuid "42d6e89a-6557-45a0-969e-a6e6392033e4")
 		(property "Reference" "mouse-bite-4"
-			(at 158.75 34.2899 0)
+			(at 152.4 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,7 +9892,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 36.8299 0)
+			(at 152.4 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9901,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 35.56 0)
+			(at 149.86 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 35.56 0)
+			(at 149.86 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +9919,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 35.56 0)
+			(at 149.86 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +10165,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 20.32 0)
+		(at 125.73 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9982,7 +10174,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b4b673a-7b34-41f2-8a5b-96b4ac6632d7")
 		(property "Reference" "mouse-bite-1"
-			(at 158.75 19.0499 0)
+			(at 128.27 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9991,7 +10183,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 21.5899 0)
+			(at 128.27 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10192,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 20.32 0)
+			(at 125.73 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 20.32 0)
+			(at 125.73 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10210,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 20.32 0)
+			(at 125.73 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,7 +10504,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 30.48 0)
+		(at 125.73 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10321,7 +10513,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c7d98b3-2ab4-4e08-a42e-f33e20a8d21e")
 		(property "Reference" "mouse-bite-3"
-			(at 158.75 29.2099 0)
+			(at 128.27 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10522,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 31.7499 0)
+			(at 128.27 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10339,7 +10531,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 30.48 0)
+			(at 125.73 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +10540,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 30.48 0)
+			(at 125.73 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10357,7 +10549,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 30.48 0)
+			(at 125.73 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11368,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 25.4 0)
+		(at 149.86 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11185,7 +11377,7 @@
 		(fields_autoplaced yes)
 		(uuid "75ecf587-24a6-42df-a727-96142ed8b35c")
 		(property "Reference" "mouse-bite-2"
-			(at 158.75 24.1299 0)
+			(at 152.4 16.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11386,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 26.6699 0)
+			(at 152.4 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +11395,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 25.4 0)
+			(at 149.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +11404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 25.4 0)
+			(at 149.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11413,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 25.4 0)
+			(at 149.86 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,6 +11425,70 @@
 			(project "TheFalcon_Panel"
 				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
 					(reference "mouse-bite-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77a776b2-3b11-4f65-86cc-b78e544fb936")
+		(property "Reference" "mouse-bite-11"
+			(at 152.4 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mb"
+			(at 152.4 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
+					(reference "mouse-bite-11")
 					(unit 1)
 				)
 			)
@@ -11398,7 +11654,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 50.8 0)
+		(at 125.73 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11407,7 +11663,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b2ac3f6-a356-4e79-bc46-3252eea2e41a")
 		(property "Reference" "mouse-bite-7"
-			(at 158.75 49.5299 0)
+			(at 128.27 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11672,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 52.0699 0)
+			(at 128.27 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11681,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 50.8 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 50.8 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11699,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 50.8 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,16 +12069,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 156.21 55.88 0)
+		(at 168.91 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "981d7e40-bc1d-47eb-a952-d417f4b8a848")
-		(property "Reference" "mouse-bite-8"
-			(at 158.75 54.6099 0)
+		(uuid "9812bc20-3d88-4047-815c-0dd0bf553e1d")
+		(property "Reference" "mouse-bite-13"
+			(at 171.45 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11831,7 +12087,7 @@
 			)
 		)
 		(property "Value" "mb"
-			(at 158.75 57.1499 0)
+			(at 171.45 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +12096,7 @@
 			)
 		)
 		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
-			(at 156.21 55.88 0)
+			(at 168.91 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,7 +12105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 55.88 0)
+			(at 168.91 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,7 +12114,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 156.21 55.88 0)
+			(at 168.91 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11869,7 +12125,7 @@
 		(instances
 			(project "TheFalcon_Panel"
 				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
-					(reference "mouse-bite-8")
+					(reference "mouse-bite-13")
 					(unit 1)
 				)
 			)
@@ -13806,6 +14062,70 @@
 			(project "TheFalcon_Panel"
 				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa394711-a76a-4fcc-8bb8-81f95ad82269")
+		(property "Reference" "mouse-bite-10"
+			(at 152.4 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "mb"
+			(at 152.4 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Panelization.pretty-master:mouse-bite-5mm-slo-nosilk"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692/ff367ced-cf62-4de3-ac7b-c14bf7c76f7b"
+					(reference "mouse-bite-10")
 					(unit 1)
 				)
 			)

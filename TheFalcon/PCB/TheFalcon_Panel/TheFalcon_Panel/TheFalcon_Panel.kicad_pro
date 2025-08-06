@@ -516,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "manufacturing_test/",
+      "plot": "manufacturing_test/Gerbers/",
       "pos_files": "manufacturing_test/",
       "specctra_dsn": "",
       "step": "",
