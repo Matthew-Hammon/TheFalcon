@@ -6904,7 +6904,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "k051"
 			(at 110.744 190.246 90)
 			(effects
 				(font
@@ -7233,7 +7233,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 101.346 31.242 90)
 			(effects
 				(font
@@ -7309,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 104.394 53.086 90)
 			(effects
 				(font
@@ -7625,7 +7625,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "k051"
 			(at 112.014 124.206 90)
 			(effects
 				(font
@@ -7701,7 +7701,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 112.014 119.126 90)
 			(effects
 				(font
@@ -8117,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 103.886 64.262 90)
 			(effects
 				(font
@@ -8706,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "k051"
 			(at 105.664 89.916 90)
 			(effects
 				(font
@@ -9631,7 +9631,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 111.506 164.592 90)
 			(effects
 				(font
@@ -9860,7 +9860,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 112.014 152.146 90)
 			(effects
 				(font
@@ -10101,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "k051"
 			(at 104.394 58.166 90)
 			(effects
 				(font
@@ -10177,7 +10177,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 110.744 185.166 90)
 			(effects
 				(font
@@ -10253,7 +10253,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "k051"
 			(at 112.014 157.226 90)
 			(effects
 				(font
@@ -10329,7 +10329,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 111.506 130.302 90)
 			(effects
 				(font
@@ -10536,7 +10536,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 105.664 84.836 90)
 			(effects
 				(font
@@ -10786,7 +10786,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "k020"
 			(at 114.046 93.472 90)
 			(effects
 				(font
