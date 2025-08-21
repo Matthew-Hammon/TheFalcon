@@ -20934,6 +20934,7 @@
 		)
 		(embedded_fonts no)
 		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/ScottoKicad/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20948,6 +20949,17 @@
 			(hide yes)
 			(offset
 				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
+			)
+		)
+		(model "C:/Users/matja/Documents/KiCad/Keyboard Files/G PRO 3.0 Switch KS-9E10B055NN-Y51.stp"
+			(offset
+				(xyz 158 19.5 13)
 			)
 			(scale
 				(xyz 1 1 1)
