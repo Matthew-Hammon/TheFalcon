@@ -22,3 +22,7 @@ The PCB folder contains files for the left and right PCBs separately as well as 
 The SolidWorks folder contains all of the CAD files that I made for the case/switch panel. 
 The folders ending with _Threaded are for the initial case designs when I had initial ideas of having the case CNCed. They have threaded pillars used for screwing the bottom plate into the top, with the top also housing the keyboard switches. 
 The folders with _ScrewHoles contain a full CAD design for the case, with a bottom case being used along with M2.5 screws and hex standoffs to attach to the switch panel. The switch panel was made using FR-4 and placed alongside the PCB order. Two versions of this were made, one for 'normal' switches and an adjusted one for low-profile switches.
+
+### Parts
+All of the parts can be found in the PartsList.xlsx file. The file is detailed and most of the parts have links to places I sourced them from at the time.
+A bill of materials for the panel is found as 'bom.xlsx' with the parts positions in 'pos.xlsx'. These were formatted for JLCPCB and at the time they worked. I take no responsibility for anyone who uses them along with the panel for production and I HIGHLY encourage anyone using the files to double-check everything.
