@@ -13,3 +13,9 @@ TheFalcon/PCB/TheFalcon\[Right\]/production/*
 /TheFalcon/SolidWorks/Left - Copy/3DPrint
 /TheFalcon/SolidWorks/Left-NewDesign/3DPrint
 /TheFalcon/SolidWorks/Right-NewDesign/3D Printing
+TheFalcon/Confirm
+TheFalcon/Datasheets
+TheFalcon/PCB/KeyboardEnv
+*/manufacturing
+*/manufacturing_test
+*-backups
