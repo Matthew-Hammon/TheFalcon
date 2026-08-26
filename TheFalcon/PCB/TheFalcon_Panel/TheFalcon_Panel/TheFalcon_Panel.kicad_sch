@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "341dd416-b81a-44bb-bc83-f6d0e6a53692")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 160.02 29.21)
+		(size 104.14 111.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e65f355-a0d3-4e44-a996-641bb3f788c1")
+		(property "Sheetname" "Right"
+			(at 160.02 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TheFalcon_Right.kicad_sch"
+			(at 160.02 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 29.21)
+		(size 104.14 111.76)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff367ced-cf62-4de3-ac7b-c14bf7c76f7b")
+		(property "Sheetname" "Left"
+			(at 33.02 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TheFalcon_Left.kicad_sch"
+			(at 33.02 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TheFalcon_Panel"
+				(path "/341dd416-b81a-44bb-bc83-f6d0e6a53692"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

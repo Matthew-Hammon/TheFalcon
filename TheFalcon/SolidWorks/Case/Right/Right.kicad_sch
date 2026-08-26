@@ -1,0 +1,3248 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa")
+	(paper "A4")
+	(lib_symbols
+		(symbol "ScottoKeebs:Placeholder_Keyswitch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Keyswitch"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Placeholder_Keyswitch_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 120.65 175.26)
+		(uuid "04bf08f8-6abf-4656-b521-9a9d7f1a3ee2")
+	)
+	(no_connect
+		(at 120.65 48.26)
+		(uuid "06222250-30e5-4e0b-8933-f77e6e35c1c3")
+	)
+	(no_connect
+		(at 57.15 124.46)
+		(uuid "092ddf16-776f-4ab0-bdd4-8304727ef817")
+	)
+	(no_connect
+		(at 82.55 48.26)
+		(uuid "0ae98a28-b266-4ca4-a3c7-e273017e5720")
+	)
+	(no_connect
+		(at 107.95 48.26)
+		(uuid "0be4bed8-4682-41bf-95db-db5b7f917ccb")
+	)
+	(no_connect
+		(at 102.87 68.58)
+		(uuid "0c2a8875-d7d7-4328-ac28-a37ec7489f4f")
+	)
+	(no_connect
+		(at 69.85 48.26)
+		(uuid "0eb95637-cf5d-44c9-810f-f56f2f80173f")
+	)
+	(no_connect
+		(at 95.25 99.06)
+		(uuid "10bc6d7d-3966-41a3-8582-c9549f6bd8ce")
+	)
+	(no_connect
+		(at 115.57 170.18)
+		(uuid "1eef289f-14ca-4f9d-8168-69f7b2eda7f8")
+	)
+	(no_connect
+		(at 39.37 144.78)
+		(uuid "1f018fae-0bf6-4d02-a068-0307ebd0835e")
+	)
+	(no_connect
+		(at 52.07 144.78)
+		(uuid "23bc3746-d24c-464f-a445-0b7beb279073")
+	)
+	(no_connect
+		(at 57.15 73.66)
+		(uuid "285a6537-1d95-41bc-8df8-53cf1264a966")
+	)
+	(no_connect
+		(at 102.87 119.38)
+		(uuid "2902050b-2376-438d-88ba-44200dded027")
+	)
+	(no_connect
+		(at 120.65 99.06)
+		(uuid "29efbc4a-d8fc-4a28-a18e-d5a4720badeb")
+	)
+	(no_connect
+		(at 64.77 144.78)
+		(uuid "2da5a4bf-c521-4ca8-97d8-bb39f2c07518")
+	)
+	(no_connect
+		(at 90.17 144.78)
+		(uuid "2e9df1ec-88db-4bd5-a1b4-5e2d56ada9e1")
+	)
+	(no_connect
+		(at 57.15 149.86)
+		(uuid "30651362-1af8-4615-b179-957e34755b22")
+	)
+	(no_connect
+		(at 44.45 73.66)
+		(uuid "34c68f58-e445-4f83-a547-2aaee60eba97")
+	)
+	(no_connect
+		(at 52.07 43.18)
+		(uuid "3cb57dbe-2583-4113-b27f-ba07ecac46cd")
+	)
+	(no_connect
+		(at 77.47 43.18)
+		(uuid "411e8cfd-d6b3-45d2-a7c4-db849e2508dd")
+	)
+	(no_connect
+		(at 90.17 170.18)
+		(uuid "4a09f9d1-018d-4ccc-bbfe-c15f8cacf99c")
+	)
+	(no_connect
+		(at 39.37 119.38)
+		(uuid "4e258a68-7f6a-4094-a884-7c7936354f38")
+	)
+	(no_connect
+		(at 77.47 93.98)
+		(uuid "50def43b-6bdf-49fa-8c5d-e53dbc2c569a")
+	)
+	(no_connect
+		(at 95.25 175.26)
+		(uuid "517fe286-2d9c-45a2-8b90-459b8084e9e2")
+	)
+	(no_connect
+		(at 107.95 73.66)
+		(uuid "56136199-7962-4379-bac9-296eb9343a6c")
+	)
+	(no_connect
+		(at 82.55 73.66)
+		(uuid "57f51b9c-c216-4dc0-bb5c-5a4d1af54d44")
+	)
+	(no_connect
+		(at 57.15 48.26)
+		(uuid "5cc06168-b944-43cd-8cca-623c580a3d85")
+	)
+	(no_connect
+		(at 115.57 93.98)
+		(uuid "5e8659d1-41b0-4f53-91e9-d95c31da4037")
+	)
+	(no_connect
+		(at 95.25 124.46)
+		(uuid "5fdfb601-d8a0-4e54-a6d6-e0deb5a40d1c")
+	)
+	(no_connect
+		(at 44.45 149.86)
+		(uuid "5ffcb112-913a-4a3f-b5ae-d52692f94280")
+	)
+	(no_connect
+		(at 69.85 149.86)
+		(uuid "61f978f4-fab0-478b-a3a6-388b94e3dca0")
+	)
+	(no_connect
+		(at 95.25 149.86)
+		(uuid "62d46b29-e320-4296-bdb6-8399dfe6888f")
+	)
+	(no_connect
+		(at 90.17 68.58)
+		(uuid "6333b522-f6c9-4b8c-ace2-905ee9866fca")
+	)
+	(no_connect
+		(at 107.95 99.06)
+		(uuid "6592313a-cebc-49aa-9020-ecf67abb2bd6")
+	)
+	(no_connect
+		(at 102.87 170.18)
+		(uuid "6a026495-c5ef-4cda-bd14-a280c016b172")
+	)
+	(no_connect
+		(at 69.85 73.66)
+		(uuid "70dfc77f-398b-4e4e-90ee-46c288777c0e")
+	)
+	(no_connect
+		(at 90.17 43.18)
+		(uuid "75213b87-85ef-488c-b28c-ac1c355aa7d3")
+	)
+	(no_connect
+		(at 77.47 119.38)
+		(uuid "7a2ad62e-780f-46d7-a086-924d71ee5581")
+	)
+	(no_connect
+		(at 44.45 124.46)
+		(uuid "7dde84d1-9cb7-49c2-a4e5-fdd3c3bcf7b1")
+	)
+	(no_connect
+		(at 82.55 124.46)
+		(uuid "81842e90-a115-411a-923c-49ff27288fe1")
+	)
+	(no_connect
+		(at 52.07 68.58)
+		(uuid "831e3c0a-af34-4073-ade8-25bd2b926af9")
+	)
+	(no_connect
+		(at 64.77 119.38)
+		(uuid "83e24b98-2a91-47bb-a70a-2a3cdbb08f02")
+	)
+	(no_connect
+		(at 44.45 48.26)
+		(uuid "8548ec92-fd72-4c39-9516-70aab8d46c4b")
+	)
+	(no_connect
+		(at 102.87 93.98)
+		(uuid "85d2ad27-1021-47bc-ba1d-718f9d60d716")
+	)
+	(no_connect
+		(at 120.65 124.46)
+		(uuid "860ca887-ee99-4acb-a2a0-f340b04b7f0c")
+	)
+	(no_connect
+		(at 120.65 73.66)
+		(uuid "8767a8b9-a9c0-40fc-99af-f10adfd4709f")
+	)
+	(no_connect
+		(at 64.77 68.58)
+		(uuid "87d656d5-5f23-4379-8fb9-eec41468c9fe")
+	)
+	(no_connect
+		(at 115.57 68.58)
+		(uuid "8b4d9864-87a5-4a72-8deb-383a325c49a5")
+	)
+	(no_connect
+		(at 102.87 43.18)
+		(uuid "8faaea28-7117-45b0-b8f6-af52c2e949f9")
+	)
+	(no_connect
+		(at 69.85 124.46)
+		(uuid "90e820f1-64eb-4434-852f-673d872c7b26")
+	)
+	(no_connect
+		(at 77.47 144.78)
+		(uuid "974afcec-562b-451a-9a93-d64c08f3ef80")
+	)
+	(no_connect
+		(at 52.07 93.98)
+		(uuid "a2d81057-995f-4a7d-b1a7-0f90ab180ea6")
+	)
+	(no_connect
+		(at 69.85 99.06)
+		(uuid "a95c323f-38c1-4346-bfb6-f9ca04db932a")
+	)
+	(no_connect
+		(at 64.77 43.18)
+		(uuid "ad75a7d4-7990-49c1-9cc8-25d641951e13")
+	)
+	(no_connect
+		(at 95.25 73.66)
+		(uuid "ada70fcc-b153-43bb-96f6-52b3f021b803")
+	)
+	(no_connect
+		(at 52.07 119.38)
+		(uuid "b73039f2-8381-4b16-bade-80e090b48984")
+	)
+	(no_connect
+		(at 107.95 175.26)
+		(uuid "c1ace83e-0917-4acd-bbb8-50393e0e3e00")
+	)
+	(no_connect
+		(at 39.37 43.18)
+		(uuid "c5b904db-ae76-40f3-b3f1-df40fb9b2412")
+	)
+	(no_connect
+		(at 57.15 99.06)
+		(uuid "c89ffa24-5b57-4e58-887b-774a726f9c5c")
+	)
+	(no_connect
+		(at 82.55 149.86)
+		(uuid "cc74e6ff-c423-4ec2-a314-8954c52f906e")
+	)
+	(no_connect
+		(at 115.57 119.38)
+		(uuid "d06632d7-b672-4fe8-a4da-9e6eaf1e3344")
+	)
+	(no_connect
+		(at 82.55 99.06)
+		(uuid "d76e2c85-f212-49e4-b5f0-594409bf6082")
+	)
+	(no_connect
+		(at 95.25 48.26)
+		(uuid "d848d516-1405-4869-adcf-4166e3bb2e7f")
+	)
+	(no_connect
+		(at 90.17 119.38)
+		(uuid "d8e55a8b-291c-4de1-ab16-256e73fc513c")
+	)
+	(no_connect
+		(at 90.17 93.98)
+		(uuid "e11b47ce-acf8-470a-a93f-8d0d64864647")
+	)
+	(no_connect
+		(at 44.45 99.06)
+		(uuid "ebcb5a8a-821b-4212-b436-6131ab08fb38")
+	)
+	(no_connect
+		(at 39.37 93.98)
+		(uuid "f47cd4d7-c433-495a-8dd5-3375ce7e033a")
+	)
+	(no_connect
+		(at 39.37 68.58)
+		(uuid "f52a1ef1-6167-40d0-b677-119248ea389e")
+	)
+	(no_connect
+		(at 107.95 124.46)
+		(uuid "f6192295-c0cd-436a-b977-fa51a70aa030")
+	)
+	(no_connect
+		(at 115.57 43.18)
+		(uuid "fd2b4e02-afa7-4ef9-b0ff-a2b61b1fb047")
+	)
+	(no_connect
+		(at 64.77 93.98)
+		(uuid "fd8363b2-277d-417b-803c-f6ad199a2759")
+	)
+	(no_connect
+		(at 77.47 68.58)
+		(uuid "fdc80e20-bc5c-43a7-8e21-1bd4bc1ba33b")
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 54.61 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb6e2e1-ccb2-4a50-9347-3dec3b27160a")
+		(property "Reference" "S23"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 54.61 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b4ced66-3418-4a66-862c-764f4ab3f0a4")
+		)
+		(pin "2"
+			(uuid "7fc678bc-a525-4589-aa51-ca0ee7933c8e")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 92.71 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10703421-a8d3-4b37-9a21-e42b4c53c053")
+		(property "Reference" "S26"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 92.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbb2c204-77da-4b3a-9369-ca55c783d700")
+		)
+		(pin "2"
+			(uuid "079a9532-8e81-4a2f-abeb-ee5d1a318a43")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 105.41 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218cf928-1c12-498e-8aeb-089524311828")
+		(property "Reference" "S13"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 105.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c462e4ab-621e-47c3-b27a-32b31aee9030")
+		)
+		(pin "2"
+			(uuid "4beaba12-70aa-4593-a5ac-08ab19e6c993")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 41.91 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26948883-4e9b-4ab2-aaa4-997ab860f54e")
+		(property "Reference" "S29"
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 41.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e468f52-dfec-4ef6-807d-1d88272c614f")
+		)
+		(pin "2"
+			(uuid "2a10932b-72aa-4700-a34a-a4988b9c864b")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 41.91 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b4d3c86-b3dd-4cea-bf8c-1a84c528fbe6")
+		(property "Reference" "S1"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c68aff06-f8ee-4c3f-a534-2700bd4469f2")
+		)
+		(pin "2"
+			(uuid "a335daba-a46c-49ba-8f65-c4e4ce55037f")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 118.11 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "357b4c43-8531-4362-86e2-6ff39bcae634")
+		(property "Reference" "S28"
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 118.11 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f92c6ae-d434-470f-98c4-e0a3bb7528fc")
+		)
+		(pin "2"
+			(uuid "f7d0d2cf-5830-422a-bf3b-7d6ac81ca96c")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 80.01 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad35fcf-31b9-41d4-8296-94eb5c2a4b17")
+		(property "Reference" "S32"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f62a32e9-1326-4ccd-b62c-9e222cf0e041")
+		)
+		(pin "2"
+			(uuid "f98caff8-936e-4e14-bc4e-40770400418a")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 92.71 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f862827-5f11-4fe2-8e14-ee12a633f915")
+		(property "Reference" "S19"
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60eb2f8e-2b99-4d90-bedf-18f6000d0202")
+		)
+		(pin "2"
+			(uuid "88a466a9-c915-40de-a269-1444456b3445")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 41.91 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a7c1f6-af2e-462f-b67a-1398c7040435")
+		(property "Reference" "S15"
+			(at 41.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7826745-80f2-4a8f-8ac8-4b97528e23c0")
+		)
+		(pin "2"
+			(uuid "06987040-57cf-4b82-8a5f-ef7d52d81d49")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 92.71 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f18d22-3b9f-4fe0-82c1-68c9b65523f8")
+		(property "Reference" "S33"
+			(at 92.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0199f22a-8bf7-480a-8a65-6f97d8c96761")
+		)
+		(pin "2"
+			(uuid "1f5afc63-049d-4c0e-9299-d603358a24c8")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 105.41 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f52a1d6-4b59-46b3-8438-f4d752454932")
+		(property "Reference" "S35"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 105.41 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 105.41 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6150c23-341e-4e34-a6e2-dc1d59ecd3d9")
+		)
+		(pin "2"
+			(uuid "660aaa78-38f0-4ce0-9240-7e1c22b84756")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 41.91 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f84034b-01a5-4a31-b57b-e3d791def6f1")
+		(property "Reference" "S22"
+			(at 41.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 41.91 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 41.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 41.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 41.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b651ec0-9664-46bf-8a7c-8e2ec9fafb05")
+		)
+		(pin "2"
+			(uuid "abe1b713-fb8b-4840-935b-2faec2eea5de")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 54.61 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60f01d52-507d-41e0-b8a5-463f1f33584e")
+		(property "Reference" "S30"
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a6d95a7-1a4b-4b18-b3e9-e133980e180b")
+		)
+		(pin "2"
+			(uuid "8ce02ebd-6a39-4eca-bf03-a8e5500f933d")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 80.01 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76dcd53d-17d1-4fc6-98cf-8af80f618b36")
+		(property "Reference" "S11"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 80.01 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09351fb1-624c-4c16-b416-094482d87f26")
+		)
+		(pin "2"
+			(uuid "f9dc683a-27e3-4654-b782-089eed96b35f")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 105.41 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e4125f8-c7e3-470a-b044-29a1476fc0da")
+		(property "Reference" "S20"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d54b54ac-ab6e-4bfd-9dad-7a09a55f76ec")
+		)
+		(pin "2"
+			(uuid "086cb4b4-7833-47b3-b0de-6638b71f60b5")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 105.41 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a14e263-0e0f-47a9-8448-e29255d1a319")
+		(property "Reference" "S6"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 105.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a899d6b7-088d-45a9-b996-761b9d45e9a2")
+		)
+		(pin "2"
+			(uuid "c802e991-dccd-4c96-b8bb-f4d17e04abc2")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 118.11 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a76a9ae-eff7-4e53-b37a-a3f47fae50b2")
+		(property "Reference" "S7"
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d10b519e-e76a-4703-b45f-291b33541a66")
+		)
+		(pin "2"
+			(uuid "60e5e8c3-77f8-43bb-a22a-940d74d658a7")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 80.01 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cb005f8-c1e6-4925-8c48-9c532d027699")
+		(property "Reference" "S18"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3953d925-0238-44a9-8506-4c19011f9591")
+		)
+		(pin "2"
+			(uuid "effb956d-eb72-4718-a328-e900f017586a")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 92.71 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a43c5343-60a1-48cb-b16f-df072627dd1f")
+		(property "Reference" "S12"
+			(at 92.71 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d9a3b50-6d23-448f-8295-062a6514abc5")
+		)
+		(pin "2"
+			(uuid "ba641735-2bbe-4cb6-8338-2e1d80a6f0da")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 67.31 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ccbd3d-12c6-4713-89c5-4664784dd4bd")
+		(property "Reference" "S10"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e957a23d-71e2-49ec-ab7d-6ab37fc9a0a0")
+		)
+		(pin "2"
+			(uuid "e87ef0e6-a15a-4470-95dc-464d268d12b3")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 80.01 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2a53f80-b354-497c-8e75-4880da3fcabb")
+		(property "Reference" "S4"
+			(at 80.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 80.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 80.01 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5aac445-fc36-45ec-917c-18aa53819a27")
+		)
+		(pin "2"
+			(uuid "35b262ce-69f9-47ed-a2e4-5d0cb1e6a981")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 67.31 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b48b66cb-646c-4a17-933c-74cb4e97b6c3")
+		(property "Reference" "S3"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56ddb232-9daf-4a3a-a23b-867bfd86cf96")
+		)
+		(pin "2"
+			(uuid "11a7dd82-750e-4b94-af8e-332e74f1f04e")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 118.11 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be86b1f2-4e00-4571-88d3-34cc95247222")
+		(property "Reference" "S21"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 118.11 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f5dc197-4ba8-4abf-899b-c9cd288bda68")
+		)
+		(pin "2"
+			(uuid "467dad2e-eeba-4b07-9ac2-c50efcfee3cf")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 105.41 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "befab965-b8e4-4bc8-91fe-0f2b39e7ab7b")
+		(property "Reference" "S27"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1001a51a-48b3-4414-8720-ca50ebe57811")
+		)
+		(pin "2"
+			(uuid "8e52ee7f-6cef-4e53-896a-463422a8a38b")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 54.61 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e41b95-c318-4d72-a7ab-1670605291a0")
+		(property "Reference" "S2"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 54.61 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "850e9278-c5bc-4e60-98b7-1ca5c742a2c7")
+		)
+		(pin "2"
+			(uuid "6c7bcbc8-389f-4d15-ae80-a93b18a0d590")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 54.61 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf7d864c-53d3-478b-8586-a5f56cf83d78")
+		(property "Reference" "S16"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efa156f1-a9d1-407b-9a07-ffaeb167af8a")
+		)
+		(pin "2"
+			(uuid "e87e42d4-ce80-438b-9064-0f63f3221b79")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 92.71 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0be4f04-080b-4f33-a217-7feba10aae3f")
+		(property "Reference" "S34"
+			(at 92.71 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 92.71 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 92.71 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce42454-c114-4dde-a40b-5b5df0ae9a64")
+		)
+		(pin "2"
+			(uuid "9d6c8fb7-772f-48c0-9d69-168ebdb0c255")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 54.61 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d426c291-97c1-4cd1-9f40-e4c7b945d36a")
+		(property "Reference" "S9"
+			(at 54.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 54.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ea67bdf-5683-449f-b8d2-0b5898823d29")
+		)
+		(pin "2"
+			(uuid "7ed1a5d6-6bcf-4502-b567-9245a2148482")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 118.11 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c9f3c9-6925-4c65-b44d-78719783ad46")
+		(property "Reference" "S14"
+			(at 118.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3422ed3d-dd1d-4313-9347-4abc94d620cc")
+		)
+		(pin "2"
+			(uuid "db659dc5-a78d-473c-86cd-1f09608f9f4a")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 92.71 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0cd481e-454c-48e0-aa18-28a370301c65")
+		(property "Reference" "S5"
+			(at 92.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6994af81-e57d-4a56-b137-8a2e4c95dea9")
+		)
+		(pin "2"
+			(uuid "e2e7cc9e-c4b2-45fa-a5ed-ef215f1e5a24")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 41.91 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e10165c3-de64-4342-9c00-42455348d7bc")
+		(property "Reference" "S8"
+			(at 41.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f4cf874-7050-4d23-be15-67690759a88a")
+		)
+		(pin "2"
+			(uuid "7aa610e9-aab9-4b27-b39f-12932652cf7a")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 67.31 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5ccd6fd-e7f2-4da3-80a0-5a43472ce482")
+		(property "Reference" "S17"
+			(at 67.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf30fd0e-9d35-4744-8171-3c1654e59486")
+		)
+		(pin "2"
+			(uuid "9f754297-3989-4500-8ef7-502d49b84388")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 67.31 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef4119ab-b61b-4867-86f8-407ecb839528")
+		(property "Reference" "S24"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 67.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d08cbf5-89d8-4689-b6b9-949ecdcfd084")
+		)
+		(pin "2"
+			(uuid "0e506224-20db-4ff6-b513-44e3bd4d6f86")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 80.01 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2a30620-3349-4aa3-ae74-0e365650a00a")
+		(property "Reference" "S25"
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 80.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5a7d007-2156-4e02-91ce-bcd0ce6c28d2")
+		)
+		(pin "2"
+			(uuid "8aedc005-1ccd-41a9-bdac-4f03b6cdfd8f")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 118.11 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3cb7c69-7e72-460a-a398-d6bb871b35f2")
+		(property "Reference" "S36"
+			(at 118.11 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 118.11 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 141.732 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4420fd64-918d-46cd-8c46-0d9ffea481a6")
+		)
+		(pin "2"
+			(uuid "0507937a-e94c-487d-9d6f-3357c638f973")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
+		(at 67.31 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7431fe7-afaf-44b4-851f-ef9e69331404")
+		(property "Reference" "S31"
+			(at 67.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keyswitch"
+			(at 67.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_KS33:MX_KS33-Solderable-1U-Cutout"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "235b8252-d905-4f5c-9863-852ebede10ae")
+		)
+		(pin "2"
+			(uuid "8d82ea2d-4883-4852-b8c7-f3c9ef6fb6a3")
+		)
+		(instances
+			(project "Right"
+				(path "/f4a1fb2f-8c73-4e9c-b443-bc661c43a0fa"
+					(reference "S31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

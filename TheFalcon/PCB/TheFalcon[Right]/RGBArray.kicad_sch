@@ -5003,6 +5003,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 48.26) (xy 227.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0724daa-cefd-4801-8c84-3f172a3dccb3")
+	)
+	(wire
+		(pts
 			(xy 82.55 157.48) (xy 99.06 157.48)
 		)
 		(stroke
@@ -6562,7 +6572,7 @@
 		(uuid "915e3cb4-d9a3-4bd5-95ea-4d4371ec6756")
 	)
 	(label "AD"
-		(at 227.33 48.26 0)
+		(at 228.6 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6976,78 +6986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -373.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -473.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -573.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -673.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -773.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -873.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -973.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 21.59 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 21.59 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,6 +7068,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 104.14 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e007efba-514e-49c0-a857-4eb94e1e868b")
 		)
@@ -7200,78 +7149,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -353.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -453.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -553.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -653.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -753.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -853.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -953.01 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 41.91 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 41.91 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,6 +7234,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C14675"
+			(at 275.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fa3be06-b8c4-4c70-80a9-ab6321107c64")
 		)
@@ -7427,78 +7315,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -322.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -422.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -522.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -622.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -722.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -822.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -922.53 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 72.39 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 72.39 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,6 +7397,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 96.52 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7cf536d-3baf-4f5c-af18-dbc4451f81fa")
 		)
@@ -7639,6 +7466,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 97.79 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,78 +7620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -302.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -402.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -502.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -602.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -702.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -802.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -902.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 92.71 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 92.71 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,78 +7707,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -342.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -442.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -542.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -642.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -742.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -842.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -942.85 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 52.07 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 52.07 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,6 +7790,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C17477"
+			(at 223.52 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6af54a51-f0ee-4f01-8deb-871bdd8ab0b2")
 		)
@@ -8161,6 +7866,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 105.41 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b51d7dd-3706-420a-9fbd-ec08fcc72a75")
 		)
@@ -8221,6 +7935,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 105.41 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,78 +8023,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -342.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -442.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -542.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -642.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -742.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -842.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -942.85 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 52.07 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 52.07 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,78 +8110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -322.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -422.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -522.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -622.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -722.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -822.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -922.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 72.39 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 72.39 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,6 +8195,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15401"
+			(at 212.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5c26c15-0728-4eb0-8a89-42b6b30402b9")
 		)
@@ -8684,78 +8276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -373.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -473.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -573.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -673.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -773.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -873.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -973.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 21.59 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 21.59 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,6 +8358,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 99.06 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a801fad-dcbd-45ad-82a3-331b43113ba1")
 		)
@@ -8908,78 +8439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -322.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -422.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -522.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -622.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -722.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -822.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -922.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 72.39 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 72.39 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9065,78 +8526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -363.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -463.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -563.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -663.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -763.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -863.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -963.17 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 31.75 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 31.75 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9219,6 +8610,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 265.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57ee22d4-9cca-4916-969c-8d76023718bb")
 		)
@@ -9291,78 +8691,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -332.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -432.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -532.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -632.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -732.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -832.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -932.69 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 62.23 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 62.23 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,78 +8778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -322.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -422.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -522.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -622.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -722.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -822.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -922.53 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 72.39 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 72.39 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,78 +8865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -353.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -453.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -553.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -653.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -753.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -853.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -953.01 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 41.91 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 41.91 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,6 +8947,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 99.06 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1ceefc5-38ad-4310-b841-a6515a6ff089")
 		)
@@ -9829,78 +9028,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -312.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -412.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -512.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -612.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -712.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -812.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -912.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 82.55 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 82.55 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,78 +9181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -363.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -463.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -563.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -663.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -763.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -863.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -963.17 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 31.75 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 31.75 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,78 +9268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -342.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -442.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -542.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -642.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -742.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -842.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -942.85 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 52.07 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 52.07 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,78 +9355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -322.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -422.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -522.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -622.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -722.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -822.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -922.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 72.39 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 72.39 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,78 +9442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -373.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -473.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -573.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -673.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -773.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -873.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -973.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 21.59 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 21.59 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,78 +9529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -312.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -412.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -512.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -612.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -712.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -812.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -912.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 82.55 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 82.55 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10837,78 +9616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -342.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -442.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -542.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -642.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -742.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -842.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -942.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 52.07 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 52.07 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,78 +9703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -363.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -463.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -563.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -663.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -763.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -863.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -963.17 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 31.75 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 31.75 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,78 +9790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -373.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -473.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -573.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -673.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -773.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -873.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -973.33 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 21.59 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 21.59 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,6 +9865,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 106.68 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,78 +10019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -363.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -463.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -563.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -663.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -763.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -863.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -963.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 31.75 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 31.75 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,6 +10104,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e84e2c9-c614-4a1d-8cba-923a1cd9da35")
 		)
@@ -11653,6 +10170,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 105.41 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 105.41 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11732,78 +10258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -363.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -463.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -563.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -663.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -763.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -863.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -963.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 31.75 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 31.75 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,6 +10342,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1592"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "892bf66d-c9fe-41a9-9bbf-d8dc2c258bf3")
 		)
@@ -11946,6 +10411,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C17738"
+			(at 97.79 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,6 +10494,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 104.14 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a3ff2a2e-25d5-4901-9953-ef052f259908")
 		)
@@ -12087,6 +10570,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C17738"
+			(at 105.41 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb77a9f4-23b3-4f58-b0a8-4cd366cf8b42")
 		)
@@ -12147,6 +10639,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C22950"
+			(at 106.68 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12287,6 +10788,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 99.06 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddf19ffa-ee6a-49ed-848f-421a4a71f8a4")
 		)
@@ -12359,78 +10869,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -342.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -442.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -542.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -642.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -742.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -842.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -942.85 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 52.07 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 52.07 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,78 +11021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -312.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -412.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -512.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -612.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -712.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -812.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -912.37 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 82.55 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 82.55 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12733,6 +11103,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C22950"
+			(at 109.22 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c096bedb-4726-47c2-88ad-e3a05470b5b6")
 		)
@@ -12802,73 +11181,12 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at 204.47 440.64 0)
+		(property "LCSC Part Number" "C2940549"
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 204.47 540.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IS31FL3729-QFLS4-TR"
-			(at 204.47 640.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "870-IS31FL3729QFLS4T"
-			(at 204.47 740.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=870-IS31FL3729QFLS4T"
-			(at 204.47 840.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "IS31FL3729-QFLS4-TR"
-			(at 204.47 940.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/is31fl3729-qfls4-tr/integrated-silicon-solution-inc?utm_currency=USD&region=nac"
-			(at 204.47 1040.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -13037,78 +11355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -332.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -432.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -532.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -632.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -732.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -832.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -932.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 62.23 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 62.23 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13194,78 +11442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -332.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -432.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -532.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -632.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -732.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -832.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -932.69 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 62.23 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 62.23 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13351,78 +11529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -332.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -432.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -532.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -632.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -732.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -832.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -932.69 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 62.23 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 62.23 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13508,78 +11616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -332.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -432.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -532.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -632.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -732.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -832.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -932.69 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 62.23 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 62.23 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13662,6 +11700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 212.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af7b6738-2f93-45be-94f2-dc785c44907a")
 		)
@@ -13734,78 +11781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -312.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -412.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -512.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -612.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -712.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -812.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -912.37 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 82.55 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 82.55 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13891,78 +11868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -312.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -412.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -512.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -612.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -712.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -812.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -912.37 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 82.55 161.29 0)
+		(property "LCSC Part Number" ""
+			(at 82.55 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14048,78 +11955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -353.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -453.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -553.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -653.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -753.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -853.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -953.01 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 41.91 62.23 0)
+		(property "LCSC Part Number" ""
+			(at 41.91 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14205,78 +12042,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -353.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -453.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -553.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -653.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -753.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -853.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -953.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 41.91 95.25 0)
+		(property "LCSC Part Number" ""
+			(at 41.91 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14362,78 +12129,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -373.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -473.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -573.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -673.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -773.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -873.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -973.33 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 21.59 29.21 0)
+		(property "LCSC Part Number" ""
+			(at 21.59 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,78 +12216,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.95"
-			(at -353.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harvatek"
-			(at -453.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "T36K3BGR-05D000121U1930"
-			(at -553.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at -653.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at -753.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -853.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -953.01 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.digikey.co.za/en/products/detail/harvatek-corporation/T36K3BGR-05D000121U1930/13590552?gclsrc=aw.ds&gad_source=1&gad_campaignid=18332725675&gclid=CjwKCAjw3_PCBhA2EiwAkH_j4p_QtDhlQpza2d-NPZBb4jJS1A0XFtYZwf8-o4gfmgO7poN-xv8XiRoCstoQAvD_BwE"
-			(at 41.91 128.27 0)
+		(property "LCSC Part Number" ""
+			(at 41.91 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
