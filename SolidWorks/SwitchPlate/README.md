@@ -1,0 +1,1 @@
+This folder contains the Switch plate for the left and right keyboards.
