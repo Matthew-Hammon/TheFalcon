@@ -19,3 +19,6 @@ TheFalcon/PCB/KeyboardEnv
 */manufacturing
 */manufacturing_test
 *-backups
+sym-lib-table
+fp-lib-table
+fp-info-cache
